@@ -1,0 +1,304 @@
+{
+    "nav": {
+        "solutions": "Soluciones",
+        "industries": "Industrias",
+        "features": "Características",
+        "pricing": "Precios",
+        "getStarted": "COMENZAR"
+    },
+    "home": {
+        "badge": "Automatización AI de Próxima Generación",
+        "title": "EL AGENTE DE IA <br/> <italic>FAVORITO</italic> DE TUS CLIENTES",
+        "description": "SEMPITECNO automatiza tus interacciones de WhatsApp y llamadas telefónicas con bots de IA similares a los humanos que programan, califican y convierten leads las 24 horas, los 7 días de la semana.",
+        "cta": "COMENZAR",
+        "secondaryCta": "VER POR TI MISMO",
+        "dashboardVersion": "DASHBOARD DE IA v2.0",
+        "features": {
+            "detail": {
+                "title": "Atención al detalle",
+                "description": "Cada interacción se ajusta para coincidir con la voz y el tono únicos de tu marca."
+            },
+            "noHeadaches": {
+                "title": "Sin dolores de cabeza",
+                "description": "Integración plug-and-play. Nuestra IA comienza a aprender de tus datos en minutos."
+            },
+            "fastExecution": {
+                "title": "Ejecución rápida",
+                "description": "Respuestas instantáneas a cada consulta del cliente, asegurando que ningún lead se enfríe."
+            },
+            "reliable": {
+                "title": "Fácil y confiable",
+                "description": "Cumple con GDPR y está construido sobre una infraestructura segura en la que puedes confiar."
+            }
+        },
+        "solutions": {
+            "title": "Orquestación de IA Omnicanal",
+            "subtitle": "Despliega agentes inteligentes donde tus clientes ya están. Desde mensajería instantánea hasta llamadas de voz en tiempo real.",
+            "whatsapp": {
+                "title": "Agente de IA de WhatsApp",
+                "description": "El asistente conversacional más inteligente para tu cuenta oficial de WhatsApp Business.",
+                "badge": "WhatsApp Verificado",
+                "feature1": "Programación Automatizada y Sincronización de CRM",
+                "feature2": "Soporte Multilingüe 24/7",
+                "feature3": "Calificación Inteligente de Leads",
+                "chat": {
+                    "user": "Hola, me gustaría reservar una visita a una propiedad para el sábado.",
+                    "bot": "¡Genial! Tengo disponible a las 10:00 AM o a las 2:00 PM para Oak Ridge Villa. ¿Cuál te va mejor?"
+                }
+            },
+            "voice": {
+                "title": "Bot de IA de Voz",
+                "description": "Bots de voz de sonido natural que manejan llamadas complejas con cero latencia.",
+                "badge": "Núcleo de Voz",
+                "feature1": "Enrutamiento y Resolución de Llamadas Entrantes",
+                "feature2": "Ventas Salientes y Seguimientos",
+                "feature3": "Habla Humana Hiperrealista",
+                "monitor": "Monitor de Frecuencia"
+            }
+        },
+        "rpa": {
+            "title": "Orquestadores de Flujos",
+            "description": "Agentes 'RPA' inteligentes que conectan tu ecosistema de software y automatizan tareas complejas de back-office."
+        }
+    },
+    "industries": {
+        "title": "Construido para tu industria",
+        "subtitle": "Modelos de IA personalizados entrenados en conocimientos de dominio específicos para asegurar la máxima precisión y valor.",
+        "cta": "Explorar Todo",
+        "retail": {
+            "title": "Venta al por menor y Comercio electrónico",
+            "description": "Rastrea pedidos, maneja devoluciones y ofrece recomendaciones de productos personalizadas directamente a través del chat.",
+            "benefitLabel": "Beneficio Clave",
+            "benefitValue": "40% de reducción en tickets de soporte"
+        },
+        "healthcare": {
+            "title": "Salud",
+            "description": "Programación de citas lista para HIPAA, recordatorios de medicamentos y automatización de triaje básico.",
+            "benefitLabel": "Beneficio Clave",
+            "benefitValue": "Respuesta instantánea al paciente 24/7"
+        },
+        "realEstate": {
+            "title": "Bienes Raíces",
+            "description": "Calificación instantánea de leads, programas de visitas automatizados y entrega de detalles de la propiedad.",
+            "benefitLabel": "Beneficio Clave",
+            "benefitValue": "3 veces mayor tasa de conversión de leads"
+        }
+    },
+    "scale": {
+        "title": "Automatización rica en información que escala.",
+        "description": "No solo proporcionamos bots; proporcionamos infraestructura estratégica de IA. Nuestras soluciones están diseñadas para manejar miles de conversaciones concurrentes sin perder el toque humano.",
+        "satisfaction": "Tasa de Satisfacción",
+        "integrations": "Integraciones Nativas",
+        "languages": "Idiomas Soportados",
+        "responseTime": "Tiempo de Respuesta",
+        "processed": "Mensajes Procesados"
+    },
+    "ctaSection": {
+        "title": "¿Listo para automatizar tu crecimiento?",
+        "description": "Únete a las cientos de empresas que ya utilizan SEMPITECNO para redefinir su experiencia de cliente.",
+        "trial": "INICIAR PRUEBA GRATUITA",
+        "demo": "RESERVAR UNA DEMO"
+    },
+    "pricing": {
+        "hero": {
+            "title": "Precios <underline>transparentes</underline><br/>para cada escala.",
+            "subtitle": "Elige un plan que se adapte a tus necesidades actuales y escala sin problemas a medida que evoluciona tu ecosistema de IA."
+        },
+        "plans": {
+            "starter": {
+                "name": "Starter",
+                "price": "$49",
+                "description": "Perfecto para individuos y pequeños proyectos que comienzan con la automatización de la IA.",
+                "features": [
+                    "Hasta 5,000 interacciones de IA",
+                    "Integración de CRM estándar",
+                    "Soporte de la comunidad",
+                    "Protocolos de seguridad personalizados"
+                ],
+                "cta": "Comenzar"
+            },
+            "growth": {
+                "name": "Growth",
+                "popular_tag": "Más Popular",
+                "price": "$199",
+                "description": "Infraestructura escalable para equipos en crecimiento enfocados en una integración profunda de CRM.",
+                "features": [
+                    "Interacciones de IA ilimitadas",
+                    "Sincronización avanzada de CRM y ERP",
+                    "Soporte prioritario 24/7",
+                    "Cumplimiento de seguridad básico"
+                ],
+                "cta": "Hazte Pro Ahora"
+            },
+            "enterprise": {
+                "name": "Enterprise",
+                "price": "Personalizado",
+                "description": "Soluciones empresariales de suite completa con infraestructura y seguridad dedicadas.",
+                "features": [
+                    "Instancia de IA dedicada",
+                    "Despliegue local",
+                    "Capacidades de marca blanca",
+                    "Cumplimiento de SOC2 Tipo II"
+                ],
+                "cta": "Contactar Ventas"
+            }
+        },
+        "faq": {
+            "title": "Preguntas Frecuentes",
+            "subtitle": "Todo lo que necesitas saber sobre las soluciones de IA de Sempitecno.",
+            "questions": [
+                {
+                    "q": "¿Cómo asegura Sempitecno la seguridad de la IA?",
+                    "a": "Priorizamos la privacidad de los datos mediante cifrado de extremo a extremo y protocolos de anonimización. Para clientes Enterprise, ofrecemos despliegues locales e instancias de IA aisladas para asegurar que sus datos propietarios nunca salgan de su infraestructura. Actualmente estamos buscando la certificación SOC2 Tipo II."
+                },
+                {
+                    "q": "¿Puede integrarse con mi CRM existente?",
+                    "a": "Sí, Sempitecno cuenta con conectores nativos para Salesforce, HubSpot y Microsoft Dynamics. Nuestro enfoque impulsado por API permite una sincronización bidireccional perfecta, asegurando que sus datos de clientes estén siempre actualizados en todas las plataformas."
+                },
+                {
+                    "q": "¿Cuál es el tiempo típico de configuración?",
+                    "a": "Los planes Starter y Growth pueden estar funcionando en menos de 24 horas. Los despliegues Enterprise, que a menudo incluyen entrenamiento personalizado y auditorías de seguridad, suelen variar de 2 a 4 semanas dependiendo de la complejidad."
+                },
+                {
+                    "q": "¿Hay un descuento por facturación anual?",
+                    "a": "Absolutamente. Al elegir la facturación anual, recibes dos meses gratis (aproximadamente un 17% de ahorro) en comparación con las suscripciones mensuales."
+                }
+            ]
+        },
+        "cta": {
+            "title": "¿Listo para evolucionar?",
+            "description": "Únete a más de 500 empresas con visión de futuro que construyen la próxima generación de negocios impulsados por la IA.",
+            "trial": "Inicia tu Prueba Gratuita",
+            "demo": "Reserva una Demo"
+        }
+    },
+    "industriesPage": {
+        "hero": {
+            "title": "Liberando el <italic>Potencial de la IA</italic> <br/> en cada sector.",
+            "subtitle": "Descubre cómo los agentes especializados de voz y mensajería de SEMPITECNO transforman los flujos de trabajo tradicionales en motores de crecimiento inteligentes y automatizados."
+        },
+        "sectors": {
+            "retail": {
+                "title": "Retail y Comercio Electrónico",
+                "description": "Revoluciona la experiencia de compra desde el descubrimiento hasta la entrega.",
+                "useCases": [
+                    {
+                        "title": "Rastreo de Pedidos Automatizado",
+                        "description": "Los agentes de WhatsApp proporcionan actualizaciones en tiempo real, reduciendo los tickets de '¿Dónde está mi pedido?' hasta en un 60%."
+                    },
+                    {
+                        "title": "Recomendaciones de Productos Inteligentes",
+                        "description": "La IA analiza las preferencias del usuario a través del chat para sugerir los productos perfectos, aumentando las tasas de conversión."
+                    },
+                    {
+                        "title": "Gestión de Devoluciones Multicanal",
+                        "description": "Maneja solicitudes de devolución y etiquetas automáticamente a través de bots de voz o mensajería, 24/7."
+                    },
+                    {
+                        "title": "Sincronización Manual de Inventario",
+                        "description": "Conciliación en tiempo real de los niveles de stock entre tiendas físicas y almacenes digitales."
+                    }
+                ]
+            },
+            "healthcare": {
+                "title": "Salud y Bienestar",
+                "description": "Automatización segura, eficiente y centrada en el paciente.",
+                "useCases": [
+                    {
+                        "title": "Programación de Citas Instantánea",
+                        "description": "Los bots de voz gestionan las horas pico de llamadas, programando citas directamente en el calendario de su clínica."
+                    },
+                    {
+                        "title": "Triaje de Pacientes y Prediagnóstico",
+                        "description": "Los agentes de WhatsApp recopilan síntomas e historial del paciente para preparar a los médicos para las consultas."
+                    },
+                    {
+                        "title": "Recordatorios de Medicación y Seguimiento",
+                        "description": "Los recordatorios automatizados aseguran el cumplimiento del protocolo y mejoran los resultados de los pacientes."
+                    },
+                    {
+                        "title": "Automatización de Facturación y Reclamaciones",
+                        "description": "Procesamiento impulsado por IA de reclamaciones médicas y generación de facturas para proveedores de seguros."
+                    }
+                ]
+            },
+            "realEstate": {
+                "title": "Bienes Raíces y Arrendamiento",
+                "description": "Acelera el ciclo de ventas con la calificación instantánea de leads.",
+                "useCases": [
+                    {
+                        "title": "Calificación de Leads 24/7",
+                        "description": "Los bots filtran prospectos de alta intención preguntando sobre presupuesto, ubicación y plazos de inmediato."
+                    },
+                    {
+                        "title": "Coordinación de Visitas Virtuales",
+                        "description": "Permite a los prospectos reservar visitas a propiedades al instante a través de WhatsApp sin intervención humana."
+                    },
+                    {
+                        "title": "Entrega de Documentos y Detalles",
+                        "description": "Entrega instantánea de planos, folletos y documentos legales bajo petición."
+                    },
+                    {
+                        "title": "Sincronización de Listados Multiplataforma",
+                        "description": "Actualiza automáticamente la disponibilidad y los precios de las propiedades en Zillow, MLS y redes sociales."
+                    }
+                ]
+            },
+            "banking": {
+                "title": "Banca y Finanzas",
+                "description": "Escala la confianza y la seguridad con asistencia financiera en tiempo real.",
+                "useCases": [
+                    {
+                        "title": "Consultas Seguras de Saldo e Historial",
+                        "description": "Proporciona acceso instantáneo a la información de la cuenta a través de sesiones de chat autenticadas y cifradas."
+                    },
+                    {
+                        "title": "Alertas de Fraude y Resolución",
+                        "description": "Los agentes de voz realizan llamadas salientes para verificar transacciones sospechosas con latencia cero."
+                    },
+                    {
+                        "title": "Triaje de Solicitudes de Préstamos y Créditos",
+                        "description": "Recopilación de datos iniciales de la solicitud impulsada por IA para acelerar las aprobaciones financieras."
+                    },
+                    {
+                        "title": "Sincronización de Datos entre Sistemas",
+                        "description": "Bots inteligentes que sincronizan registros financieros entre sistemas heredados dispares sin necesidad de APIs."
+                    }
+                ]
+            }
+        },
+        "legal": {
+            "privacy": {
+                "title": "Política de Privacidad",
+                "lastUpdated": "Última actualización: Febrero 2024",
+                "content": "En SEMPITECNO, su privacidad es nuestra prioridad. Implementamos cifrado de grado militar para todo el procesamiento de datos de IA. Nuestros agentes solo acceden a los puntos de datos específicos requeridos para completar la tarea. Nunca vendemos sus datos a terceros."
+            },
+            "terms": {
+                "title": "Términos de Servicio",
+                "lastUpdated": "Última actualización: Febrero 2024",
+                "content": "Al utilizar las soluciones de IA de SEMPITECNO, usted acepta nuestros procedimientos operativos estándar. Nuestra garantía de tiempo de actividad es del 99.9%. Los usuarios son responsables de la integridad de los datos proporcionados a los agentes de IA."
+            },
+            "security": {
+                "title": "Marco de Seguridad",
+                "lastUpdated": "Última actualización: Febrero 2024",
+                "content": "Nuestra infraestructura está construida sobre proveedores de nube que cumplen con SOC2. Realizamos escaneos semanales de vulnerabilidades y mantenemos una arquitectura de cero confianza para todos los protocolos de comunicación internos y externos."
+            }
+        },
+        "cta": {
+            "title": "¿Listo para digitalizar tu industria?",
+            "description": "Conéctate con nuestros expertos para construir una estrategia de IA a medida que se adapte a tus necesidades comerciales únicas.",
+            "button": "Solicitar una Auditoría Personalizada"
+        }
+    },
+    "footer": {
+        "tagline": "Empoderando a las empresas a través de la automatización de IA de vanguardia para la eficiencia de la comunicación y el flujo de trabajo.",
+        "solutions": "Soluciones",
+        "industry": "Industria",
+        "company": "Empresa",
+        "legal": "Legal",
+        "copyright": "© 2024 SEMPITECNO SOLUTIONS INC.",
+        "status": "ESTADO",
+        "online": "EN LÍNEA",
+        "future": "DISEÑADO PARA EL FUTURO"
+    }
+}

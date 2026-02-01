@@ -1,6 +1,8 @@
 import React from 'react';
+import { useTranslation, Trans } from 'react-i18next';
 
 export default function Pricing() {
+    const { t } = useTranslation();
     return (
         <div className="relative min-h-screen">
             <div className="grain"></div>
@@ -10,10 +12,16 @@ export default function Pricing() {
             <main className="relative z-10">
                 <section className="max-w-7xl mx-auto px-6 lg:px-12 pt-24 pb-16 text-center">
                     <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter mb-6 text-brandDark dark:text-white">
-                        Transparent <span className="underline decoration-4 decoration-accent">pricing</span><br />for every scale.
+                        <Trans
+                            i18nKey="pricing.hero.title"
+                            components={{
+                                underline: <span className="underline decoration-4 decoration-accent" />,
+                                br: <br />
+                            }}
+                        />
                     </h1>
                     <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed">
-                        Choose a plan that fits your current needs and scale seamlessly as your AI ecosystem evolves.
+                        {t('pricing.hero.subtitle')}
                     </p>
                 </section>
 
@@ -21,89 +29,89 @@ export default function Pricing() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-stretch">
                         <div className="bg-white dark:bg-gray-900 p-8 flex flex-col transition-all card-border dark:border-white">
                             <div className="mb-8">
-                                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-accent mb-2 block">Starter</span>
-                                <h3 className="text-4xl font-black mb-4">$49<span className="text-lg font-medium text-gray-500">/mo</span></h3>
-                                <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">Perfect for individuals and small projects getting started with AI automation.</p>
+                                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-accent mb-2 block">{t('pricing.plans.starter.name')}</span>
+                                <h3 className="text-4xl font-black mb-4">{t('pricing.plans.starter.price')}<span className="text-lg font-medium text-gray-500">/mo</span></h3>
+                                <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">{t('pricing.plans.starter.description')}</p>
                             </div>
                             <ul className="space-y-4 mb-10 flex-grow">
                                 <li className="flex items-start gap-3 text-sm">
                                     <span className="material-symbols-outlined text-accent font-bold">check_circle</span>
-                                    <span className="font-medium">Up to 5,000 AI interactions</span>
+                                    <span className="font-medium">{t('pricing.plans.starter.features.0')}</span>
                                 </li>
                                 <li className="flex items-start gap-3 text-sm">
                                     <span className="material-symbols-outlined text-accent font-bold">check_circle</span>
-                                    <span className="font-medium">Standard CRM integration</span>
+                                    <span className="font-medium">{t('pricing.plans.starter.features.1')}</span>
                                 </li>
                                 <li className="flex items-start gap-3 text-sm">
                                     <span className="material-symbols-outlined text-accent font-bold">check_circle</span>
-                                    <span className="font-medium">Community support</span>
+                                    <span className="font-medium">{t('pricing.plans.starter.features.2')}</span>
                                 </li>
                                 <li className="flex items-start gap-3 text-sm text-gray-400">
                                     <span className="material-symbols-outlined">block</span>
-                                    <span className="line-through">Custom security protocols</span>
+                                    <span className="line-through">{t('pricing.plans.starter.features.3')}</span>
                                 </li>
                             </ul>
                             <button className="w-full bg-transparent border-2 border-black py-3 font-black uppercase text-xs tracking-widest hover:bg-black hover:text-white transition-all">
-                                Get Started
+                                {t('pricing.plans.starter.cta')}
                             </button>
                         </div>
                         <div className="relative bg-white dark:bg-primary p-8 flex flex-col transition-all card-border md:-translate-y-4">
                             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-white px-5 py-1.5 font-black uppercase tracking-widest text-[10px] border-2 border-black">
-                                Most Popular
+                                {t('pricing.plans.growth.popular_tag')}
                             </div>
                             <div className="mb-8">
-                                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-accent dark:text-accent mb-2 block">Growth</span>
-                                <h3 className="text-4xl font-black mb-4 dark:text-white">$199<span className="text-lg font-medium text-gray-500 dark:text-gray-400">/mo</span></h3>
-                                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">Scalable infrastructure for growing teams focused on deep CRM integration.</p>
+                                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-accent dark:text-accent mb-2 block">{t('pricing.plans.growth.name')}</span>
+                                <h3 className="text-4xl font-black mb-4 dark:text-white">{t('pricing.plans.growth.price')}<span className="text-lg font-medium text-gray-500 dark:text-gray-400">/mo</span></h3>
+                                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">{t('pricing.plans.growth.description')}</p>
                             </div>
                             <ul className="space-y-4 mb-10 flex-grow">
                                 <li className="flex items-start gap-3 text-sm">
                                     <span className="material-symbols-outlined text-accent font-bold">check_circle</span>
-                                    <span className="font-medium dark:text-white">Unlimited AI interactions</span>
+                                    <span className="font-medium dark:text-white">{t('pricing.plans.growth.features.0')}</span>
                                 </li>
                                 <li className="flex items-start gap-3 text-sm">
                                     <span className="material-symbols-outlined text-accent font-bold">check_circle</span>
-                                    <span className="font-medium dark:text-white">Advanced CRM & ERP Sync</span>
+                                    <span className="font-medium dark:text-white">{t('pricing.plans.growth.features.1')}</span>
                                 </li>
                                 <li className="flex items-start gap-3 text-sm">
                                     <span className="material-symbols-outlined text-accent font-bold">check_circle</span>
-                                    <span className="font-medium dark:text-white">Priority 24/7 support</span>
+                                    <span className="font-medium dark:text-white">{t('pricing.plans.growth.features.2')}</span>
                                 </li>
                                 <li className="flex items-start gap-3 text-sm">
                                     <span className="material-symbols-outlined text-accent font-bold">check_circle</span>
-                                    <span className="font-medium dark:text-white">Basic Security Compliance</span>
+                                    <span className="font-medium dark:text-white">{t('pricing.plans.growth.features.3')}</span>
                                 </li>
                             </ul>
                             <button className="w-full bg-accent text-white py-4 border-2 border-black font-black uppercase text-xs tracking-widest hover:brightness-110 transition-all">
-                                Go Pro Now
+                                {t('pricing.plans.growth.cta')}
                             </button>
                         </div>
                         <div className="bg-white dark:bg-gray-900 p-8 flex flex-col transition-all card-border dark:border-white">
                             <div className="mb-8">
-                                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-accent mb-2 block">Enterprise</span>
-                                <h3 className="text-4xl font-black mb-4">Custom</h3>
-                                <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">Full-suite enterprise solutions with dedicated infrastructure and security.</p>
+                                <span className="text-[10px] font-black uppercase tracking-[0.2em] text-accent mb-2 block">{t('pricing.plans.enterprise.name')}</span>
+                                <h3 className="text-4xl font-black mb-4">{t('pricing.plans.enterprise.price')}</h3>
+                                <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">{t('pricing.plans.enterprise.description')}</p>
                             </div>
                             <ul className="space-y-4 mb-10 flex-grow">
                                 <li className="flex items-start gap-3 text-sm">
                                     <span className="material-symbols-outlined text-accent font-bold">check_circle</span>
-                                    <span className="font-medium">Dedicated AI Instance</span>
+                                    <span className="font-medium">{t('pricing.plans.enterprise.features.0')}</span>
                                 </li>
                                 <li className="flex items-start gap-3 text-sm">
                                     <span className="material-symbols-outlined text-accent font-bold">check_circle</span>
-                                    <span className="font-medium">On-premise deployment</span>
+                                    <span className="font-medium">{t('pricing.plans.enterprise.features.1')}</span>
                                 </li>
                                 <li className="flex items-start gap-3 text-sm">
                                     <span className="material-symbols-outlined text-accent font-bold">check_circle</span>
-                                    <span className="font-medium">White-label capabilities</span>
+                                    <span className="font-medium">{t('pricing.plans.enterprise.features.2')}</span>
                                 </li>
                                 <li className="flex items-start gap-3 text-sm">
                                     <span className="material-symbols-outlined text-accent font-bold">check_circle</span>
-                                    <span className="font-medium">SOC2 Type II Compliance</span>
+                                    <span className="font-medium">{t('pricing.plans.enterprise.features.3')}</span>
                                 </li>
                             </ul>
                             <button className="w-full bg-transparent border-2 border-black py-3 font-black uppercase text-xs tracking-widest hover:bg-black hover:text-white transition-all">
-                                Contact Sales
+                                {t('pricing.plans.enterprise.cta')}
                             </button>
                         </div>
                     </div>
@@ -111,45 +119,45 @@ export default function Pricing() {
 
                 <section className="max-w-5xl mx-auto px-6 lg:px-12 py-24">
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl font-black tracking-tight mb-4 text-brandDark dark:text-white">Frequently Asked Questions</h2>
+                        <h2 className="text-4xl font-black tracking-tight mb-4 text-brandDark dark:text-white">{t('pricing.faq.title')}</h2>
                         <div className="h-1.5 w-24 bg-accent mx-auto mb-6"></div>
-                        <p className="text-gray-600 dark:text-gray-400 font-medium">Everything you need to know about Sempitecno AI solutions.</p>
+                        <p className="text-gray-600 dark:text-gray-400 font-medium">{t('pricing.faq.subtitle')}</p>
                     </div>
                     <div className="space-y-6">
                         <details className="group bg-white dark:bg-white/5 overflow-hidden card-border" open>
                             <summary className="flex items-center justify-between p-6 cursor-pointer list-none">
-                                <span className="text-lg font-black uppercase tracking-tight">How does Sempitecno ensure AI security?</span>
+                                <span className="text-lg font-black uppercase tracking-tight">{t('pricing.faq.questions.0.q')}</span>
                                 <span className="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-accent font-bold">keyboard_arrow_down</span>
                             </summary>
                             <div className="px-6 pb-6 text-gray-600 dark:text-gray-400 leading-relaxed border-t-2 border-black pt-6">
-                                We prioritize data privacy through end-to-end encryption and anonymization protocols. For Enterprise clients, we offer on-premise deployments and isolated AI instances to ensure your proprietary data never leaves your infrastructure. We are currently pursuing SOC2 Type II certification.
+                                {t('pricing.faq.questions.0.a')}
                             </div>
                         </details>
                         <details className="group bg-white dark:bg-white/5 overflow-hidden card-border">
                             <summary className="flex items-center justify-between p-6 cursor-pointer list-none">
-                                <span className="text-lg font-black uppercase tracking-tight">Can it integrate with my existing CRM?</span>
+                                <span className="text-lg font-black uppercase tracking-tight">{t('pricing.faq.questions.1.q')}</span>
                                 <span className="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-accent font-bold">keyboard_arrow_down</span>
                             </summary>
                             <div className="px-6 pb-6 text-gray-600 dark:text-gray-400 leading-relaxed border-t-2 border-black pt-6">
-                                Yes, Sempitecno features native connectors for Salesforce, HubSpot, and Microsoft Dynamics. Our API-first approach allows for seamless two-way synchronization, ensuring your customer data is always up-to-date across all platforms.
+                                {t('pricing.faq.questions.1.a')}
                             </div>
                         </details>
                         <details className="group bg-white dark:bg-white/5 overflow-hidden card-border">
                             <summary className="flex items-center justify-between p-6 cursor-pointer list-none">
-                                <span className="text-lg font-black uppercase tracking-tight">What is the typical setup time?</span>
+                                <span className="text-lg font-black uppercase tracking-tight">{t('pricing.faq.questions.2.q')}</span>
                                 <span className="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-accent font-bold">keyboard_arrow_down</span>
                             </summary>
                             <div className="px-6 pb-6 text-gray-600 dark:text-gray-400 leading-relaxed border-t-2 border-black pt-6">
-                                Starter and Growth plans can be up and running in under 24 hours. Enterprise deployments, which often include custom training and security audits, typically range from 2 to 4 weeks depending on complexity.
+                                {t('pricing.faq.questions.2.a')}
                             </div>
                         </details>
                         <details className="group bg-white dark:bg-white/5 overflow-hidden card-border">
                             <summary className="flex items-center justify-between p-6 cursor-pointer list-none">
-                                <span className="text-lg font-black uppercase tracking-tight">Is there a discount for annual billing?</span>
+                                <span className="text-lg font-black uppercase tracking-tight">{t('pricing.faq.questions.3.q')}</span>
                                 <span className="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-accent font-bold">keyboard_arrow_down</span>
                             </summary>
                             <div className="px-6 pb-6 text-gray-600 dark:text-gray-400 leading-relaxed border-t-2 border-black pt-6">
-                                Absolutely. When you choose annual billing, you receive two months free (roughly 17% savings) compared to month-to-month subscriptions.
+                                {t('pricing.faq.questions.3.a')}
                             </div>
                         </details>
                     </div>
@@ -159,14 +167,14 @@ export default function Pricing() {
                     <div className="bg-brandDark p-12 md:p-20 text-center text-white relative overflow-hidden card-border">
                         <div className="absolute inset-0 opacity-10 bg-[url('https://grainy-gradients.vercel.app/noise.svg')]"></div>
                         <div className="relative z-10">
-                            <h2 className="text-4xl md:text-6xl font-black mb-8 tracking-tighter uppercase">Ready to evolve?</h2>
-                            <p className="text-xl text-gray-300 mb-12 max-w-xl mx-auto font-medium">Join 500+ forward-thinking companies building the next generation of AI-driven business.</p>
+                            <h2 className="text-4xl md:text-6xl font-black mb-8 tracking-tighter uppercase">{t('pricing.cta.title')}</h2>
+                            <p className="text-xl text-gray-300 mb-12 max-w-xl mx-auto font-medium">{t('pricing.cta.description')}</p>
                             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                                 <button className="bg-white text-black px-10 py-4 border-2 border-black font-black uppercase text-sm tracking-[0.2em] hover:bg-accent hover:text-white transition-all card-border">
-                                    Start Your Free Trial
+                                    {t('pricing.cta.trial')}
                                 </button>
                                 <button className="bg-transparent border-2 border-white px-10 py-4 font-black uppercase text-sm tracking-[0.2em] hover:bg-white hover:text-black transition-all">
-                                    Book a Demo
+                                    {t('pricing.cta.demo')}
                                 </button>
                             </div>
                         </div>
