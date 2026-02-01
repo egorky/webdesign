@@ -9,7 +9,7 @@ export default function CustomerService() {
         description: t(`industryPages.customerService.useCase${i+1}.description`),
         details: t(`industryPages.customerService.useCase${i+1}.details`),
         benefits: t(`industryPages.customerService.useCase${i+1}.benefits`),
-        image: i === 0 ? '/Users/ivangarcia/.gemini/antigravity/brain/407de219-f2f1-41be-a1f3-56cab62ad8c2/customer_service_automation_1769965350529.png' : null
+        image: i === 0 ? '/images/industries/customer-service.png' : null
     }));
 
     return (

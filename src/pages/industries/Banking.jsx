@@ -6,7 +6,7 @@ export default function Banking() {
     const { t } = useTranslation();
 
     const useCases = [
-        { title: t('industryPages.banking.useCase1.title'), description: t('industryPages.banking.useCase1.description'), details: t('industryPages.banking.useCase1.details'), benefits: t('industryPages.banking.useCase1.benefits'), image: '/Users/ivangarcia/.gemini/antigravity/brain/407de219-f2f1-41be-a1f3-56cab62ad8c2/banking_security_dashboard_1769965316752.png' },
+        { title: t('industryPages.banking.useCase1.title'), description: t('industryPages.banking.useCase1.description'), details: t('industryPages.banking.useCase1.details'), benefits: t('industryPages.banking.useCase1.benefits'), image: '/images/industries/banking.png' },
         { title: t('industryPages.banking.useCase2.title'), description: t('industryPages.banking.useCase2.description'), details: t('industryPages.banking.useCase2.details'), benefits: t('industryPages.banking.useCase2.benefits') },
         { title: t('industryPages.banking.useCase3.title'), description: t('industryPages.banking.useCase3.description'), details: t('industryPages.banking.useCase3.details'), benefits: t('industryPages.banking.useCase3.benefits') },
         { title: t('industryPages.banking.useCase4.title'), description: t('industryPages.banking.useCase4.description'), details: t('industryPages.banking.useCase4.details'), benefits: t('industryPages.banking.useCase4.benefits') }

@@ -11,7 +11,7 @@ export default function Healthcare() {
             description: t('industryPages.healthcare.useCase1.description'),
             details: t('industryPages.healthcare.useCase1.details'),
             benefits: t('industryPages.healthcare.useCase1.benefits'),
-            image: '/Users/ivangarcia/.gemini/antigravity/brain/407de219-f2f1-41be-a1f3-56cab62ad8c2/healthcare_patient_interaction_1769965301264.png'
+            image: '/images/industries/healthcare.png'
         },
         {
             title: t('industryPages.healthcare.useCase2.title'),

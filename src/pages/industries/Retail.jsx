@@ -9,7 +9,7 @@ export default function Retail() {
         description: t(`industryPages.retail.useCase${i+1}.description`),
         details: t(`industryPages.retail.useCase${i+1}.details`),
         benefits: t(`industryPages.retail.useCase${i+1}.benefits`),
-        image: i === 0 ? '/Users/ivangarcia/.gemini/antigravity/brain/407de219-f2f1-41be-a1f3-56cab62ad8c2/retail_support_system_1769965333182.png' : null
+        image: i === 0 ? '/images/industries/retail.png' : null
     }));
 
     return (
