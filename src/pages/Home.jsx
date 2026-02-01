@@ -231,10 +231,10 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-12 mb-20">
                         <div className="max-w-2xl">
-                            <h2 className="font-display text-5xl lg:text-6xl font-black mb-8 tracking-tighter uppercase leading-none">{t('home.industries.title')}</h2>
-                            <p className="text-darkBlue/70 text-xl font-medium">{t('home.industries.subtitle')}</p>
+                            <h2 className="font-display text-5xl lg:text-6xl font-black mb-8 tracking-tighter uppercase leading-none">{t('industries.title')}</h2>
+                            <p className="text-darkBlue/70 text-xl font-medium">{t('industries.subtitle')}</p>
                         </div>
-                        <button className="bg-white b-solid px-8 py-4 font-black uppercase tracking-widest hover:bg-black hover:text-white transition-colors shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">{t('home.industries.cta')}</button>
+                        <button className="bg-white b-solid px-8 py-4 font-black uppercase tracking-widest hover:bg-black hover:text-white transition-colors shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">{t('industries.cta')}</button>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                         <div className="bg-white p-10 b-solid shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
@@ -289,30 +289,30 @@ export default function Home() {
                             </div>
                             <div className="absolute -bottom-10 -right-10 bg-yellow-300 p-8 b-solid shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] z-20">
                                 <div className="text-6xl font-black text-black mb-1">98%</div>
-                                <div className="text-xs font-black text-black uppercase tracking-widest">{t('home.scale.satisfaction')}</div>
+                                <div className="text-xs font-black text-black uppercase tracking-widest">{t('scale.satisfaction')}</div>
                             </div>
                         </div>
                         <div>
-                            <h2 className="font-display text-5xl lg:text-6xl font-black mb-10 tracking-tighter uppercase leading-[0.9]">{t('home.scale.title')}</h2>
+                            <h2 className="font-display text-5xl lg:text-6xl font-black mb-10 tracking-tighter uppercase leading-[0.9]">{t('scale.title')}</h2>
                             <p className="text-darkBlue/70 text-xl font-medium mb-12 leading-relaxed">
-                                {t('home.scale.description')}
+                                {t('scale.description')}
                             </p>
                             <div className="grid grid-cols-2 gap-12">
                                 <div className="b-solid p-6 bg-purple-50">
                                     <div className="text-4xl font-black mb-2 tracking-tighter">50+</div>
-                                    <div className="text-xs font-black uppercase tracking-widest text-darkBlue/60">{t('home.scale.integrations')}</div>
+                                    <div className="text-xs font-black uppercase tracking-widest text-darkBlue/60">{t('scale.integrations')}</div>
                                 </div>
                                 <div className="b-solid p-6 bg-purple-50">
                                     <div className="text-4xl font-black mb-2 tracking-tighter">120+</div>
-                                    <div className="text-xs font-black uppercase tracking-widest text-darkBlue/60">{t('home.scale.languages')}</div>
+                                    <div className="text-xs font-black uppercase tracking-widest text-darkBlue/60">{t('scale.languages')}</div>
                                 </div>
                                 <div className="b-solid p-6 bg-purple-50">
                                     <div className="text-4xl font-black mb-2 tracking-tighter">&lt; 2s</div>
-                                    <div className="text-xs font-black uppercase tracking-widest text-darkBlue/60">{t('home.scale.responseTime')}</div>
+                                    <div className="text-xs font-black uppercase tracking-widest text-darkBlue/60">{t('scale.responseTime')}</div>
                                 </div>
                                 <div className="b-solid p-6 bg-purple-50">
                                     <div className="text-4xl font-black mb-2 tracking-tighter">10M+</div>
-                                    <div className="text-xs font-black uppercase tracking-widest text-darkBlue/60">{t('home.scale.processed')}</div>
+                                    <div className="text-xs font-black uppercase tracking-widest text-darkBlue/60">{t('scale.processed')}</div>
                                 </div>
                             </div>
                         </div>
@@ -324,16 +324,16 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="bg-primary b-solid p-12 lg:p-24 text-center text-white relative overflow-hidden shadow-[16px_16px_0px_0px_rgba(255,255,255,0.1)]">
                         <div className="relative z-10 max-w-3xl mx-auto">
-                            <h2 className="font-display text-5xl lg:text-8xl font-black mb-10 uppercase tracking-tighter leading-[0.85]">{t('home.ctaSection.title')}</h2>
+                            <h2 className="font-display text-5xl lg:text-8xl font-black mb-10 uppercase tracking-tighter leading-[0.85]">{t('ctaSection.title')}</h2>
                             <p className="text-white/80 text-xl lg:text-2xl mb-16 font-medium">
-                                {t('home.ctaSection.description')}
+                                {t('ctaSection.description')}
                             </p>
                             <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
                                 <button className="w-full sm:w-auto bg-white text-darkBlue px-12 py-6 b-solid font-black text-xl uppercase tracking-tighter shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:-translate-y-1 transition-all">
-                                    {t('home.ctaSection.trial')}
+                                    {t('ctaSection.trial')}
                                 </button>
                                 <button className="w-full sm:w-auto bg-darkBlue text-white px-12 py-6 b-solid font-black text-xl uppercase tracking-tighter shadow-[8px_8px_0px_0px_rgba(0,0,0,0.2)] hover:-translate-y-1 transition-all">
-                                    {t('home.ctaSection.demo')}
+                                    {t('ctaSection.demo')}
                                 </button>
                             </div>
                         </div>
