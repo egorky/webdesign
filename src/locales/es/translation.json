@@ -54,6 +54,15 @@
                 "feature2": "Ventas Salientes y Seguimientos",
                 "feature3": "Habla Humana Hiperrealista",
                 "monitor": "Monitor de Frecuencia"
+            },
+            "omnichannel": {
+                "title": "Plataforma Omnicanal",
+                "description": "Hub centralizado para WhatsApp, Meta y telefonía VoIP.",
+                "badge": "Hub Central",
+                "feature1": "Panel Único para Todos los Canales",
+                "feature2": "Traspaso Fluido a Agentes",
+                "feature3": "Contexto de Cliente Unificado",
+                "monitor": "Sincronización"
             }
         },
         "rpa": {
@@ -77,11 +86,11 @@
             "benefitLabel": "Beneficio Clave",
             "benefitValue": "Respuesta instantánea al paciente 24/7"
         },
-        "realEstate": {
-            "title": "Bienes Raíces",
-            "description": "Calificación instantánea de leads, programas de visitas automatizados y entrega de detalles de la propiedad.",
+        "customerService": {
+            "title": "Servicio al Cliente",
+            "description": "Automatiza soporte L1, gestiona FAQs y enruta problemas complejos a humanos al instante.",
             "benefitLabel": "Beneficio Clave",
-            "benefitValue": "3 veces mayor tasa de conversión de leads"
+            "benefitValue": "90% Tiempos de Resolución Más Rápidos"
         },
         "banking": {
             "title": "Banca y Finanzas",
@@ -228,25 +237,25 @@
                     }
                 ]
             },
-            "realEstate": {
-                "title": "Bienes Raíces y Arrendamiento",
-                "description": "Acelera el ciclo de ventas con la calificación instantánea de leads.",
+            "customerService": {
+                "title": "Atención al Cliente y Soporte",
+                "description": "Transforma tu centro de contacto con asistencia de IA siempre activa.",
                 "useCases": [
                     {
-                        "title": "Calificación de Leads 24/7",
-                        "description": "Los bots filtran prospectos de alta intención preguntando sobre presupuesto, ubicación y plazos de inmediato."
+                        "title": "Creación Automatizada de Tickets",
+                        "description": "La IA analiza mensajes para categorizar y crear tickets en Zendesk o Jira automáticamente."
                     },
                     {
-                        "title": "Coordinación de Visitas Virtuales",
-                        "description": "Permite a los prospectos reservar visitas a propiedades al instante a través de WhatsApp sin intervención humana."
+                        "title": "Resolución Instantánea de FAQs",
+                        "description": "Desvía hasta el 80% de consultas repetitivas sobre precios, estados o políticas."
                     },
                     {
-                        "title": "Entrega de Documentos y Detalles",
-                        "description": "Entrega instantánea de planos, folletos y documentos legales bajo petición."
+                        "title": "Enrutamiento por Análisis de Sentimiento",
+                        "description": "Detecta clientes frustrados y prioriza el enrutamiento a agentes humanos senior."
                     },
                     {
-                        "title": "Sincronización de Listados Multiplataforma",
-                        "description": "Actualiza automáticamente la disponibilidad y los precios de las propiedades en Zillow, MLS y redes sociales."
+                        "title": "Soporte Multilingüe",
+                        "description": "Escala soporte a más de 50 idiomas al instante sin contratar nuevo personal."
                     }
                 ]
             },
@@ -306,5 +315,171 @@
         "status": "ESTADO",
         "online": "EN LÍNEA",
         "future": "DISEÑADO PARA EL FUTURO"
+    },
+    "contact": {
+        "hero": {
+            "title": "Hablemos",
+            "subtitle": "Ponte en contacto con nuestro equipo para discutir cómo SEMPITECNO puede transformar las operaciones de tu negocio."
+        },
+        "form": {
+            "title": "Envíanos un mensaje",
+            "name": "Nombre Completo",
+            "email": "Correo Electrónico",
+            "company": "Nombre de la Empresa",
+            "phone": "Número de Teléfono",
+            "message": "Tu Mensaje",
+            "submit": "Enviar Mensaje",
+            "success": "¡Mensaje enviado exitosamente!"
+        },
+        "whatsapp": {
+            "title": "Chatea en WhatsApp",
+            "description": "¿Prefieres mensajería instantánea? Inicia una conversación con nosotros directamente en WhatsApp para asistencia inmediata.",
+            "button": "Abrir WhatsApp",
+            "number": "Teléfono"
+        },
+        "info": {
+            "title": "Información de Contacto",
+            "hours": {
+                "label": "Horario de Atención",
+                "value": "Lunes - Viernes, 9:00 AM - 6:00 PM (ECT)"
+            },
+            "languages": {
+                "label": "Idiomas",
+                "value": "Inglés, Español"
+            }
+        }
+    },
+    "industryPages": {
+        "useCase": "Caso de Uso",
+        "keyBenefits": "Beneficios Clave",
+        "cta": {
+            "title": "Ready to Transform Your Operations?",
+            "description": "Let's discuss how our AI solutions can be tailored to your specific industry needs.",
+            "button": "Get Started"
+        },
+        "healthcare": {
+            "hero": {
+                "title": "AI Solutions for Healthcare",
+                "subtitle": "Automate patient interactions, streamline appointments, and improve care delivery with intelligent AI assistants."
+            },
+            "useCasesTitle": "Healthcare Use Cases",
+            "useCase1": {
+                "title": "Automated Appointment Scheduling",
+                "description": "Enable patients to book, reschedule, or cancel appointments 24/7 through natural conversations.",
+                "details": "Our AI assistant integrates with your existing EHR/EMR systems to check real-time availability, send automated reminders, and reduce no-show rates by up to 40%. Patients can interact via WhatsApp, SMS, or voice calls in their preferred language.",
+                "benefits": "Reduces administrative workload by 60%, improves patient satisfaction scores, and increases appointment fill rates."
+            },
+            "useCase2": {
+                "title": "Patient Triage & Symptom Assessment",
+                "description": "Intelligent pre-screening that routes patients to the appropriate care level based on symptoms.",
+                "details": "Using medically-validated decision trees, our AI conducts preliminary symptom assessments, identifies urgent cases, and directs patients to emergency services, telehealth, or in-person visits. All interactions are HIPAA-compliant and securely logged.",
+                "benefits": "Optimizes resource allocation, reduces ER overcrowding, and ensures critical cases receive immediate attention."
+            },
+            "useCase3": {
+                "title": "Prescription Refill Automation",
+                "description": "Streamline medication refill requests with automated verification and pharmacy coordination.",
+                "details": "Patients can request refills conversationally. The AI verifies eligibility, checks with prescribing physicians when needed, and coordinates with pharmacies for pickup or delivery. Automated reminders ensure medication adherence.",
+                "benefits": "Saves 15+ hours per week for pharmacy staff, improves medication compliance, and enhances patient outcomes."
+            },
+            "useCase4": {
+                "title": "Post-Care Follow-Up",
+                "description": "Automated check-ins after procedures or hospital discharge to monitor recovery and satisfaction.",
+                "details": "Our system sends personalized follow-up messages at scheduled intervals, collects patient-reported outcomes, identifies complications early, and escalates concerns to care teams. Supports multiple languages and accessibility needs.",
+                "benefits": "Reduces readmission rates by 25%, improves quality metrics, and demonstrates patient-centered care."
+            }
+        },
+        "banking": {
+            "hero": {
+                "title": "AI Solutions for Banking & Finance",
+                "subtitle": "Enhance customer service, ensure compliance, and detect fraud with enterprise-grade AI automation."
+            },
+            "useCasesTitle": "Banking Use Cases",
+            "useCase1": {
+                "title": "24/7 Customer Support Automation",
+                "description": "Handle account inquiries, transaction disputes, and service requests instantly without human intervention.",
+                "details": "Our AI handles 80% of common banking queries including balance checks, transaction history, card activation, and PIN resets. Seamlessly escalates complex issues to human agents with full conversation context. Supports voice and text channels with bank-grade security.",
+                "benefits": "Reduces call center costs by 50%, improves first-contact resolution rates, and provides instant service across time zones."
+            },
+            "useCase2": {
+                "title": "Fraud Detection & Alerts",
+                "description": "Real-time transaction monitoring with intelligent alerts for suspicious activity.",
+                "details": "Machine learning models analyze transaction patterns, flag anomalies, and instantly notify customers via their preferred channel. Customers can confirm or dispute transactions conversationally, triggering immediate card freezes or fraud investigations.",
+                "benefits": "Prevents $2M+ in fraud annually per 100K customers, reduces false positives by 60%, and improves customer trust."
+            },
+            "useCase3": {
+                "title": "Loan Application Processing",
+                "description": "Streamline loan applications with automated document collection and eligibility pre-screening.",
+                "details": "AI guides applicants through the entire process, requests necessary documents, performs preliminary credit checks, and provides instant pre-approval decisions for qualified candidates. Integrates with core banking systems and credit bureaus.",
+                "benefits": "Reduces application processing time from days to minutes, improves approval rates, and enhances customer experience."
+            },
+            "useCase4": {
+                "title": "Regulatory Compliance Monitoring",
+                "description": "Automated compliance checks and reporting for KYC, AML, and regulatory requirements.",
+                "details": "Continuously monitors transactions and customer interactions for compliance violations. Automatically generates required reports, flags suspicious activities, and maintains audit trails. Stays updated with changing regulations across jurisdictions.",
+                "benefits": "Ensures 99.9% compliance accuracy, reduces regulatory fines, and minimizes manual audit workload."
+            }
+        },
+        "retail": {
+            "hero": {
+                "title": "AI Solutions for Retail & E-Commerce",
+                "subtitle": "Boost sales, improve customer satisfaction, and optimize operations with intelligent automation."
+            },
+            "useCasesTitle": "Retail Use Cases",
+            "useCase1": {
+                "title": "Intelligent Customer Support",
+                "description": "Provide instant answers to product questions, order status, and return requests across all channels.",
+                "details": "Our AI handles inquiries about product availability, sizing, shipping, returns, and promotions. Integrates with your inventory and order management systems to provide real-time information. Supports image recognition for visual product search.",
+                "benefits": "Resolves 75% of inquiries without human intervention, increases customer satisfaction by 40%, and reduces support costs."
+            },
+            "useCase2": {
+                "title": "Personalized Product Recommendations",
+                "description": "AI-driven recommendations that increase average order value and customer lifetime value.",
+                "details": "Analyzes browsing history, purchase patterns, and customer preferences to suggest relevant products. Delivers personalized recommendations via WhatsApp, email, or on-site chat. A/B tests messaging to optimize conversion rates.",
+                "benefits": "Increases average order value by 30%, improves conversion rates, and drives repeat purchases."
+            },
+            "useCase3": {
+                "title": "Abandoned Cart Recovery",
+                "description": "Automated follow-ups that bring customers back to complete their purchases.",
+                "details": "Detects abandoned carts and sends personalized messages via WhatsApp or SMS with product images, limited-time offers, and easy checkout links. Handles objections and answers questions to overcome purchase barriers.",
+                "benefits": "Recovers 25% of abandoned carts, generates significant incremental revenue, and improves customer engagement."
+            },
+            "useCase4": {
+                "title": "Order Tracking & Updates",
+                "description": "Proactive shipping notifications and delivery updates that reduce 'where is my order' inquiries.",
+                "details": "Automatically sends order confirmations, shipping updates, and delivery notifications. Customers can check order status conversationally. Handles delivery issues, reschedules, and coordinates with logistics partners.",
+                "benefits": "Reduces WISMO inquiries by 70%, improves delivery experience, and builds customer trust."
+            }
+        },
+        "customerService": {
+            "hero": {
+                "title": "AI Solutions for Customer Service",
+                "subtitle": "Transform your support operations with AI that handles L1 queries, routes complex issues, and delights customers."
+            },
+            "useCasesTitle": "Customer Service Use Cases",
+            "useCase1": {
+                "title": "Multilingual Support Automation",
+                "description": "Provide instant support in 120+ languages without hiring multilingual agents.",
+                "details": "Our AI detects customer language automatically and responds fluently in their preferred language. Handles common queries, FAQs, and troubleshooting steps. Seamlessly transfers to human agents when needed, providing full conversation history and translation.",
+                "benefits": "Expands global reach, reduces language barriers, and provides consistent service quality across all markets."
+            },
+            "useCase2": {
+                "title": "Intelligent Ticket Routing",
+                "description": "Automatically categorize, prioritize, and route support tickets to the right team or agent.",
+                "details": "AI analyzes ticket content, customer history, and urgency to assign tickets to specialized teams. Predicts resolution time, suggests knowledge base articles to agents, and escalates SLA breaches automatically.",
+                "benefits": "Reduces average resolution time by 40%, improves first-contact resolution, and optimizes agent workload."
+            },
+            "useCase3": {
+                "title": "Sentiment Analysis & Escalation",
+                "description": "Detect frustrated customers and escalate to senior agents before issues escalate.",
+                "details": "Real-time sentiment analysis monitors customer emotions during interactions. Automatically flags negative sentiment, alerts supervisors, and routes to specialized retention teams. Provides agents with customer context and suggested responses.",
+                "benefits": "Reduces churn by 20%, improves customer satisfaction scores, and enables proactive issue resolution."
+            },
+            "useCase4": {
+                "title": "Self-Service Knowledge Base",
+                "description": "AI-powered knowledge base that learns from interactions and improves over time.",
+                "details": "Customers can search for solutions conversationally. AI understands intent, provides step-by-step guides, and offers video tutorials. Continuously learns from successful resolutions and agent interactions to improve accuracy.",
+                "benefits": "Deflects 60% of support tickets, empowers customers with self-service, and reduces support costs."
+            }
+        }
     }
 }

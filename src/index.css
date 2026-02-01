@@ -35,6 +35,7 @@ body {
 
 .b-solid {
     border: 2px solid #000000;
+    border-radius: 12px;
 }
 
 .hero-pattern {
@@ -70,9 +71,11 @@ body {
 .card-border {
     border: 2px solid #000 !important;
     box-shadow: 4px 4px 0 0 #000;
+    border-radius: 12px;
 }
 
 .card-border-dark {
     border: 2px solid #fff !important;
     box-shadow: 4px 4px 0 0 #fff;
+    border-radius: 12px;
 }

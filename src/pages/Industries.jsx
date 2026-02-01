@@ -4,7 +4,7 @@ import { useTranslation, Trans } from 'react-i18next';
 export default function Industries() {
     const { t } = useTranslation();
 
-    const sectors = ['retail', 'healthcare', 'realEstate', 'banking'];
+    const sectors = ['retail', 'healthcare', 'customerService', 'banking'];
 
     return (
         <div className="bg-background-light min-h-screen">
@@ -77,7 +77,7 @@ export default function Industries() {
                                         <span className="material-symbols-outlined text-9xl text-darkBlue/20 group-hover:scale-110 transition-transform duration-500">
                                             {sector === 'retail' ? 'shopping_cart' :
                                                 sector === 'healthcare' ? 'medical_services' :
-                                                    sector === 'realEstate' ? 'apartment' : 'account_balance'}
+                                                    sector === 'customerService' ? 'support_agent' : 'account_balance'}
                                         </span>
                                         <div className="absolute bottom-10 left-10 right-10 bg-white border-2 border-black p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
                                             <p className="text-xs font-black uppercase text-primary mb-2 tracking-widest">Live Integration</p>

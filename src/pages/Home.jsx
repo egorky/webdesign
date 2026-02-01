@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation, Trans } from 'react-i18next';
 
 export default function Home() {
@@ -24,13 +25,13 @@ export default function Home() {
                             {t('home.description')}
                         </p>
                         <div className="flex flex-col sm:flex-row items-center gap-6">
-                            <button className="w-full sm:w-auto bg-darkBlue text-white px-10 py-5 b-solid font-black text-lg uppercase tracking-tighter shadow-[6px_6px_0px_0px_rgba(124,58,237,1)] hover:-translate-y-1 transition-all">
+                            <Link to="/contact" className="w-full sm:w-auto bg-darkBlue text-white px-10 py-5 b-solid font-black text-lg uppercase tracking-tighter shadow-[6px_6px_0px_0px_rgba(124,58,237,1)] hover:-translate-y-1 transition-all text-center">
                                 {t('home.cta')}
-                            </button>
-                            <button className="w-full sm:w-auto flex items-center justify-center gap-3 font-black text-lg uppercase tracking-tighter hover:text-primary transition-colors">
+                            </Link>
+                            <Link to="/contact" className="w-full sm:w-auto flex items-center justify-center gap-3 font-black text-lg uppercase tracking-tighter hover:text-primary transition-colors">
                                 {t('home.secondaryCta')}
                                 <span className="material-symbols-outlined font-bold">arrow_right_alt</span>
-                            </button>
+                            </Link>
                         </div>
                     </div>
                     <div className="relative">
@@ -93,7 +94,7 @@ export default function Home() {
                             {t('home.solutions.subtitle')}
                         </p>
                     </div>
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                         <div className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(34,197,94,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
                             <div className="flex justify-between items-start mb-10">
                                 <div className="w-20 h-20 b-solid bg-green-50 flex items-center justify-center">
@@ -223,6 +224,51 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
+                        <div className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(236,72,153,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+                            <div className="flex justify-between items-start mb-10">
+                                <div className="w-20 h-20 b-solid bg-pink-50 flex items-center justify-center">
+                                    <span className="material-symbols-outlined font-bold text-5xl text-pink-600">hub</span>
+                                </div>
+                                <span className="text-xs font-black uppercase tracking-widest text-pink-600 bg-pink-50 px-3 py-1 b-solid">{t('home.solutions.omnichannel.badge')}</span>
+                            </div>
+                            <h3 className="font-display text-4xl font-black mb-6 uppercase tracking-tight">{t('home.solutions.omnichannel.title')}</h3>
+                            <p className="text-darkBlue/70 mb-10 text-lg font-medium">
+                                {t('home.solutions.omnichannel.description')}
+                            </p>
+                            <ul className="space-y-6 mb-12">
+                                <li className="flex items-center gap-4">
+                                    <span className="material-symbols-outlined text-primary font-bold">check_box</span>
+                                    <span className="font-bold uppercase text-sm tracking-wide">{t('home.solutions.omnichannel.feature1')}</span>
+                                </li>
+                                <li className="flex items-center gap-4">
+                                    <span className="material-symbols-outlined text-primary font-bold">check_box</span>
+                                    <span className="font-bold uppercase text-sm tracking-wide">{t('home.solutions.omnichannel.feature2')}</span>
+                                </li>
+                                <li className="flex items-center gap-4">
+                                    <span className="material-symbols-outlined text-primary font-bold">check_box</span>
+                                    <span className="font-bold uppercase text-sm tracking-wide">{t('home.solutions.omnichannel.feature3')}</span>
+                                </li>
+                            </ul>
+                            <div className="relative bg-slate-50 b-solid aspect-video overflow-hidden flex items-center justify-center p-8">
+                                <div className="flex gap-4 items-center justify-center w-full">
+                                    <div className="w-16 h-16 bg-white b-solid shadow-sm flex items-center justify-center">
+                                        <span className="material-symbols-outlined text-3xl text-green-600">chat</span>
+                                    </div>
+                                    <div className="w-12 h-1 bg-black/10"></div>
+                                    <div className="w-20 h-20 bg-darkBlue b-solid shadow-lg flex items-center justify-center text-white relative">
+                                        <span className="material-symbols-outlined text-4xl">hub</span>
+                                        <div className="absolute -top-2 -right-2 w-4 h-4 bg-green-500 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div className="w-12 h-1 bg-black/10"></div>
+                                    <div className="w-16 h-16 bg-white b-solid shadow-sm flex items-center justify-center">
+                                        <span className="material-symbols-outlined text-3xl text-blue-600">call</span>
+                                    </div>
+                                </div>
+                                <div className="absolute bottom-4 text-[10px] font-black uppercase tracking-widest text-darkBlue/40">
+                                    {t('home.solutions.omnichannel.monitor')}
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -265,15 +311,15 @@ export default function Home() {
                         </div>
                         <div className="bg-white p-10 b-solid shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
                             <div className="w-16 h-16 b-solid bg-purple-50 text-purple-600 flex items-center justify-center mb-10">
-                                <span className="material-symbols-outlined text-3xl font-bold">home_work</span>
+                                <span className="material-symbols-outlined text-3xl font-bold">support_agent</span>
                             </div>
-                            <h4 className="font-display font-black text-2xl mb-6 uppercase tracking-tight">{t('industries.realEstate.title')}</h4>
+                            <h4 className="font-display font-black text-2xl mb-6 uppercase tracking-tight">{t('industries.customerService.title')}</h4>
                             <p className="text-darkBlue/70 mb-10 font-medium leading-relaxed">
-                                {t('industries.realEstate.description')}
+                                {t('industries.customerService.description')}
                             </p>
                             <div className="pt-8 border-t-2 border-black">
-                                <span className="text-xs font-black text-primary tracking-widest uppercase mb-2 block">{t('industries.realEstate.benefitLabel')}</span>
-                                <p className="text-lg font-black uppercase">{t('industries.realEstate.benefitValue')}</p>
+                                <span className="text-xs font-black text-primary tracking-widest uppercase mb-2 block">{t('industries.customerService.benefitLabel')}</span>
+                                <p className="text-lg font-black uppercase">{t('industries.customerService.benefitValue')}</p>
                             </div>
                         </div>
                     </div>
@@ -329,12 +375,12 @@ export default function Home() {
                                 {t('ctaSection.description')}
                             </p>
                             <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
-                                <button className="w-full sm:w-auto bg-white text-darkBlue px-12 py-6 b-solid font-black text-xl uppercase tracking-tighter shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:-translate-y-1 transition-all">
+                                <Link to="/contact" className="w-full sm:w-auto bg-white text-darkBlue px-12 py-6 b-solid font-black text-xl uppercase tracking-tighter shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:-translate-y-1 transition-all text-center">
                                     {t('ctaSection.trial')}
-                                </button>
-                                <button className="w-full sm:w-auto bg-darkBlue text-white px-12 py-6 b-solid font-black text-xl uppercase tracking-tighter shadow-[8px_8px_0px_0px_rgba(0,0,0,0.2)] hover:-translate-y-1 transition-all">
+                                </Link>
+                                <Link to="/contact" className="w-full sm:w-auto bg-darkBlue text-white px-12 py-6 b-solid font-black text-xl uppercase tracking-tighter shadow-[8px_8px_0px_0px_rgba(0,0,0,0.2)] hover:-translate-y-1 transition-all text-center">
                                     {t('ctaSection.demo')}
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import logo from '../assets/image.png';
@@ -7,6 +7,7 @@ export default function Layout({ children }) {
     const { t, i18n } = useTranslation();
     const location = useLocation();
     const isHome = location.pathname === '/';
+    const [industriesOpen, setIndustriesOpen] = useState(false);
 
     const getLink = (hash) => isHome ? hash : `/${hash}`;
 
@@ -27,7 +28,24 @@ export default function Layout({ children }) {
                     </div>
                     <div className="hidden md:flex items-center gap-10 font-bold text-sm uppercase tracking-wider">
                         <a href={getLink("#solutions")} className="hover:text-primary transition-colors">{t('nav.solutions')}</a>
-                        <Link to="/industries" className="hover:text-primary transition-colors">{t('nav.industries')}</Link>
+                        <div
+                            className="relative"
+                            onMouseEnter={() => setIndustriesOpen(true)}
+                            onMouseLeave={() => setIndustriesOpen(false)}
+                        >
+                            <Link to="/industries" className="hover:text-primary transition-colors flex items-center gap-1">
+                                {t('nav.industries')}
+                                <span className="material-symbols-outlined text-sm">expand_more</span>
+                            </Link>
+                            {industriesOpen && (
+                                <div className="absolute top-full left-0 mt-2 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-w-[200px]">
+                                    <Link to="/industries/healthcare" className="block px-6 py-3 hover:bg-cyan-50 border-b border-black/10 font-bold uppercase text-xs tracking-wider">{t('industries.healthcare.title')}</Link>
+                                    <Link to="/industries/banking" className="block px-6 py-3 hover:bg-yellow-50 border-b border-black/10 font-bold uppercase text-xs tracking-wider">{t('industries.banking.title')}</Link>
+                                    <Link to="/industries/retail" className="block px-6 py-3 hover:bg-orange-50 border-b border-black/10 font-bold uppercase text-xs tracking-wider">{t('industries.retail.title')}</Link>
+                                    <Link to="/industries/customer-service" className="block px-6 py-3 hover:bg-purple-50 font-bold uppercase text-xs tracking-wider">{t('industries.customerService.title')}</Link>
+                                </div>
+                            )}
+                        </div>
                         <a href={getLink("#features")} className="hover:text-primary transition-colors">{t('nav.features')}</a>
                         <Link to="/pricing" className="hover:text-primary transition-colors">{t('nav.pricing')}</Link>
                     </div>
@@ -38,9 +56,9 @@ export default function Layout({ children }) {
                         >
                             {i18n.language === 'en' ? 'ES' : 'EN'}
                         </button>
-                        <a href="#" className="bg-primary border-2 border-black text-white px-8 py-3 font-black uppercase tracking-tighter hover:bg-opacity-90 transition-all shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none">
+                        <Link to="/contact" className="bg-primary border-2 border-black text-white px-8 py-3 font-black uppercase tracking-tighter hover:bg-opacity-90 transition-all shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none">
                             {t('nav.getStarted')}
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </nav>
