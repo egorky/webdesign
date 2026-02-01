@@ -82,6 +82,12 @@
             "description": "Instant lead qualification, automated showing schedules, and property detail delivery.",
             "benefitLabel": "Key Benefit",
             "benefitValue": "3x higher lead conversion rate"
+        },
+        "banking": {
+            "title": "Banking & Finance",
+            "description": "Secure, efficient, and scaleable financial assistance.",
+            "benefitLabel": "Key Benefit",
+            "benefitValue": "99.9% Security Compliance"
         }
     },
     "scale": {

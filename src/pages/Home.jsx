@@ -241,39 +241,39 @@ export default function Home() {
                             <div className="w-16 h-16 b-solid bg-orange-50 text-orange-600 flex items-center justify-center mb-10">
                                 <span className="material-symbols-outlined text-3xl font-bold">shopping_bag</span>
                             </div>
-                            <h4 className="font-display font-black text-2xl mb-6 uppercase tracking-tight">{t('home.industries.retail.title')}</h4>
+                            <h4 className="font-display font-black text-2xl mb-6 uppercase tracking-tight">{t('industries.retail.title')}</h4>
                             <p className="text-darkBlue/70 mb-10 font-medium leading-relaxed">
-                                {t('home.industries.retail.description')}
+                                {t('industries.retail.description')}
                             </p>
                             <div className="pt-8 border-t-2 border-black">
-                                <span className="text-xs font-black text-primary tracking-widest uppercase mb-2 block">{t('home.industries.retail.benefitLabel')}</span>
-                                <p className="text-lg font-black uppercase">{t('home.industries.retail.benefitValue')}</p>
+                                <span className="text-xs font-black text-primary tracking-widest uppercase mb-2 block">{t('industries.retail.benefitLabel')}</span>
+                                <p className="text-lg font-black uppercase">{t('industries.retail.benefitValue')}</p>
                             </div>
                         </div>
                         <div className="bg-white p-10 b-solid shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
                             <div className="w-16 h-16 b-solid bg-cyan-50 text-cyan-600 flex items-center justify-center mb-10">
                                 <span className="material-symbols-outlined text-3xl font-bold">medical_services</span>
                             </div>
-                            <h4 className="font-display font-black text-2xl mb-6 uppercase tracking-tight">{t('home.industries.healthcare.title')}</h4>
+                            <h4 className="font-display font-black text-2xl mb-6 uppercase tracking-tight">{t('industries.healthcare.title')}</h4>
                             <p className="text-darkBlue/70 mb-10 font-medium leading-relaxed">
-                                {t('home.industries.healthcare.description')}
+                                {t('industries.healthcare.description')}
                             </p>
                             <div className="pt-8 border-t-2 border-black">
-                                <span className="text-xs font-black text-primary tracking-widest uppercase mb-2 block">{t('home.industries.healthcare.benefitLabel')}</span>
-                                <p className="text-lg font-black uppercase">{t('home.industries.healthcare.benefitValue')}</p>
+                                <span className="text-xs font-black text-primary tracking-widest uppercase mb-2 block">{t('industries.healthcare.benefitLabel')}</span>
+                                <p className="text-lg font-black uppercase">{t('industries.healthcare.benefitValue')}</p>
                             </div>
                         </div>
                         <div className="bg-white p-10 b-solid shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
                             <div className="w-16 h-16 b-solid bg-purple-50 text-purple-600 flex items-center justify-center mb-10">
                                 <span className="material-symbols-outlined text-3xl font-bold">home_work</span>
                             </div>
-                            <h4 className="font-display font-black text-2xl mb-6 uppercase tracking-tight">{t('home.industries.realEstate.title')}</h4>
+                            <h4 className="font-display font-black text-2xl mb-6 uppercase tracking-tight">{t('industries.realEstate.title')}</h4>
                             <p className="text-darkBlue/70 mb-10 font-medium leading-relaxed">
-                                {t('home.industries.realEstate.description')}
+                                {t('industries.realEstate.description')}
                             </p>
                             <div className="pt-8 border-t-2 border-black">
-                                <span className="text-xs font-black text-primary tracking-widest uppercase mb-2 block">{t('home.industries.realEstate.benefitLabel')}</span>
-                                <p className="text-lg font-black uppercase">{t('home.industries.realEstate.benefitValue')}</p>
+                                <span className="text-xs font-black text-primary tracking-widest uppercase mb-2 block">{t('industries.realEstate.benefitLabel')}</span>
+                                <p className="text-lg font-black uppercase">{t('industries.realEstate.benefitValue')}</p>
                             </div>
                         </div>
                     </div>

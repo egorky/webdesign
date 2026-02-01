@@ -82,6 +82,12 @@
             "description": "Calificación instantánea de leads, programas de visitas automatizados y entrega de detalles de la propiedad.",
             "benefitLabel": "Beneficio Clave",
             "benefitValue": "3 veces mayor tasa de conversión de leads"
+        },
+        "banking": {
+            "title": "Banca y Finanzas",
+            "description": "Asistencia financiera segura, eficiente y escalable.",
+            "benefitLabel": "Beneficio Clave",
+            "benefitValue": "99.9% de Cumplimiento de Seguridad"
         }
     },
     "scale": {
