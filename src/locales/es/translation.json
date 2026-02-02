@@ -3,7 +3,10 @@
         "solutions": "Soluciones",
         "industries": "Industrias",
         "features": "Características",
-        "pricing": "Precios",
+        "faq": "FAQ",
+        "company": "Empresa",
+        "about": "Sobre Nosotros",
+        "contact": "Contacto",
         "getStarted": "COMENZAR"
     },
     "home": {
@@ -33,41 +36,132 @@
         },
         "solutions": {
             "title": "Orquestación de IA Omnicanal",
-            "subtitle": "Despliega agentes inteligentes donde tus clientes ya están. Desde mensajería instantánea hasta llamadas de voz en tiempo real.",
+            "subtitle": "Descubre cómo nuestros agentes inteligentes pueden transformar la comunicación de tu negocio.",
             "whatsapp": {
+                "badge": "IMPULSADO POR IA",
                 "title": "Agente de IA de WhatsApp",
                 "description": "El asistente conversacional más inteligente para tu cuenta oficial de WhatsApp Business.",
-                "badge": "WhatsApp Verificado",
                 "feature1": "Programación Automatizada y Sincronización de CRM",
                 "feature2": "Soporte Multilingüe 24/7",
                 "feature3": "Calificación Inteligente de Leads",
                 "chat": {
-                    "user": "Hola, me gustaría reservar una visita a una propiedad para el sábado.",
-                    "bot": "¡Genial! Tengo disponible a las 10:00 AM o a las 2:00 PM para Oak Ridge Villa. ¿Cuál te va mejor?"
+                    "user": "Necesito programar una cita para la próxima semana",
+                    "bot": "¡Perfecto! Tengo disponibilidad el martes a las 2 PM o el jueves a las 10 AM. ¿Cuál te funciona mejor?"
                 }
             },
             "voice": {
+                "badge": "CERO LATENCIA",
                 "title": "Bot de IA de Voz",
                 "description": "Bots de voz de sonido natural que manejan llamadas complejas con cero latencia.",
-                "badge": "Núcleo de Voz",
                 "feature1": "Enrutamiento y Resolución de Llamadas Entrantes",
                 "feature2": "Ventas Salientes y Seguimientos",
                 "feature3": "Habla Humana Hiperrealista",
-                "monitor": "Monitor de Frecuencia"
+                "monitor": "MONITOREO DE LLAMADAS EN VIVO"
             },
             "omnichannel": {
+                "badge": "HUB UNIFICADO",
                 "title": "Plataforma Omnicanal",
                 "description": "Hub centralizado para WhatsApp, Meta y telefonía VoIP.",
-                "badge": "Hub Central",
                 "feature1": "Panel Único para Todos los Canales",
                 "feature2": "Traspaso Fluido a Agentes",
                 "feature3": "Contexto de Cliente Unificado",
-                "monitor": "Sincronización"
+                "monitor": "HUB DE COMUNICACIÓN UNIFICADO"
             }
         },
         "rpa": {
             "title": "Orquestadores de Flujos",
-            "description": "Agentes 'RPA' inteligentes que conectan tu ecosistema de software y automatizan tareas complejas de back-office."
+            "description": "Agentes 'RPA' inteligentes que conectan tu ecosistema de software y automatizan tareas complejas."
+        }
+    },
+    "solutions": {
+        "title": "Nuestras Soluciones",
+        "subtitle": "Descubre cómo nuestros agentes inteligentes pueden transformar la comunicación de tu negocio.",
+        "whatsapp": {
+            "title": "Agente de IA de WhatsApp",
+            "description": "El asistente conversacional más inteligente para tu cuenta oficial de WhatsApp Business.",
+            "hero": "Revoluciona el compromiso del cliente en la aplicación de mensajería más popular del mundo.",
+            "features": [
+                "Programación Automatizada y Sincronización de CRM",
+                "Soporte Multilingüe 24/7",
+                "Calificación Inteligente de Leads",
+                "Uso compartido de medios (PDFs, Imágenes)"
+            ],
+            "details": "Nuestro Agente de IA de WhatsApp se integra directamente con la API de WhatsApp Business. Utiliza NLP avanzado para entender la intención del cliente, proporcionando respuestas útiles en segundos. Ya sea respondiendo preguntas frecuentes o coordinando reservas complejas, nuestro agente lo maneja todo manteniendo la voz de su marca."
+        },
+        "voice": {
+            "title": "Bot de IA de Voz",
+            "description": "Bots de voz de sonido natural que manejan llamadas complejas con cero latencia.",
+            "hero": "Interacciones telefónicas similares a las humanas que nunca duermen.",
+            "features": [
+                "Enrutamiento y Resolución de Llamadas Entrantes",
+                "Ventas Salientes y Seguimientos",
+                "Habla Humana Hiperrealista",
+                "Conversación bidireccional sin latencia"
+            ],
+            "details": "La IA de Voz de Sempitecno utiliza motores propios de conversión de voz a texto y texto a voz para proporcionar una experiencia fluida y humana. Nuestros bots pueden manejar miles de llamadas concurrentes, asegurando que ningún cliente tenga que esperar en espera de nuevo."
+        },
+        "rpa": {
+            "title": "Orquestadores de Flujos",
+            "description": "Agentes 'RPA' inteligentes que conectan tu ecosistema de software y automatizan tareas complejas.",
+            "hero": "Conecta tus sistemas heredados y APIs modernas con automatización inteligente.",
+            "features": [
+                "Coordinación entre sistemas",
+                "Entrada de datos y scraping automatizado",
+                "Integración de software heredado",
+                "Lógica compleja de toma de decisiones"
+            ],
+            "details": "Nuestros Orquestadores actúan como el 'cerebro' entre sus diferentes plataformas de software. No solo mueven datos; entienden el contexto, tomando decisiones que tradicionalmente requerían intervención manual."
+        },
+        "omnichannel": {
+            "title": "Plataforma Omnicanal",
+            "description": "Hub centralizado para WhatsApp, Meta y telefonía VoIP.",
+            "hero": "Proporciona una experiencia fluida en cada punto de contacto con el cliente.",
+            "features": [
+                "Panel Único para Todos los Canales",
+                "Traspaso Fluido a Agentes",
+                "Contexto de Cliente Unificado",
+                "Analíticas y Reportes Avanzados"
+            ],
+            "details": "Deja de gestionar silos separados. Nuestra Plataforma Omnicanal reúne WhatsApp, Instagram, Messenger y VoIP en una interfaz unificada, dándole a su equipo el contexto completo de cada viaje del cliente."
+        }
+    },
+    "about": {
+        "title": "Sobre Sempitecno",
+        "content": "Sempitecno está compuesto por un grupo de profesionales con más de 30 años de experiencia en soluciones de tecnología, con un fuerte énfasis en el desarrollo de programas e integrándolos con inteligencia artificial usando soluciones de omnicanalidad. Nuestra amplia experiencia nos permite diseñar e implementar ecosistemas digitales robustos que cierran la brecha entre los sistemas complejos de gestión y las interacciones intuitivas con el cliente.\n\nResidentes de Guayaquil y Ecuador, estamos orgullosos de nuestras raíces locales mientras mantenemos una perspectiva global. Servimos a clientes en todo el mundo, brindando asistencia técnica de alta calidad y consultoría estratégica de IA en diversos continentes. Nuestro equipo de ingenieros y especialistas en IA trabaja incansablemente para asegurar que nuestros clientes estén siempre a la vanguardia de la transformación digital, aprovechando los últimos avances en procesamiento de lenguaje natural (NLP), automatización robótica de procesos (RPA) y síntesis de voz en tiempo real. En Sempitecno, no solo construimos bots; construimos el futuro de la comunicación."
+    },
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "subtitle": "Todo lo que necesitas saber sobre las soluciones de IA de Sempitecno.",
+        "questions": [
+            {
+                "q": "¿Cómo asegura Sempitecno la seguridad de la IA?",
+                "a": "Priorizamos la privacidad de los datos mediante cifrado de extremo a extremo y protocolos de anonimización. Para clientes Enterprise, ofrecemos despliegues locales e instancias de IA aisladas para asegurar que sus datos propietarios nunca salgan de su infraestructura. Actualmente estamos buscando la certificación SOC2 Tipo II."
+            },
+            {
+                "q": "¿Puede integrarse con mi CRM existente?",
+                "a": "Sí, Sempitecno cuenta con conectores nativos para Salesforce, HubSpot y Microsoft Dynamics. Nuestro enfoque impulsado por API permite una sincronización bidireccional perfecta, asegurando que sus datos de clientes estén siempre actualizados en todas las plataformas."
+            },
+            {
+                "q": "¿Cuál es el tiempo típico de configuración?",
+                "a": "Nuestras soluciones estándar pueden estar funcionando en menos de 24 horas. Los despliegues enterprise personalizados, que a menudo incluyen entrenamiento personalizado y auditorías de seguridad, suelen variar de 2 a 4 semanas dependiendo de la complejidad."
+            },
+            {
+                "q": "¿Ofrecen soporte en otros idiomas?",
+                "a": "Absolutamente. Nuestros agentes de IA son nativamente multilingües y pueden manejar más de 50 idiomas con fluidez, detectando automáticamente el idioma preferido del cliente."
+            },
+            {
+                "q": "¿Qué tipo de análisis proporcionan?",
+                "a": "Nuestra plataforma incluye paneles de análisis completos con métricas en tiempo real sobre volumen de conversaciones, tasas de resolución, puntuaciones de satisfacción del cliente y rendimiento de la IA. Puede exportar informes detallados para un análisis más profundo."
+            },
+            {
+                "q": "¿Cómo empiezo con Sempitecno?",
+                "a": "¡Comenzar es simple! Contacte a nuestro equipo para una demostración personalizada. Evaluaremos sus necesidades, configuraremos los agentes de IA para su caso de uso específico y lo tendremos funcionando en cuestión de días."
+            }
+        ],
+        "cta": {
+            "title": "¿Aún tienes preguntas?",
+            "description": "Nuestro equipo está aquí para ayudarte a encontrar la solución de IA perfecta para tu negocio.",
+            "contact": "CONTÁCTANOS"
         }
     },
     "industries": {
@@ -88,7 +182,7 @@
         },
         "customerService": {
             "title": "Servicio al Cliente",
-            "description": "Automatiza soporte L1, gestiona FAQs y enruta problemas complejos a humanos al instante.",
+            "description": "Automate L1 support, handle FAQs, and route complex issues to human agents instantly.",
             "benefitLabel": "Beneficio Clave",
             "benefitValue": "90% Tiempos de Resolución Más Rápidos"
         },
@@ -113,197 +207,6 @@
         "description": "Únete a las cientos de empresas que ya utilizan SEMPITECNO para redefinir su experiencia de cliente.",
         "trial": "INICIAR PRUEBA GRATUITA",
         "demo": "RESERVAR UNA DEMO"
-    },
-    "pricing": {
-        "hero": {
-            "title": "Precios <underline>transparentes</underline><br/>para cada escala.",
-            "subtitle": "Elige un plan que se adapte a tus necesidades actuales y escala sin problemas a medida que evoluciona tu ecosistema de IA."
-        },
-        "plans": {
-            "starter": {
-                "name": "Starter",
-                "price": "$49",
-                "description": "Perfecto para individuos y pequeños proyectos que comienzan con la automatización de la IA.",
-                "features": [
-                    "Hasta 5,000 interacciones de IA",
-                    "Integración de CRM estándar",
-                    "Soporte de la comunidad",
-                    "Protocolos de seguridad personalizados"
-                ],
-                "cta": "Comenzar"
-            },
-            "growth": {
-                "name": "Growth",
-                "popular_tag": "Más Popular",
-                "price": "$199",
-                "description": "Infraestructura escalable para equipos en crecimiento enfocados en una integración profunda de CRM.",
-                "features": [
-                    "Interacciones de IA ilimitadas",
-                    "Sincronización avanzada de CRM y ERP",
-                    "Soporte prioritario 24/7",
-                    "Cumplimiento de seguridad básico"
-                ],
-                "cta": "Hazte Pro Ahora"
-            },
-            "enterprise": {
-                "name": "Enterprise",
-                "price": "Personalizado",
-                "description": "Soluciones empresariales de suite completa con infraestructura y seguridad dedicadas.",
-                "features": [
-                    "Instancia de IA dedicada",
-                    "Despliegue local",
-                    "Capacidades de marca blanca",
-                    "Cumplimiento de SOC2 Tipo II"
-                ],
-                "cta": "Contactar Ventas"
-            }
-        },
-        "faq": {
-            "title": "Preguntas Frecuentes",
-            "subtitle": "Todo lo que necesitas saber sobre las soluciones de IA de Sempitecno.",
-            "questions": [
-                {
-                    "q": "¿Cómo asegura Sempitecno la seguridad de la IA?",
-                    "a": "Priorizamos la privacidad de los datos mediante cifrado de extremo a extremo y protocolos de anonimización. Para clientes Enterprise, ofrecemos despliegues locales e instancias de IA aisladas para asegurar que sus datos propietarios nunca salgan de su infraestructura. Actualmente estamos buscando la certificación SOC2 Tipo II."
-                },
-                {
-                    "q": "¿Puede integrarse con mi CRM existente?",
-                    "a": "Sí, Sempitecno cuenta con conectores nativos para Salesforce, HubSpot y Microsoft Dynamics. Nuestro enfoque impulsado por API permite una sincronización bidireccional perfecta, asegurando que sus datos de clientes estén siempre actualizados en todas las plataformas."
-                },
-                {
-                    "q": "¿Cuál es el tiempo típico de configuración?",
-                    "a": "Los planes Starter y Growth pueden estar funcionando en menos de 24 horas. Los despliegues Enterprise, que a menudo incluyen entrenamiento personalizado y auditorías de seguridad, suelen variar de 2 a 4 semanas dependiendo de la complejidad."
-                },
-                {
-                    "q": "¿Hay un descuento por facturación anual?",
-                    "a": "Absolutamente. Al elegir la facturación anual, recibes dos meses gratis (aproximadamente un 17% de ahorro) en comparación con las suscripciones mensuales."
-                }
-            ]
-        },
-        "cta": {
-            "title": "¿Listo para evolucionar?",
-            "description": "Únete a más de 500 empresas con visión de futuro que construyen la próxima generación de negocios impulsados por la IA.",
-            "trial": "Inicia tu Prueba Gratuita",
-            "demo": "Reserva una Demo"
-        }
-    },
-    "industriesPage": {
-        "hero": {
-            "title": "Liberando el <italic>Potencial de la IA</italic> <br/> en cada sector.",
-            "subtitle": "Descubre cómo los agentes especializados de voz y mensajería de SEMPITECNO transforman los flujos de trabajo tradicionales en motores de crecimiento inteligentes y automatizados."
-        },
-        "sectors": {
-            "retail": {
-                "title": "Retail y Comercio Electrónico",
-                "description": "Revoluciona la experiencia de compra desde el descubrimiento hasta la entrega.",
-                "useCases": [
-                    {
-                        "title": "Rastreo de Pedidos Automatizado",
-                        "description": "Los agentes de WhatsApp proporcionan actualizaciones en tiempo real, reduciendo los tickets de '¿Dónde está mi pedido?' hasta en un 60%."
-                    },
-                    {
-                        "title": "Recomendaciones de Productos Inteligentes",
-                        "description": "La IA analiza las preferencias del usuario a través del chat para sugerir los productos perfectos, aumentando las tasas de conversión."
-                    },
-                    {
-                        "title": "Gestión de Devoluciones Multicanal",
-                        "description": "Maneja solicitudes de devolución y etiquetas automáticamente a través de bots de voz o mensajería, 24/7."
-                    },
-                    {
-                        "title": "Sincronización Manual de Inventario",
-                        "description": "Conciliación en tiempo real de los niveles de stock entre tiendas físicas y almacenes digitales."
-                    }
-                ]
-            },
-            "healthcare": {
-                "title": "Salud y Bienestar",
-                "description": "Automatización segura, eficiente y centrada en el paciente.",
-                "useCases": [
-                    {
-                        "title": "Programación de Citas Instantánea",
-                        "description": "Los bots de voz gestionan las horas pico de llamadas, programando citas directamente en el calendario de su clínica."
-                    },
-                    {
-                        "title": "Triaje de Pacientes y Prediagnóstico",
-                        "description": "Los agentes de WhatsApp recopilan síntomas e historial del paciente para preparar a los médicos para las consultas."
-                    },
-                    {
-                        "title": "Recordatorios de Medicación y Seguimiento",
-                        "description": "Los recordatorios automatizados aseguran el cumplimiento del protocolo y mejoran los resultados de los pacientes."
-                    },
-                    {
-                        "title": "Automatización de Facturación y Reclamaciones",
-                        "description": "Procesamiento impulsado por IA de reclamaciones médicas y generación de facturas para proveedores de seguros."
-                    }
-                ]
-            },
-            "customerService": {
-                "title": "Atención al Cliente y Soporte",
-                "description": "Transforma tu centro de contacto con asistencia de IA siempre activa.",
-                "useCases": [
-                    {
-                        "title": "Creación Automatizada de Tickets",
-                        "description": "La IA analiza mensajes para categorizar y crear tickets en Zendesk o Jira automáticamente."
-                    },
-                    {
-                        "title": "Resolución Instantánea de FAQs",
-                        "description": "Desvía hasta el 80% de consultas repetitivas sobre precios, estados o políticas."
-                    },
-                    {
-                        "title": "Enrutamiento por Análisis de Sentimiento",
-                        "description": "Detecta clientes frustrados y prioriza el enrutamiento a agentes humanos senior."
-                    },
-                    {
-                        "title": "Soporte Multilingüe",
-                        "description": "Escala soporte a más de 50 idiomas al instante sin contratar nuevo personal."
-                    }
-                ]
-            },
-            "banking": {
-                "title": "Banca y Finanzas",
-                "description": "Escala la confianza y la seguridad con asistencia financiera en tiempo real.",
-                "useCases": [
-                    {
-                        "title": "Consultas Seguras de Saldo e Historial",
-                        "description": "Proporciona acceso instantáneo a la información de la cuenta a través de sesiones de chat autenticadas y cifradas."
-                    },
-                    {
-                        "title": "Alertas de Fraude y Resolución",
-                        "description": "Los agentes de voz realizan llamadas salientes para verificar transacciones sospechosas con latencia cero."
-                    },
-                    {
-                        "title": "Triaje de Solicitudes de Préstamos y Créditos",
-                        "description": "Recopilación de datos iniciales de la solicitud impulsada por IA para acelerar las aprobaciones financieras."
-                    },
-                    {
-                        "title": "Sincronización de Datos entre Sistemas",
-                        "description": "Bots inteligentes que sincronizan registros financieros entre sistemas heredados dispares sin necesidad de APIs."
-                    }
-                ]
-            }
-        },
-        "legal": {
-            "privacy": {
-                "title": "Política de Privacidad",
-                "lastUpdated": "Última actualización: Febrero 2024",
-                "content": "En SEMPITECNO, su privacidad es nuestra prioridad. Implementamos cifrado de grado militar para todo el procesamiento de datos de IA. Nuestros agentes solo acceden a los puntos de datos específicos requeridos para completar la tarea. Nunca vendemos sus datos a terceros."
-            },
-            "terms": {
-                "title": "Términos de Servicio",
-                "lastUpdated": "Última actualización: Febrero 2024",
-                "content": "Al utilizar las soluciones de IA de SEMPITECNO, usted acepta nuestros procedimientos operativos estándar. Nuestra garantía de tiempo de actividad es del 99.9%. Los usuarios son responsables de la integridad de los datos proporcionados a los agentes de IA."
-            },
-            "security": {
-                "title": "Marco de Seguridad",
-                "lastUpdated": "Última actualización: Febrero 2024",
-                "content": "Nuestra infraestructura está construida sobre proveedores de nube que cumplen con SOC2. Realizamos escaneos semanales de vulnerabilidades y mantenemos una arquitectura de cero confianza para todos los protocolos de comunicación internos y externos."
-            }
-        },
-        "cta": {
-            "title": "¿Listo para digitalizar tu industria?",
-            "description": "Conéctate con nuestros expertos para construir una estrategia de IA a medida que se adapte a tus necesidades comerciales únicas.",
-            "button": "Solicitar una Auditoría Personalizada"
-        }
     },
     "footer": {
         "tagline": "Empoderando a las empresas a través de la automatización de IA de vanguardia para la eficiencia de la comunicación y el flujo de trabajo.",
@@ -353,132 +256,132 @@
         "useCase": "Caso de Uso",
         "keyBenefits": "Beneficios Clave",
         "cta": {
-            "title": "Ready to Transform Your Operations?",
-            "description": "Let's discuss how our AI solutions can be tailored to your specific industry needs.",
-            "button": "Get Started"
+            "title": "¿Listo para Transformar tus Operaciones?",
+            "description": "Hablemos sobre cómo nuestras soluciones de IA pueden adaptarse a las necesidades específicas de tu industria.",
+            "button": "Comenzar"
         },
         "healthcare": {
             "hero": {
-                "title": "AI Solutions for Healthcare",
-                "subtitle": "Automate patient interactions, streamline appointments, and improve care delivery with intelligent AI assistants."
+                "title": "Soluciones de IA para Salud",
+                "subtitle": "Automatiza interacciones con pacientes, optimiza citas y mejora la atención con asistentes de IA inteligentes."
             },
-            "useCasesTitle": "Healthcare Use Cases",
+            "useCasesTitle": "Casos de Uso en Salud",
             "useCase1": {
-                "title": "Automated Appointment Scheduling",
-                "description": "Enable patients to book, reschedule, or cancel appointments 24/7 through natural conversations.",
-                "details": "Our AI assistant integrates with your existing EHR/EMR systems to check real-time availability, send automated reminders, and reduce no-show rates by up to 40%. Patients can interact via WhatsApp, SMS, or voice calls in their preferred language.",
-                "benefits": "Reduces administrative workload by 60%, improves patient satisfaction scores, and increases appointment fill rates."
+                "title": "Programación Automatizada de Citas",
+                "description": "Permite a los pacientes reservar, reprogramar o cancelar citas 24/7 mediante conversaciones naturales.",
+                "details": "Nuestro asistente de IA se integra con tus sistemas EHR/EMR existentes para verificar disponibilidad en tiempo real, enviar recordatorios automáticos y reducir las ausencias hasta en un 40%. Los pacientes pueden interactuar vía WhatsApp, SMS o llamadas de voz en su idioma preferido.",
+                "benefits": "Reduce la carga administrativa en un 60%, mejora las puntuaciones de satisfacción del paciente y aumenta las tasas de ocupación de citas."
             },
             "useCase2": {
-                "title": "Patient Triage & Symptom Assessment",
-                "description": "Intelligent pre-screening that routes patients to the appropriate care level based on symptoms.",
-                "details": "Using medically-validated decision trees, our AI conducts preliminary symptom assessments, identifies urgent cases, and directs patients to emergency services, telehealth, or in-person visits. All interactions are HIPAA-compliant and securely logged.",
-                "benefits": "Optimizes resource allocation, reduces ER overcrowding, and ensures critical cases receive immediate attention."
+                "title": "Triaje y Evaluación de Síntomas",
+                "description": "Evaluación previa inteligente que dirige a los pacientes al nivel de atención apropiado según los síntomas.",
+                "details": "Usando árboles de decisión médicamente validados, nuestra IA realiza evaluaciones preliminares de síntomas, identifica casos urgentes y dirige a los pacientes a servicios de emergencia, telesalud o visitas presenciales. Todas las interacciones cumplen con HIPAA y se registran de forma segura.",
+                "benefits": "Optimiza la asignación de recursos, reduce la saturación de urgencias y garantiza que los casos críticos reciban atención inmediata."
             },
             "useCase3": {
-                "title": "Prescription Refill Automation",
-                "description": "Streamline medication refill requests with automated verification and pharmacy coordination.",
-                "details": "Patients can request refills conversationally. The AI verifies eligibility, checks with prescribing physicians when needed, and coordinates with pharmacies for pickup or delivery. Automated reminders ensure medication adherence.",
-                "benefits": "Saves 15+ hours per week for pharmacy staff, improves medication compliance, and enhances patient outcomes."
+                "title": "Automatización de Resurtido de Recetas",
+                "description": "Agiliza las solicitudes de resurtido de medicamentos con verificación automatizada y coordinación con farmacias.",
+                "details": "Los pacientes pueden solicitar resurtidos conversacionalmente. La IA verifica elegibilidad, consulta con médicos cuando es necesario y coordina con farmacias para recogida o entrega. Los recordatorios automáticos aseguran adherencia a la medicación.",
+                "benefits": "Ahorra más de 15 horas por semana al personal de farmacia, mejora el cumplimiento de medicamentos y optimiza los resultados del paciente."
             },
             "useCase4": {
-                "title": "Post-Care Follow-Up",
-                "description": "Automated check-ins after procedures or hospital discharge to monitor recovery and satisfaction.",
-                "details": "Our system sends personalized follow-up messages at scheduled intervals, collects patient-reported outcomes, identifies complications early, and escalates concerns to care teams. Supports multiple languages and accessibility needs.",
-                "benefits": "Reduces readmission rates by 25%, improves quality metrics, and demonstrates patient-centered care."
+                "title": "Seguimiento Post-Atención",
+                "description": "Chequeos automatizados después de procedimientos o alta hospitalaria para monitorear recuperación y satisfacción.",
+                "details": "Nuestro sistema envía mensajes de seguimiento personalizados en intervalos programados, recopila resultados reportados por pacientes, identifica complicaciones temprano y escala preocupaciones a equipos de atención. Soporta múltiples idiomas y necesidades de accesibilidad.",
+                "benefits": "Reduce tasas de readmisión en un 25%, mejora métricas de calidad y demuestra atención centrada en el paciente."
             }
         },
         "banking": {
             "hero": {
-                "title": "AI Solutions for Banking & Finance",
-                "subtitle": "Enhance customer service, ensure compliance, and detect fraud with enterprise-grade AI automation."
+                "title": "Soluciones de IA para Banca y Finanzas",
+                "subtitle": "Mejora el servicio al cliente, asegura el cumplimiento y detecta fraudes con automatización de IA de nivel empresarial."
             },
-            "useCasesTitle": "Banking Use Cases",
+            "useCasesTitle": "Casos de Uso en Banca",
             "useCase1": {
-                "title": "24/7 Customer Support Automation",
-                "description": "Handle account inquiries, transaction disputes, and service requests instantly without human intervention.",
-                "details": "Our AI handles 80% of common banking queries including balance checks, transaction history, card activation, and PIN resets. Seamlessly escalates complex issues to human agents with full conversation context. Supports voice and text channels with bank-grade security.",
-                "benefits": "Reduces call center costs by 50%, improves first-contact resolution rates, and provides instant service across time zones."
+                "title": "Soporte al Cliente 24/7",
+                "description": "Maneja consultas de cuentas, disputas de transacciones y solicitudes de servicio al instante sin intervención humana.",
+                "details": "Nuestra IA maneja el 80% de las consultas bancarias comunes incluyendo verificación de saldos, historial de transacciones, activación de tarjetas y restablecimiento de PIN. Escala sin problemas problemas complejos a agentes humanos con contexto completo de la conversación. Soporta canales de voz y texto con seguridad de grado bancario.",
+                "benefits": "Reduce costos de call center en un 50%, mejora tasas de resolución en primer contacto y proporciona servicio instantáneo en todas las zonas horarias."
             },
             "useCase2": {
-                "title": "Fraud Detection & Alerts",
-                "description": "Real-time transaction monitoring with intelligent alerts for suspicious activity.",
-                "details": "Machine learning models analyze transaction patterns, flag anomalies, and instantly notify customers via their preferred channel. Customers can confirm or dispute transactions conversationally, triggering immediate card freezes or fraud investigations.",
-                "benefits": "Prevents $2M+ in fraud annually per 100K customers, reduces false positives by 60%, and improves customer trust."
+                "title": "Detección de Fraude y Alertas",
+                "description": "Monitoreo de transacciones en tiempo real con alertas inteligentes para actividad sospechosa.",
+                "details": "Modelos de aprendizaje automático analizan patrones de transacciones, marcan anomalías y notifican instantáneamente a clientes vía su canal preferido. Los clientes pueden confirmar o disputar transacciones conversacionalmente, activando congelamiento inmediato de tarjetas o investigaciones de fraude.",
+                "benefits": "Previene más de $2M en fraude anualmente por cada 100K clientes, reduce falsos positivos en un 60% y mejora la confianza del cliente."
             },
             "useCase3": {
-                "title": "Loan Application Processing",
-                "description": "Streamline loan applications with automated document collection and eligibility pre-screening.",
-                "details": "AI guides applicants through the entire process, requests necessary documents, performs preliminary credit checks, and provides instant pre-approval decisions for qualified candidates. Integrates with core banking systems and credit bureaus.",
-                "benefits": "Reduces application processing time from days to minutes, improves approval rates, and enhances customer experience."
+                "title": "Procesamiento de Solicitudes de Préstamo",
+                "description": "Agiliza solicitudes de préstamo con recopilación automatizada de documentos y pre-evaluación de elegibilidad.",
+                "details": "La IA guía a los solicitantes a través de todo el proceso, solicita documentos necesarios, realiza verificaciones preliminares de crédito y proporciona decisiones instantáneas de pre-aprobación para candidatos calificados. Se integra con sistemas bancarios centrales y burós de crédito.",
+                "benefits": "Reduce el tiempo de procesamiento de solicitudes de días a minutos, mejora tasas de aprobación y optimiza la experiencia del cliente."
             },
             "useCase4": {
-                "title": "Regulatory Compliance Monitoring",
-                "description": "Automated compliance checks and reporting for KYC, AML, and regulatory requirements.",
-                "details": "Continuously monitors transactions and customer interactions for compliance violations. Automatically generates required reports, flags suspicious activities, and maintains audit trails. Stays updated with changing regulations across jurisdictions.",
-                "benefits": "Ensures 99.9% compliance accuracy, reduces regulatory fines, and minimizes manual audit workload."
+                "title": "Monitoreo de Cumplimiento Regulatorio",
+                "description": "Verificaciones automáticas de cumplimiento y reportes para KYC, AML y requisitos regulatorios.",
+                "details": "Monitorea continuamente transacciones e interacciones con clientes para violaciones de cumplimiento. Genera automáticamente reportes requeridos, marca actividades sospechosas y mantiene registros de auditoría. Se mantiene actualizado con regulaciones cambiantes en diferentes jurisdicciones.",
+                "benefits": "Asegura 99.9% de precisión en cumplimiento, reduce multas regulatorias y minimiza la carga de auditoría manual."
             }
         },
         "retail": {
             "hero": {
-                "title": "AI Solutions for Retail & E-Commerce",
-                "subtitle": "Boost sales, improve customer satisfaction, and optimize operations with intelligent automation."
+                "title": "Soluciones de IA para Retail y E-Commerce",
+                "subtitle": "Aumenta ventas, mejora satisfacción del cliente y optimiza operaciones con automatización inteligente."
             },
-            "useCasesTitle": "Retail Use Cases",
+            "useCasesTitle": "Casos de Uso en Retail",
             "useCase1": {
-                "title": "Intelligent Customer Support",
-                "description": "Provide instant answers to product questions, order status, and return requests across all channels.",
-                "details": "Our AI handles inquiries about product availability, sizing, shipping, returns, and promotions. Integrates with your inventory and order management systems to provide real-time information. Supports image recognition for visual product search.",
-                "benefits": "Resolves 75% of inquiries without human intervention, increases customer satisfaction by 40%, and reduces support costs."
+                "title": "Soporte al Cliente Inteligente",
+                "description": "Proporciona respuestas instantáneas a preguntas sobre productos, estado de pedidos y solicitudes de devolución en todos los canales.",
+                "details": "Nuestra IA maneja consultas sobre disponibilidad de productos, tallas, envíos, devoluciones y promociones. Se integra con tus sistemas de inventario y gestión de pedidos para proporcionar información en tiempo real. Soporta reconocimiento de imágenes para búsqueda visual de productos.",
+                "benefits": "Resuelve el 75% de consultas sin intervención humana, aumenta la satisfacción del cliente en un 40% y reduce costos de soporte."
             },
             "useCase2": {
-                "title": "Personalized Product Recommendations",
-                "description": "AI-driven recommendations that increase average order value and customer lifetime value.",
-                "details": "Analyzes browsing history, purchase patterns, and customer preferences to suggest relevant products. Delivers personalized recommendations via WhatsApp, email, or on-site chat. A/B tests messaging to optimize conversion rates.",
-                "benefits": "Increases average order value by 30%, improves conversion rates, and drives repeat purchases."
+                "title": "Recomendaciones Personalizadas de Productos",
+                "description": "Recomendaciones impulsadas por IA que aumentan el valor promedio del pedido y el valor de vida del cliente.",
+                "details": "Analiza historial de navegación, patrones de compra y preferencias del cliente para sugerir productos relevantes. Entrega recomendaciones personalizadas vía WhatsApp, email o chat en sitio. Realiza pruebas A/B de mensajes para optimizar tasas de conversión.",
+                "benefits": "Aumenta el valor promedio del pedido en un 30%, mejora tasas de conversión e impulsa compras repetidas."
             },
             "useCase3": {
-                "title": "Abandoned Cart Recovery",
-                "description": "Automated follow-ups that bring customers back to complete their purchases.",
-                "details": "Detects abandoned carts and sends personalized messages via WhatsApp or SMS with product images, limited-time offers, and easy checkout links. Handles objections and answers questions to overcome purchase barriers.",
-                "benefits": "Recovers 25% of abandoned carts, generates significant incremental revenue, and improves customer engagement."
+                "title": "Recuperación de Carritos Abandonados",
+                "description": "Seguimientos automatizados que traen de vuelta a los clientes para completar sus compras.",
+                "details": "Detecta carritos abandonados y envía mensajes personalizados vía WhatsApp o SMS con imágenes de productos, ofertas por tiempo limitado y enlaces de pago fáciles. Maneja objeciones y responde preguntas para superar barreras de compra.",
+                "benefits": "Recupera el 25% de carritos abandonados, genera ingresos incrementales significativos y mejora el engagement del cliente."
             },
             "useCase4": {
-                "title": "Order Tracking & Updates",
-                "description": "Proactive shipping notifications and delivery updates that reduce 'where is my order' inquiries.",
-                "details": "Automatically sends order confirmations, shipping updates, and delivery notifications. Customers can check order status conversationally. Handles delivery issues, reschedules, and coordinates with logistics partners.",
-                "benefits": "Reduces WISMO inquiries by 70%, improves delivery experience, and builds customer trust."
+                "title": "Rastreo y Actualizaciones de Pedidos",
+                "description": "Notificaciones proactivas de envío y actualizaciones de entrega que reducen consultas de '¿dónde está mi pedido?'.",
+                "details": "Envía automáticamente confirmaciones de pedido, actualizaciones de envío y notificaciones de entrega. Los clientes pueden verificar el estado del pedido conversacionalmente. Maneja problemas de entrega, reprogramaciones y coordina con socios logísticos.",
+                "benefits": "Reduce consultas WISMO en un 70%, mejora la experiencia de entrega y construye confianza del cliente."
             }
         },
         "customerService": {
             "hero": {
-                "title": "AI Solutions for Customer Service",
-                "subtitle": "Transform your support operations with AI that handles L1 queries, routes complex issues, and delights customers."
+                "title": "Soluciones de IA para Servicio al Cliente",
+                "subtitle": "Transforma tus operaciones de soporte con IA que maneja consultas L1, enruta problemas complejos y deleita a los clientes."
             },
-            "useCasesTitle": "Customer Service Use Cases",
+            "useCasesTitle": "Casos de Uso en Servicio al Cliente",
             "useCase1": {
-                "title": "Multilingual Support Automation",
-                "description": "Provide instant support in 120+ languages without hiring multilingual agents.",
-                "details": "Our AI detects customer language automatically and responds fluently in their preferred language. Handles common queries, FAQs, and troubleshooting steps. Seamlessly transfers to human agents when needed, providing full conversation history and translation.",
-                "benefits": "Expands global reach, reduces language barriers, and provides consistent service quality across all markets."
+                "title": "Automatización de Soporte Multilingüe",
+                "description": "Proporciona soporte instantáneo en más de 120 idiomas sin contratar agentes multilingües.",
+                "details": "Nuestra IA detecta automáticamente el idioma del cliente y responde con fluidez en su idioma preferido. Maneja consultas comunes, FAQs y pasos de solución de problemas. Transfiere sin problemas a agentes humanos cuando es necesario, proporcionando historial completo de conversación y traducción.",
+                "benefits": "Expande alcance global, reduce barrearas de idioma y proporciona calidad de servicio consistente en todos los mercados."
             },
             "useCase2": {
-                "title": "Intelligent Ticket Routing",
-                "description": "Automatically categorize, prioritize, and route support tickets to the right team or agent.",
-                "details": "AI analyzes ticket content, customer history, and urgency to assign tickets to specialized teams. Predicts resolution time, suggests knowledge base articles to agents, and escalates SLA breaches automatically.",
-                "benefits": "Reduces average resolution time by 40%, improves first-contact resolution, and optimizes agent workload."
+                "title": "Enrutamiento Inteligente de Tickets",
+                "description": "Categoriza, prioriza y enruta automáticamente tickets de soporte al equipo o agente correcto.",
+                "details": "La IA analiza contenido del ticket, historial del cliente y urgencia para asignar tickets a equipos especializados. Predice tiempo de resolución, sugiere artículos de base de conocimientos a agentes y escala automáticamente incumplimientos de SLA.",
+                "benefits": "Reduce tiempo promedio de resolución en un 40%, mejora resolución en primer contacto y optimiza carga de trabajo de agentes."
             },
             "useCase3": {
-                "title": "Sentiment Analysis & Escalation",
-                "description": "Detect frustrated customers and escalate to senior agents before issues escalate.",
-                "details": "Real-time sentiment analysis monitors customer emotions during interactions. Automatically flags negative sentiment, alerts supervisors, and routes to specialized retention teams. Provides agents with customer context and suggested responses.",
-                "benefits": "Reduces churn by 20%, improves customer satisfaction scores, and enables proactive issue resolution."
+                "title": "Análisis de Sentimiento y Escalamiento",
+                "description": "Detecta clientes frustrados y escala a agentes senior antes de que los problemas escalen.",
+                "details": "El análisis de sentimiento en tiempo real monitorea emociones del cliente durante interacciones. Marca automáticamente sentimiento negativo, alerta a supervisores y enruta a equipos especializados de retención. Proporciona a agentes contexto del cliente y respuestas sugeridas.",
+                "benefits": "Reduce abandono en un 20%, mejora puntuaciones de satisfacción del cliente y permite resolución proactiva de problemas."
             },
             "useCase4": {
-                "title": "Self-Service Knowledge Base",
-                "description": "AI-powered knowledge base that learns from interactions and improves over time.",
-                "details": "Customers can search for solutions conversationally. AI understands intent, provides step-by-step guides, and offers video tutorials. Continuously learns from successful resolutions and agent interactions to improve accuracy.",
-                "benefits": "Deflects 60% of support tickets, empowers customers with self-service, and reduces support costs."
+                "title": "Base de Conocimientos de Autoservicio",
+                "description": "Base de conocimientos impulsada por IA que aprende de interacciones y mejora con el tiempo.",
+                "details": "Los clientes pueden buscar soluciones conversacionalmente. La IA entiende la intención, proporciona guías paso a paso y ofrece tutoriales en video. Aprende continuamente de resoluciones exitosas e interacciones de agentes para mejorar precisión.",
+                "benefits": "Desvía el 60% de tickets de soporte, empodera a clientes con autoservicio y reduce costos de soporte."
             }
         }
     }

@@ -3,7 +3,10 @@
         "solutions": "Solutions",
         "industries": "Industries",
         "features": "Features",
-        "pricing": "Pricing",
+        "faq": "FAQ",
+        "company": "Company",
+        "about": "About Us",
+        "contact": "Contact",
         "getStarted": "GET STARTED"
     },
     "home": {
@@ -33,41 +36,132 @@
         },
         "solutions": {
             "title": "Omnichannel AI Orchestration",
-            "subtitle": "Deploy intelligent agents where your customers already are. From instant messaging to real-time voice calls.",
+            "subtitle": "Discover how our intelligent agents can transform your business communication.",
             "whatsapp": {
+                "badge": "AI POWERED",
                 "title": "WhatsApp AI Agent",
                 "description": "The smartest conversational assistant for your official WhatsApp Business account.",
-                "badge": "WhatsApp Verified",
                 "feature1": "Automated Scheduling & CRM Sync",
                 "feature2": "24/7 Multi-language Support",
                 "feature3": "Intelligent Lead Qualification",
                 "chat": {
-                    "user": "Hi, I'd like to book a property viewing for Saturday.",
-                    "bot": "Great! I have 10:00 AM or 2:00 PM available for Oak Ridge Villa. Which works best?"
+                    "user": "I need to schedule an appointment for next week",
+                    "bot": "Perfect! I have availability on Tuesday at 2 PM or Thursday at 10 AM. Which works better for you?"
                 }
             },
             "voice": {
+                "badge": "ZERO LATENCY",
                 "title": "Voice AI Bot",
                 "description": "Natural-sounding voice bots that handle complex calls with zero latency.",
-                "badge": "Voice Core",
                 "feature1": "Inbound Call Routing & Resolution",
                 "feature2": "Outbound Sales & Follow-ups",
                 "feature3": "Hyper-realistic Human Speech",
-                "monitor": "Frequency Monitor"
+                "monitor": "LIVE CALL MONITORING"
             },
             "omnichannel": {
+                "badge": "UNIFIED HUB",
                 "title": "Omnichannel Platform",
                 "description": "Unified communication hub for WhatsApp, Meta, and VoIP telephony.",
-                "badge": "Central Hub",
                 "feature1": "Single Dashboard for All Channels",
                 "feature2": "Seamless Agent Handoff",
                 "feature3": "Unified Customer Context",
-                "monitor": "Channel Sync"
+                "monitor": "UNIFIED COMMUNICATION HUB"
             }
         },
         "rpa": {
             "title": "Workflow Orchestrators",
             "description": "Intelligent 'RPA' agents that connect your software stack and automate complex back-office tasks."
+        }
+    },
+    "solutions": {
+        "title": "Our Solutions",
+        "subtitle": "Discover how our intelligent agents can transform your business communication.",
+        "whatsapp": {
+            "title": "WhatsApp AI Agent",
+            "description": "The smartest conversational assistant for your official WhatsApp Business account.",
+            "hero": "Revolutionize customer engagement on the world's most popular messaging app.",
+            "features": [
+                "Automated Scheduling & CRM Sync",
+                "24/7 Multi-language Support",
+                "Intelligent Lead Qualification",
+                "Direct Media Sharing (PDFs, Images)"
+            ],
+            "details": "Our WhatsApp AI Agent integrates directly with the WhatsApp Business API. It uses advanced NLP to understand customer intent, providing helpful responses in seconds. Whether it is answering common FAQs or coordinating complex bookings, our agent handles it all while maintaining your brand's voice."
+        },
+        "voice": {
+            "title": "Voice AI Bot",
+            "description": "Natural-sounding voice bots that handle complex calls with zero latency.",
+            "hero": "Human-like phone interactions that never sleep and always deliver.",
+            "features": [
+                "Inbound Call Routing & Resolution",
+                "Outbound Sales & Follow-ups",
+                "Hyper-realistic Human Speech",
+                "Zero-latency bidirectional talk"
+            ],
+            "details": "Sempitecno's Voice AI uses proprietary speech-to-text and text-to-speech engines to provide a fluid, human-like experience. Our bots can handle thousands of concurrent calls, ensuring no customer is ever placed on hold again."
+        },
+        "rpa": {
+            "title": "Workflow Orchestrators",
+            "description": "Intelligent 'RPA' agents that connect your software stack and automate complex back-office tasks.",
+            "hero": "Bridge your legacy systems and modern APIs with intelligent automation.",
+            "features": [
+                "Inter-system coordination",
+                "Automated data entry & scraping",
+                "Legacy software integration",
+                "Complex decision-making logic"
+            ],
+            "details": "Our Orchestrators act as the 'brain' between your different software platforms. They don't just move data; they understand context, making decisions that traditionally required manual intervention."
+        },
+        "omnichannel": {
+            "title": "Omnichannel Platform",
+            "description": "Unified communication hub for WhatsApp, Meta, and VoIP telephony.",
+            "hero": "Provide a seamless experience across every customer touchpoint.",
+            "features": [
+                "Single Dashboard for All Channels",
+                "Seamless Agent Handoff",
+                "Unified Customer Context",
+                "Advanced Analytics & Reporting"
+            ],
+            "details": "Stop managing separate silos. Our Omnichannel Platform brings WhatsApp, Instagram, Messenger, and VoIP into one unified interface, giving your team the full context of every customer journey."
+        }
+    },
+    "about": {
+        "title": "About Sempitecno",
+        "content": "Sempitecno is comprised of a group of professionals with more than 30 years of experience in technology solutions, with a strong emphasis on software development and integrating it with artificial intelligence using omnichannel solutions. Our deep-rooted expertise allows us to design and implement robust digital ecosystems that bridge the gap between complex backend systems and intuitive customer interactions.\n\nFounded in Guayaquil, Ecuador, we are proud of our local roots while maintaining a global perspective. We serve clients worldwide, providing high-quality technical assistance and strategic AI consulting across various continents. Our team of engineers and AI specialists work tirelessly to ensure that our clients are always at the forefront of digital transformation, leveraging the latest advancements in natural language processing (NLP), robotic process automation (RPA), and real-time voice synthesis. At Sempitecno, we don't just build bots; we build the future of communication."
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know about Sempitecno AI solutions.",
+        "questions": [
+            {
+                "q": "How does Sempitecno ensure AI security?",
+                "a": "We prioritize data privacy through end-to-end encryption and anonymization protocols. For Enterprise clients, we offer on-premise deployments and isolated AI instances to ensure your proprietary data never leaves your infrastructure. We are currently pursuing SOC2 Type II certification."
+            },
+            {
+                "q": "Can it integrate with my existing CRM?",
+                "a": "Yes, Sempitecno features native connectors for Salesforce, HubSpot, and Microsoft Dynamics. Our API-first approach allows for seamless two-way synchronization, ensuring your customer data is always up-to-date across all platforms."
+            },
+            {
+                "q": "What is the typical setup time?",
+                "a": "Our standard solutions can be up and running in under 24 hours. Custom enterprise deployments, which often include custom training and security audits, typically range from 2 to 4 weeks depending on complexity."
+            },
+            {
+                "q": "Do you provide support in other languages?",
+                "a": "Absolutely. Our AI agents are natively multilingual and can handle over 50 languages fluently, detecting the customer's preferred language automatically."
+            },
+            {
+                "q": "What kind of analytics do you provide?",
+                "a": "Our platform includes comprehensive analytics dashboards with real-time metrics on conversation volume, resolution rates, customer satisfaction scores, and AI performance. You can export detailed reports for deeper analysis."
+            },
+            {
+                "q": "How do I get started with Sempitecno?",
+                "a": "Getting started is simple! Contact our team for a personalized demo. We'll assess your needs, configure the AI agents for your specific use case, and have you up and running within days."
+            }
+        ],
+        "cta": {
+            "title": "Still have questions?",
+            "description": "Our team is here to help you find the perfect AI solution for your business.",
+            "contact": "CONTACT US"
         }
     },
     "industries": {
@@ -114,196 +208,16 @@
         "trial": "START FREE TRIAL",
         "demo": "BOOK A DEMO"
     },
-    "pricing": {
-        "hero": {
-            "title": "Transparent <underline>pricing</underline><br/>for every scale.",
-            "subtitle": "Choose a plan that fits your current needs and scale seamlessly as your AI ecosystem evolves."
-        },
-        "plans": {
-            "starter": {
-                "name": "Starter",
-                "price": "$49",
-                "description": "Perfect for individuals and small projects getting started with AI automation.",
-                "features": [
-                    "Up to 5,000 AI interactions",
-                    "Standard CRM integration",
-                    "Community support",
-                    "Custom security protocols"
-                ],
-                "cta": "Get Started"
-            },
-            "growth": {
-                "name": "Growth",
-                "popular_tag": "Most Popular",
-                "price": "$199",
-                "description": "Scalable infrastructure for growing teams focused on deep CRM integration.",
-                "features": [
-                    "Unlimited AI interactions",
-                    "Advanced CRM & ERP Sync",
-                    "Priority 24/7 support",
-                    "Basic Security Compliance"
-                ],
-                "cta": "Go Pro Now"
-            },
-            "enterprise": {
-                "name": "Enterprise",
-                "price": "Custom",
-                "description": "Full-suite enterprise solutions with dedicated infrastructure and security.",
-                "features": [
-                    "Dedicated AI Instance",
-                    "On-premise deployment",
-                    "White-label capabilities",
-                    "SOC2 Type II Compliance"
-                ],
-                "cta": "Contact Sales"
-            }
-        },
-        "faq": {
-            "title": "Frequently Asked Questions",
-            "subtitle": "Everything you need to know about Sempitecno AI solutions.",
-            "questions": [
-                {
-                    "q": "How does Sempitecno ensure AI security?",
-                    "a": "We prioritize data privacy through end-to-end encryption and anonymization protocols. For Enterprise clients, we offer on-premise deployments and isolated AI instances to ensure your proprietary data never leaves your infrastructure. We are currently pursuing SOC2 Type II certification."
-                },
-                {
-                    "q": "Can it integrate with my existing CRM?",
-                    "a": "Yes, Sempitecno features native connectors for Salesforce, HubSpot, and Microsoft Dynamics. Our API-first approach allows for seamless two-way synchronization, ensuring your customer data is always up-to-date across all platforms."
-                },
-                {
-                    "q": "What is the typical setup time?",
-                    "a": "Starter and Growth plans can be up and running in under 24 hours. Enterprise deployments, which often include custom training and security audits, typically range from 2 to 4 weeks depending on complexity."
-                },
-                {
-                    "q": "Is there a discount for annual billing?",
-                    "a": "Absolutely. When you choose annual billing, you receive two months free (roughly 17% savings) compared to month-to-month subscriptions."
-                }
-            ]
-        },
-        "cta": {
-            "title": "Ready to evolve?",
-            "description": "Join 500+ forward-thinking companies building the next generation of AI-driven business.",
-            "trial": "Start Your Free Trial",
-            "demo": "Book a Demo"
-        }
-    },
-    "industriesPage": {
-        "hero": {
-            "title": "Unlocking <italic>AI Potential</italic> <br/> across every sector.",
-            "subtitle": "Discover how SEMPITECNO's specialized voice and messaging agents transform traditional workflows into intelligent, automated growth engines."
-        },
-        "sectors": {
-            "retail": {
-                "title": "Retail & E-commerce",
-                "description": "Revolutionize the shopping experience from discovery to delivery.",
-                "useCases": [
-                    {
-                        "title": "Automated Order Tracking",
-                        "description": "WhatsApp agents provide real-time status updates, reducing 'Where is my order?' tickets by up to 60%."
-                    },
-                    {
-                        "title": "Smart Product Recommendations",
-                        "description": "AI analyzes user preferences via chat to suggest the perfect products, increasing conversion rates."
-                    },
-                    {
-                        "title": "Multi-channel Returns Management",
-                        "description": "Handle return requests and labels automatically through Voice bots or messaging, 24/7."
-                    },
-                    {
-                        "title": "Automated Inventory Sync",
-                        "description": "Real-time reconciliation of stock levels between physical stores and digital warehouses."
-                    }
-                ]
-            },
-            "healthcare": {
-                "title": "Healthcare & Wellness",
-                "description": "Secure, efficient, and patient-centric automation.",
-                "useCases": [
-                    {
-                        "title": "Instant Appointment Scheduling",
-                        "description": "Voice bots handle peak call times, scheduling appointments directly into your clinic's calendar."
-                    },
-                    {
-                        "title": "Patient Triage & Pre-diagnosis",
-                        "description": "WhatsApp agents collect symptoms and patient history to prepare doctors for consultations."
-                    },
-                    {
-                        "title": "Medication & Follow-up Reminders",
-                        "description": "Automated reminders ensure protocol adherence and improve patient outcomes."
-                    },
-                    {
-                        "title": "Billing & Claims Automation",
-                        "description": "AI-driven processing of medical claims and invoice generation for insurance providers."
-                    }
-                ]
-            },
-            "customerService": {
-                "title": "Customer Service & Support",
-                "description": "Transform your contact center with always-on AI assistance.",
-                "useCases": [
-                    {
-                        "title": "Automated Ticket Creation",
-                        "description": "AI analyzes user messages to auto-categorize and create tickets in Zendesk or Jira."
-                    },
-                    {
-                        "title": "Instant FAQ Resolution",
-                        "description": "Deflect up to 80% of repetitive queries about pricing, status, or policies."
-                    },
-                    {
-                        "title": "Sentiment Analysis Routing",
-                        "description": "Detect frustrated customers and prioritize routing to senior human agents."
-                    },
-                    {
-                        "title": "Multi-Language Support",
-                        "description": "Instantly scale support to 50+ languages without hiring new staff."
-                    }
-                ]
-            },
-            "banking": {
-                "title": "Banking & Finance",
-                "description": "Scale trust and security with real-time financial assistance.",
-                "useCases": [
-                    {
-                        "title": "Secure Balance & History Queries",
-                        "description": "Provide instant access to account info through authenticated, encrypted chat sessions."
-                    },
-                    {
-                        "title": "Fraud Alerts & Resolution",
-                        "description": "Voice agents place outbound calls to verify suspicious transactions with zero latency."
-                    },
-                    {
-                        "title": "Loan & Credit Application Triage",
-                        "description": "AI-driven collection of initial application data to fast-track financial approvals."
-                    },
-                    {
-                        "title": "Cross-System Data Synchronization",
-                        "description": "Intelligent bots that sync financial records across disparate legacy systems without APIs."
-                    }
-                ]
-            }
-        },
-        "legal": {
-            "privacy": {
-                "title": "Privacy Policy",
-                "lastUpdated": "Last Updated: February 2024",
-                "content": "At SEMPITECNO, your privacy is our priority. We implement military-grade encryption for all AI data processing. Our agents only access the specific data points required for task completion. We never sell your data to third parties."
-            },
-            "terms": {
-                "title": "Terms of Service",
-                "lastUpdated": "Last Updated: February 2024",
-                "content": "By using SEMPITECNO's AI solutions, you agree to our standard operating procedures. Our uptime guarantee is 99.9%. Users are responsible for the integrity of the data provided to the AI agents."
-            },
-            "security": {
-                "title": "Security Framework",
-                "lastUpdated": "Last Updated: February 2024",
-                "content": "Our infrastructure is built on SOC2-compliant cloud providers. We perform weekly vulnerability scans and maintain a zero-trust architecture for all internal and external communication protocols."
-            }
-        },
-        "cta": {
-            "title": "Ready to digitize your industry?",
-            "description": "Connect with our experts to build a tailored AI strategy that fits your unique business needs.",
-            "button": "Request a Custom Audit"
-        }
+    "footer": {
+        "tagline": "Empowering businesses through cutting-edge AI automation for communication and workflow efficiency.",
+        "solutions": "Solutions",
+        "industry": "Industry",
+        "company": "Company",
+        "legal": "Legal",
+        "copyright": "© 2024 SEMPITECNO SOLUTIONS INC.",
+        "status": "STATUS",
+        "online": "ONLINE",
+        "future": "DESIGNED FOR THE FUTURE"
     },
     "contact": {
         "hero": {
@@ -470,16 +384,5 @@
                 "benefits": "Deflects 60% of support tickets, empowers customers with self-service, and reduces support costs."
             }
         }
-    },
-    "footer": {
-        "tagline": "Empowering businesses through cutting-edge AI automation for communication and workflow efficiency.",
-        "solutions": "Solutions",
-        "industry": "Industry",
-        "company": "Company",
-        "legal": "Legal",
-        "copyright": "© 2024 SEMPITECNO SOLUTIONS INC.",
-        "status": "STATUS",
-        "online": "ONLINE",
-        "future": "DESIGNED FOR THE FUTURE"
     }
 }

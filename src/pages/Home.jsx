@@ -95,7 +95,7 @@ export default function Home() {
                         </p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                        <div className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(34,197,94,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+                        <Link to="/solutions/whatsapp" className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(34,197,94,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all block">
                             <div className="flex justify-between items-start mb-10">
                                 <div className="w-20 h-20 b-solid bg-green-50 flex items-center justify-center">
                                     <span className="material-symbols-outlined font-bold text-5xl text-green-600">chat</span>
@@ -139,8 +139,8 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(59,130,246,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+                        </Link>
+                        <Link to="/solutions/voice-ai" className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(59,130,246,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all block">
                             <div className="flex justify-between items-start mb-10">
                                 <div className="w-20 h-20 b-solid bg-blue-50 flex items-center justify-center">
                                     <span className="material-symbols-outlined font-bold text-5xl text-blue-600">call</span>
@@ -184,8 +184,8 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(124,58,237,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+                        </Link>
+                        <Link to="/solutions/rpa-orchestrator" className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(124,58,237,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all block">
                             <div className="flex justify-between items-start mb-10">
                                 <div className="w-20 h-20 b-solid bg-purple-50 flex items-center justify-center">
                                     <span className="material-symbols-outlined font-bold text-5xl text-primary">settings_suggest</span>
@@ -223,8 +223,8 @@ export default function Home() {
                                     <span className="material-symbols-outlined text-white/20 text-6xl animate-spin-slow">sync</span>
                                 </div>
                             </div>
-                        </div>
-                        <div className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(236,72,153,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+                        </Link>
+                        <Link to="/solutions/omnichannel" className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(236,72,153,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all block">
                             <div className="flex justify-between items-start mb-10">
                                 <div className="w-20 h-20 b-solid bg-pink-50 flex items-center justify-center">
                                     <span className="material-symbols-outlined font-bold text-5xl text-pink-600">hub</span>
@@ -268,7 +268,7 @@ export default function Home() {
                                     {t('home.solutions.omnichannel.monitor')}
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </section>
@@ -280,7 +280,7 @@ export default function Home() {
                             <h2 className="font-display text-5xl lg:text-6xl font-black mb-8 tracking-tighter uppercase leading-none">{t('industries.title')}</h2>
                             <p className="text-darkBlue/70 text-xl font-medium">{t('industries.subtitle')}</p>
                         </div>
-                        <button className="bg-white b-solid px-8 py-4 font-black uppercase tracking-widest hover:bg-black hover:text-white transition-colors shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">{t('industries.cta')}</button>
+                        <Link to="/industries" className="bg-white b-solid px-8 py-4 font-black uppercase tracking-widest hover:bg-black hover:text-white transition-all shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] text-center">{t('industries.cta')}</Link>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                         <div className="bg-white p-10 b-solid shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">

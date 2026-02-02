@@ -8,6 +8,8 @@ export default function Layout({ children }) {
     const location = useLocation();
     const isHome = location.pathname === '/';
     const [industriesOpen, setIndustriesOpen] = useState(false);
+    const [solutionsOpen, setSolutionsOpen] = useState(false);
+    const [companyOpen, setCompanyOpen] = useState(false);
 
     const getLink = (hash) => isHome ? hash : `/${hash}`;
 
@@ -27,7 +29,25 @@ export default function Layout({ children }) {
                         </Link>
                     </div>
                     <div className="hidden md:flex items-center gap-10 font-bold text-sm uppercase tracking-wider">
-                        <a href={getLink("#solutions")} className="hover:text-primary transition-colors">{t('nav.solutions')}</a>
+                        <div
+                            className="relative"
+                            onMouseEnter={() => setSolutionsOpen(true)}
+                            onMouseLeave={() => setSolutionsOpen(false)}
+                        >
+                            <button className="hover:text-primary transition-colors flex items-center gap-1 uppercase tracking-wider font-bold">
+                                {t('nav.solutions')}
+                                <span className="material-symbols-outlined text-sm">expand_more</span>
+                            </button>
+                            {solutionsOpen && (
+                                <div className="absolute top-full left-0 mt-2 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-w-[240px]">
+                                    <Link to="/solutions/whatsapp" className="block px-6 py-3 hover:bg-green-50 border-b border-black/10 font-bold uppercase text-[10px] tracking-wider">{t('solutions.whatsapp.title')}</Link>
+                                    <Link to="/solutions/voice-ai" className="block px-6 py-3 hover:bg-yellow-50 border-b border-black/10 font-bold uppercase text-[10px] tracking-wider">{t('solutions.voice.title')}</Link>
+                                    <Link to="/solutions/rpa-orchestrator" className="block px-6 py-3 hover:bg-orange-50 border-b border-black/10 font-bold uppercase text-[10px] tracking-wider">{t('solutions.rpa.title')}</Link>
+                                    <Link to="/solutions/omnichannel" className="block px-6 py-3 hover:bg-purple-50 font-bold uppercase text-[10px] tracking-wider">{t('solutions.omnichannel.title')}</Link>
+                                </div>
+                            )}
+                        </div>
+
                         <div
                             className="relative"
                             onMouseEnter={() => setIndustriesOpen(true)}
@@ -39,15 +59,32 @@ export default function Layout({ children }) {
                             </Link>
                             {industriesOpen && (
                                 <div className="absolute top-full left-0 mt-2 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-w-[200px]">
-                                    <Link to="/industries/healthcare" className="block px-6 py-3 hover:bg-cyan-50 border-b border-black/10 font-bold uppercase text-xs tracking-wider">{t('industries.healthcare.title')}</Link>
-                                    <Link to="/industries/banking" className="block px-6 py-3 hover:bg-yellow-50 border-b border-black/10 font-bold uppercase text-xs tracking-wider">{t('industries.banking.title')}</Link>
-                                    <Link to="/industries/retail" className="block px-6 py-3 hover:bg-orange-50 border-b border-black/10 font-bold uppercase text-xs tracking-wider">{t('industries.retail.title')}</Link>
-                                    <Link to="/industries/customer-service" className="block px-6 py-3 hover:bg-purple-50 font-bold uppercase text-xs tracking-wider">{t('industries.customerService.title')}</Link>
+                                    <Link to="/industries/healthcare" className="block px-6 py-3 hover:bg-cyan-50 border-b border-black/10 font-bold uppercase text-[10px] tracking-wider">{t('industries.healthcare.title')}</Link>
+                                    <Link to="/industries/banking" className="block px-6 py-3 hover:bg-yellow-50 border-b border-black/10 font-bold uppercase text-[10px] tracking-wider">{t('industries.banking.title')}</Link>
+                                    <Link to="/industries/retail" className="block px-6 py-3 hover:bg-orange-50 border-b border-black/10 font-bold uppercase text-[10px] tracking-wider">{t('industries.retail.title')}</Link>
+                                    <Link to="/industries/customer-service" className="block px-6 py-3 hover:bg-purple-50 font-bold uppercase text-[10px] tracking-wider">{t('industries.customerService.title')}</Link>
                                 </div>
                             )}
                         </div>
                         <a href={getLink("#features")} className="hover:text-primary transition-colors">{t('nav.features')}</a>
-                        <Link to="/pricing" className="hover:text-primary transition-colors">{t('nav.pricing')}</Link>
+                        <Link to="/faq" className="hover:text-primary transition-colors">{t('nav.faq')}</Link>
+
+                        <div
+                            className="relative"
+                            onMouseEnter={() => setCompanyOpen(true)}
+                            onMouseLeave={() => setCompanyOpen(false)}
+                        >
+                            <button className="hover:text-primary transition-colors flex items-center gap-1 uppercase tracking-wider font-bold">
+                                {t('nav.company')}
+                                <span className="material-symbols-outlined text-sm">expand_more</span>
+                            </button>
+                            {companyOpen && (
+                                <div className="absolute top-full left-0 mt-2 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-w-[180px]">
+                                    <Link to="/about" className="block px-6 py-3 hover:bg-blue-50 border-b border-black/10 font-bold uppercase text-[10px] tracking-wider">{t('nav.about')}</Link>
+                                    <Link to="/contact" className="block px-6 py-3 hover:bg-primary/10 font-bold uppercase text-[10px] tracking-wider">{t('nav.contact')}</Link>
+                                </div>
+                            )}
+                        </div>
                     </div>
                     <div className="flex items-center gap-4">
                         <button
@@ -82,28 +119,26 @@ export default function Layout({ children }) {
                     <div>
                         <h5 className="font-black mb-8 text-xs uppercase tracking-widest underline decoration-primary decoration-4 underline-offset-8">{t('footer.solutions')}</h5>
                         <ul className="space-y-4 text-sm font-bold uppercase tracking-wider text-darkBlue/80">
-                            <li><a href={getLink("#solutions")} className="hover:text-primary transition-colors">WhatsApp Agent</a></li>
-                            <li><a href={getLink("#solutions")} className="hover:text-primary transition-colors">Voice Bot</a></li>
-                            <li><a href={getLink("#solutions")} className="hover:text-primary transition-colors">Integrations</a></li>
-                            <li><a href={getLink("#solutions")} className="hover:text-primary transition-colors">API Reference</a></li>
+                            <li><Link to="/solutions/whatsapp" className="hover:text-primary transition-colors">{t('solutions.whatsapp.title')}</Link></li>
+                            <li><Link to="/solutions/voice-ai" className="hover:text-primary transition-colors">{t('solutions.voice.title')}</Link></li>
+                            <li><Link to="/solutions/rpa-orchestrator" className="hover:text-primary transition-colors">Orquestadores</Link></li>
+                            <li><Link to="/solutions/omnichannel" className="hover:text-primary transition-colors">Omnicanalidad</Link></li>
                         </ul>
                     </div>
                     <div>
                         <h5 className="font-black mb-8 text-xs uppercase tracking-widest underline decoration-primary decoration-4 underline-offset-8">{t('footer.industry')}</h5>
                         <ul className="space-y-4 text-sm font-bold uppercase tracking-wider text-darkBlue/80">
-                            <li><Link to="/industries#retail" className="hover:text-primary transition-colors">Retail</Link></li>
-                            <li><Link to="/industries#healthcare" className="hover:text-primary transition-colors">Healthcare</Link></li>
-                            <li><Link to="/industries#realEstate" className="hover:text-primary transition-colors">Real Estate</Link></li>
-                            <li><Link to="/industries#banking" className="hover:text-primary transition-colors">Banking</Link></li>
+                            <li><Link to="/industries/retail" className="hover:text-primary transition-colors">{t('industries.retail.title')}</Link></li>
+                            <li><Link to="/industries/healthcare" className="hover:text-primary transition-colors">{t('industries.healthcare.title')}</Link></li>
+                            <li><Link to="/industries/customer-service" className="hover:text-primary transition-colors">{t('industries.customerService.title')}</Link></li>
+                            <li><Link to="/industries/banking" className="hover:text-primary transition-colors">{t('industries.banking.title')}</Link></li>
                         </ul>
                     </div>
                     <div>
                         <h5 className="font-black mb-8 text-xs uppercase tracking-widest underline decoration-primary decoration-4 underline-offset-8">{t('footer.company')}</h5>
                         <ul className="space-y-4 text-sm font-bold uppercase tracking-wider text-darkBlue/80">
-                            <li><Link to="/" className="hover:text-primary transition-colors">About Us</Link></li>
-                            <li><Link to="/pricing" className="hover:text-primary transition-colors">Careers</Link></li>
-                            <li><Link to="/industries" className="hover:text-primary transition-colors">Blog</Link></li>
-                            <li><a href="mailto:info@sempitecno.com" className="hover:text-primary transition-colors">Contact</a></li>
+                            <li><Link to="/about" className="hover:text-primary transition-colors">{t('nav.about')}</Link></li>
+                            <li><Link to="/contact" className="hover:text-primary transition-colors">{t('nav.contact')}</Link></li>
                         </ul>
                     </div>
                     <div>
