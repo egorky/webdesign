@@ -26,7 +26,7 @@ export default function RPACore() {
                         </div>
                         <div className="relative">
                             <div className="card-border bg-white p-8 aspect-square flex items-center justify-center shadow-[16px_16px_0px_0px_rgba(251,146,60,0.2)]">
-                                <span className="material-symbols-outlined text-[120px] text-orange-500">settings_suggest</span>
+                                <img src="/images/solutions/rpa.png" alt="RPA Orchestrator" className="w-full h-full object-cover" />
                             </div>
                         </div>
                     </div>
