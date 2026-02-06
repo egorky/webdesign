@@ -2,6 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
 
 @tailwind base;
+
+@keyframes spin-slow {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin-slow {
+    animation: spin-slow 8s linear infinite;
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -20,6 +35,7 @@ body {
 
 .b-solid {
     border: 2px solid #000000;
+    border-radius: 12px;
 }
 
 .hero-pattern {
@@ -55,9 +71,11 @@ body {
 .card-border {
     border: 2px solid #000 !important;
     box-shadow: 4px 4px 0 0 #000;
+    border-radius: 12px;
 }
 
 .card-border-dark {
     border: 2px solid #fff !important;
     box-shadow: 4px 4px 0 0 #fff;
+    border-radius: 12px;
 }

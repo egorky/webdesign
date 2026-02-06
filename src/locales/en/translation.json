@@ -1,0 +1,388 @@
+{
+    "nav": {
+        "solutions": "Solutions",
+        "industries": "Industries",
+        "features": "Features",
+        "faq": "FAQ",
+        "company": "Company",
+        "about": "About Us",
+        "contact": "Contact",
+        "getStarted": "GET STARTED"
+    },
+    "home": {
+        "badge": "Next-Gen AI Automation",
+        "title": "YOUR CUSTOMERS' <br/> <italic>FAVOURITE</italic> AI AGENT",
+        "description": "SEMPITECNO automates your WhatsApp interactions and phone calls with human-like AI bots that schedule, qualify, and convert leads 24/7.",
+        "cta": "GET STARTED",
+        "secondaryCta": "SEE FOR YOURSELF",
+        "dashboardVersion": "AI DASHBOARD v2.0",
+        "features": {
+            "detail": {
+                "title": "Attention to detail",
+                "description": "Every interaction is fine-tuned to match your brand's unique voice and tone."
+            },
+            "noHeadaches": {
+                "title": "No headaches",
+                "description": "Plug-and-play integration. Our AI starts learning from your data in minutes."
+            },
+            "fastExecution": {
+                "title": "Fast execution",
+                "description": "Instant responses to every customer query, ensuring no lead goes cold."
+            },
+            "reliable": {
+                "title": "Easy and reliable",
+                "description": "GDPR-compliant and built on secure infrastructure you can trust."
+            }
+        },
+        "solutions": {
+            "title": "Omnichannel AI Orchestration",
+            "subtitle": "Discover how our intelligent agents can transform your business communication.",
+            "whatsapp": {
+                "badge": "AI POWERED",
+                "title": "WhatsApp AI Agent",
+                "description": "The smartest conversational assistant for your official WhatsApp Business account.",
+                "feature1": "Automated Scheduling & CRM Sync",
+                "feature2": "24/7 Multi-language Support",
+                "feature3": "Intelligent Lead Qualification",
+                "chat": {
+                    "user": "I need to schedule an appointment for next week",
+                    "bot": "Perfect! I have availability on Tuesday at 2 PM or Thursday at 10 AM. Which works better for you?"
+                }
+            },
+            "voice": {
+                "badge": "ZERO LATENCY",
+                "title": "Voice AI Bot",
+                "description": "Natural-sounding voice bots that handle complex calls with zero latency.",
+                "feature1": "Inbound Call Routing & Resolution",
+                "feature2": "Outbound Sales & Follow-ups",
+                "feature3": "Hyper-realistic Human Speech",
+                "monitor": "LIVE CALL MONITORING"
+            },
+            "omnichannel": {
+                "badge": "UNIFIED HUB",
+                "title": "Omnichannel Platform",
+                "description": "Unified communication hub for WhatsApp, Meta, and VoIP telephony.",
+                "feature1": "Single Dashboard for All Channels",
+                "feature2": "Seamless Agent Handoff",
+                "feature3": "Unified Customer Context",
+                "monitor": "UNIFIED COMMUNICATION HUB"
+            }
+        },
+        "rpa": {
+            "title": "Workflow Orchestrators",
+            "description": "Intelligent 'RPA' agents that connect your software stack and automate complex back-office tasks."
+        }
+    },
+    "solutions": {
+        "title": "Our Solutions",
+        "subtitle": "Discover how our intelligent agents can transform your business communication.",
+        "whatsapp": {
+            "title": "WhatsApp AI Agent",
+            "description": "The smartest conversational assistant for your official WhatsApp Business account.",
+            "hero": "Revolutionize customer engagement on the world's most popular messaging app.",
+            "features": [
+                "Automated Scheduling & CRM Sync",
+                "24/7 Multi-language Support",
+                "Intelligent Lead Qualification",
+                "Direct Media Sharing (PDFs, Images)"
+            ],
+            "details": "Our WhatsApp AI Agent integrates directly with the WhatsApp Business API. It uses advanced NLP to understand customer intent, providing helpful responses in seconds. Whether it is answering common FAQs or coordinating complex bookings, our agent handles it all while maintaining your brand's voice."
+        },
+        "voice": {
+            "title": "Voice AI Bot",
+            "description": "Natural-sounding voice bots that handle complex calls with zero latency.",
+            "hero": "Human-like phone interactions that never sleep and always deliver.",
+            "features": [
+                "Inbound Call Routing & Resolution",
+                "Outbound Sales & Follow-ups",
+                "Hyper-realistic Human Speech",
+                "Zero-latency bidirectional talk"
+            ],
+            "details": "Sempitecno's Voice AI uses proprietary speech-to-text and text-to-speech engines to provide a fluid, human-like experience. Our bots can handle thousands of concurrent calls, ensuring no customer is ever placed on hold again."
+        },
+        "rpa": {
+            "title": "Workflow Orchestrators",
+            "description": "Intelligent 'RPA' agents that connect your software stack and automate complex back-office tasks.",
+            "hero": "Bridge your legacy systems and modern APIs with intelligent automation.",
+            "features": [
+                "Inter-system coordination",
+                "Automated data entry & scraping",
+                "Legacy software integration",
+                "Complex decision-making logic"
+            ],
+            "details": "Our Orchestrators act as the 'brain' between your different software platforms. They don't just move data; they understand context, making decisions that traditionally required manual intervention."
+        },
+        "omnichannel": {
+            "title": "Omnichannel Platform",
+            "description": "Unified communication hub for WhatsApp, Meta, and VoIP telephony.",
+            "hero": "Provide a seamless experience across every customer touchpoint.",
+            "features": [
+                "Single Dashboard for All Channels",
+                "Seamless Agent Handoff",
+                "Unified Customer Context",
+                "Advanced Analytics & Reporting"
+            ],
+            "details": "Stop managing separate silos. Our Omnichannel Platform brings WhatsApp, Instagram, Messenger, and VoIP into one unified interface, giving your team the full context of every customer journey."
+        }
+    },
+    "about": {
+        "title": "About Sempitecno",
+        "content": "Sempitecno is comprised of a group of professionals with more than 30 years of experience in technology solutions, with a strong emphasis on software development and integrating it with artificial intelligence using omnichannel solutions. Our deep-rooted expertise allows us to design and implement robust digital ecosystems that bridge the gap between complex backend systems and intuitive customer interactions.\n\nFounded in Guayaquil, Ecuador, we are proud of our local roots while maintaining a global perspective. We serve clients worldwide, providing high-quality technical assistance and strategic AI consulting across various continents. Our team of engineers and AI specialists work tirelessly to ensure that our clients are always at the forefront of digital transformation, leveraging the latest advancements in natural language processing (NLP), robotic process automation (RPA), and real-time voice synthesis. At Sempitecno, we don't just build bots; we build the future of communication."
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know about Sempitecno AI solutions.",
+        "questions": [
+            {
+                "q": "How does Sempitecno ensure AI security?",
+                "a": "We prioritize data privacy through end-to-end encryption and anonymization protocols. For Enterprise clients, we offer on-premise deployments and isolated AI instances to ensure your proprietary data never leaves your infrastructure. We are currently pursuing SOC2 Type II certification."
+            },
+            {
+                "q": "Can it integrate with my existing CRM?",
+                "a": "Yes, Sempitecno features native connectors for Salesforce, HubSpot, and Microsoft Dynamics. Our API-first approach allows for seamless two-way synchronization, ensuring your customer data is always up-to-date across all platforms."
+            },
+            {
+                "q": "What is the typical setup time?",
+                "a": "Our standard solutions can be up and running in under 24 hours. Custom enterprise deployments, which often include custom training and security audits, typically range from 2 to 4 weeks depending on complexity."
+            },
+            {
+                "q": "Do you provide support in other languages?",
+                "a": "Absolutely. Our AI agents are natively multilingual and can handle over 50 languages fluently, detecting the customer's preferred language automatically."
+            },
+            {
+                "q": "What kind of analytics do you provide?",
+                "a": "Our platform includes comprehensive analytics dashboards with real-time metrics on conversation volume, resolution rates, customer satisfaction scores, and AI performance. You can export detailed reports for deeper analysis."
+            },
+            {
+                "q": "How do I get started with Sempitecno?",
+                "a": "Getting started is simple! Contact our team for a personalized demo. We'll assess your needs, configure the AI agents for your specific use case, and have you up and running within days."
+            }
+        ],
+        "cta": {
+            "title": "Still have questions?",
+            "description": "Our team is here to help you find the perfect AI solution for your business.",
+            "contact": "CONTACT US"
+        }
+    },
+    "industries": {
+        "title": "Built for your industry",
+        "subtitle": "Tailored AI models trained on specific domain knowledge to ensure maximum accuracy and value.",
+        "cta": "Explore All",
+        "retail": {
+            "title": "Retail & E-commerce",
+            "description": "Track orders, handle returns, and offer personalized product recommendations directly through chat.",
+            "benefitLabel": "Key Benefit",
+            "benefitValue": "40% reduction in support tickets"
+        },
+        "healthcare": {
+            "title": "Healthcare",
+            "description": "HIPAA-ready appointment scheduling, medication reminders, and basic triage automation.",
+            "benefitLabel": "Key Benefit",
+            "benefitValue": "Instant patient response 24/7"
+        },
+        "customerService": {
+            "title": "Customer Service",
+            "description": "Automate L1 support, handle FAQs, and route complex issues to human agents instantly.",
+            "benefitLabel": "Key Benefit",
+            "benefitValue": "90% Faster Resolution Time"
+        },
+        "banking": {
+            "title": "Banking & Finance",
+            "description": "Secure, efficient, and scaleable financial assistance.",
+            "benefitLabel": "Key Benefit",
+            "benefitValue": "99.9% Security Compliance"
+        }
+    },
+    "scale": {
+        "title": "Information-rich automation that scales.",
+        "description": "We don't just provide bots; we provide strategic AI infrastructure. Our solutions are designed to handle thousands of concurrent conversations without losing the human touch.",
+        "satisfaction": "Satisfaction Rate",
+        "integrations": "Native Integrations",
+        "languages": "Languages Supported",
+        "responseTime": "Response Time",
+        "processed": "Messages Processed"
+    },
+    "ctaSection": {
+        "title": "Ready to automate your growth?",
+        "description": "Join the hundreds of companies already using SEMPITECNO to redefine their customer experience.",
+        "trial": "START FREE TRIAL",
+        "demo": "BOOK A DEMO"
+    },
+    "footer": {
+        "tagline": "Empowering businesses through cutting-edge AI automation for communication and workflow efficiency.",
+        "solutions": "Solutions",
+        "industry": "Industry",
+        "company": "Company",
+        "legal": "Legal",
+        "copyright": "© 2024 SEMPITECNO SOLUTIONS INC.",
+        "status": "STATUS",
+        "online": "ONLINE",
+        "future": "DESIGNED FOR THE FUTURE"
+    },
+    "contact": {
+        "hero": {
+            "title": "Let's Talk",
+            "subtitle": "Get in touch with our team to discuss how SEMPITECNO can transform your business operations."
+        },
+        "form": {
+            "title": "Send us a message",
+            "name": "Full Name",
+            "email": "Email Address",
+            "company": "Company Name",
+            "phone": "Phone Number",
+            "message": "Your Message",
+            "submit": "Send Message",
+            "success": "Message sent successfully!"
+        },
+        "whatsapp": {
+            "title": "Chat on WhatsApp",
+            "description": "Prefer instant messaging? Start a conversation with us directly on WhatsApp for immediate assistance.",
+            "button": "Open WhatsApp",
+            "number": "Phone"
+        },
+        "info": {
+            "title": "Contact Info",
+            "hours": {
+                "label": "Business Hours",
+                "value": "Monday - Friday, 9:00 AM - 6:00 PM (ECT)"
+            },
+            "languages": {
+                "label": "Languages",
+                "value": "English, Spanish"
+            }
+        }
+    },
+    "industryPages": {
+        "useCase": "Use Case",
+        "keyBenefits": "Key Benefits",
+        "cta": {
+            "title": "Ready to Transform Your Operations?",
+            "description": "Let's discuss how our AI solutions can be tailored to your specific industry needs.",
+            "button": "Get Started"
+        },
+        "healthcare": {
+            "hero": {
+                "title": "AI Solutions for Healthcare",
+                "subtitle": "Automate patient interactions, streamline appointments, and improve care delivery with intelligent AI assistants."
+            },
+            "useCasesTitle": "Healthcare Use Cases",
+            "useCase1": {
+                "title": "Automated Appointment Scheduling",
+                "description": "Enable patients to book, reschedule, or cancel appointments 24/7 through natural conversations.",
+                "details": "Our AI assistant integrates with your existing EHR/EMR systems to check real-time availability, send automated reminders, and reduce no-show rates by up to 40%. Patients can interact via WhatsApp, SMS, or voice calls in their preferred language.",
+                "benefits": "Reduces administrative workload by 60%, improves patient satisfaction scores, and increases appointment fill rates."
+            },
+            "useCase2": {
+                "title": "Patient Triage & Symptom Assessment",
+                "description": "Intelligent pre-screening that routes patients to the appropriate care level based on symptoms.",
+                "details": "Using medically-validated decision trees, our AI conducts preliminary symptom assessments, identifies urgent cases, and directs patients to emergency services, telehealth, or in-person visits. All interactions are HIPAA-compliant and securely logged.",
+                "benefits": "Optimizes resource allocation, reduces ER overcrowding, and ensures critical cases receive immediate attention."
+            },
+            "useCase3": {
+                "title": "Prescription Refill Automation",
+                "description": "Streamline medication refill requests with automated verification and pharmacy coordination.",
+                "details": "Patients can request refills conversationally. The AI verifies eligibility, checks with prescribing physicians when needed, and coordinates with pharmacies for pickup or delivery. Automated reminders ensure medication adherence.",
+                "benefits": "Saves 15+ hours per week for pharmacy staff, improves medication compliance, and enhances patient outcomes."
+            },
+            "useCase4": {
+                "title": "Post-Care Follow-Up",
+                "description": "Automated check-ins after procedures or hospital discharge to monitor recovery and satisfaction.",
+                "details": "Our system sends personalized follow-up messages at scheduled intervals, collects patient-reported outcomes, identifies complications early, and escalates concerns to care teams. Supports multiple languages and accessibility needs.",
+                "benefits": "Reduces readmission rates by 25%, improves quality metrics, and demonstrates patient-centered care."
+            }
+        },
+        "banking": {
+            "hero": {
+                "title": "AI Solutions for Banking & Finance",
+                "subtitle": "Enhance customer service, ensure compliance, and detect fraud with enterprise-grade AI automation."
+            },
+            "useCasesTitle": "Banking Use Cases",
+            "useCase1": {
+                "title": "24/7 Customer Support Automation",
+                "description": "Handle account inquiries, transaction disputes, and service requests instantly without human intervention.",
+                "details": "Our AI handles 80% of common banking queries including balance checks, transaction history, card activation, and PIN resets. Seamlessly escalates complex issues to human agents with full conversation context. Supports voice and text channels with bank-grade security.",
+                "benefits": "Reduces call center costs by 50%, improves first-contact resolution rates, and provides instant service across time zones."
+            },
+            "useCase2": {
+                "title": "Fraud Detection & Alerts",
+                "description": "Real-time transaction monitoring with intelligent alerts for suspicious activity.",
+                "details": "Machine learning models analyze transaction patterns, flag anomalies, and instantly notify customers via their preferred channel. Customers can confirm or dispute transactions conversationally, triggering immediate card freezes or fraud investigations.",
+                "benefits": "Prevents $2M+ in fraud annually per 100K customers, reduces false positives by 60%, and improves customer trust."
+            },
+            "useCase3": {
+                "title": "Loan Application Processing",
+                "description": "Streamline loan applications with automated document collection and eligibility pre-screening.",
+                "details": "AI guides applicants through the entire process, requests necessary documents, performs preliminary credit checks, and provides instant pre-approval decisions for qualified candidates. Integrates with core banking systems and credit bureaus.",
+                "benefits": "Reduces application processing time from days to minutes, improves approval rates, and enhances customer experience."
+            },
+            "useCase4": {
+                "title": "Regulatory Compliance Monitoring",
+                "description": "Automated compliance checks and reporting for KYC, AML, and regulatory requirements.",
+                "details": "Continuously monitors transactions and customer interactions for compliance violations. Automatically generates required reports, flags suspicious activities, and maintains audit trails. Stays updated with changing regulations across jurisdictions.",
+                "benefits": "Ensures 99.9% compliance accuracy, reduces regulatory fines, and minimizes manual audit workload."
+            }
+        },
+        "retail": {
+            "hero": {
+                "title": "AI Solutions for Retail & E-Commerce",
+                "subtitle": "Boost sales, improve customer satisfaction, and optimize operations with intelligent automation."
+            },
+            "useCasesTitle": "Retail Use Cases",
+            "useCase1": {
+                "title": "Intelligent Customer Support",
+                "description": "Provide instant answers to product questions, order status, and return requests across all channels.",
+                "details": "Our AI handles inquiries about product availability, sizing, shipping, returns, and promotions. Integrates with your inventory and order management systems to provide real-time information. Supports image recognition for visual product search.",
+                "benefits": "Resolves 75% of inquiries without human intervention, increases customer satisfaction by 40%, and reduces support costs."
+            },
+            "useCase2": {
+                "title": "Personalized Product Recommendations",
+                "description": "AI-driven recommendations that increase average order value and customer lifetime value.",
+                "details": "Analyzes browsing history, purchase patterns, and customer preferences to suggest relevant products. Delivers personalized recommendations via WhatsApp, email, or on-site chat. A/B tests messaging to optimize conversion rates.",
+                "benefits": "Increases average order value by 30%, improves conversion rates, and drives repeat purchases."
+            },
+            "useCase3": {
+                "title": "Abandoned Cart Recovery",
+                "description": "Automated follow-ups that bring customers back to complete their purchases.",
+                "details": "Detects abandoned carts and sends personalized messages via WhatsApp or SMS with product images, limited-time offers, and easy checkout links. Handles objections and answers questions to overcome purchase barriers.",
+                "benefits": "Recovers 25% of abandoned carts, generates significant incremental revenue, and improves customer engagement."
+            },
+            "useCase4": {
+                "title": "Order Tracking & Updates",
+                "description": "Proactive shipping notifications and delivery updates that reduce 'where is my order' inquiries.",
+                "details": "Automatically sends order confirmations, shipping updates, and delivery notifications. Customers can check order status conversationally. Handles delivery issues, reschedules, and coordinates with logistics partners.",
+                "benefits": "Reduces WISMO inquiries by 70%, improves delivery experience, and builds customer trust."
+            }
+        },
+        "customerService": {
+            "hero": {
+                "title": "AI Solutions for Customer Service",
+                "subtitle": "Transform your support operations with AI that handles L1 queries, routes complex issues, and delights customers."
+            },
+            "useCasesTitle": "Customer Service Use Cases",
+            "useCase1": {
+                "title": "Multilingual Support Automation",
+                "description": "Provide instant support in 120+ languages without hiring multilingual agents.",
+                "details": "Our AI detects customer language automatically and responds fluently in their preferred language. Handles common queries, FAQs, and troubleshooting steps. Seamlessly transfers to human agents when needed, providing full conversation history and translation.",
+                "benefits": "Expands global reach, reduces language barriers, and provides consistent service quality across all markets."
+            },
+            "useCase2": {
+                "title": "Intelligent Ticket Routing",
+                "description": "Automatically categorize, prioritize, and route support tickets to the right team or agent.",
+                "details": "AI analyzes ticket content, customer history, and urgency to assign tickets to specialized teams. Predicts resolution time, suggests knowledge base articles to agents, and escalates SLA breaches automatically.",
+                "benefits": "Reduces average resolution time by 40%, improves first-contact resolution, and optimizes agent workload."
+            },
+            "useCase3": {
+                "title": "Sentiment Analysis & Escalation",
+                "description": "Detect frustrated customers and escalate to senior agents before issues escalate.",
+                "details": "Real-time sentiment analysis monitors customer emotions during interactions. Automatically flags negative sentiment, alerts supervisors, and routes to specialized retention teams. Provides agents with customer context and suggested responses.",
+                "benefits": "Reduces churn by 20%, improves customer satisfaction scores, and enables proactive issue resolution."
+            },
+            "useCase4": {
+                "title": "Self-Service Knowledge Base",
+                "description": "AI-powered knowledge base that learns from interactions and improves over time.",
+                "details": "Customers can search for solutions conversationally. AI understands intent, provides step-by-step guides, and offers video tutorials. Continuously learns from successful resolutions and agent interactions to improve accuracy.",
+                "benefits": "Deflects 60% of support tickets, empowers customers with self-service, and reduces support costs."
+            }
+        }
+    }
+}
