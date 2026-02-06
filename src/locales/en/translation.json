@@ -484,6 +484,23 @@
                 "details": "Customers can search for solutions conversationally. AI understands intent, provides step-by-step guides, and offers video tutorials. Continuously learns from successful resolutions and agent interactions to improve accuracy.",
                 "benefits": "Deflects 60% of support tickets, empowers customers with self-service, and reduces support costs."
             }
+        },
+        "legal": {
+            "privacy": {
+                "title": "Privacy Policy",
+                "lastUpdated": "Last Updated: February 2026",
+                "content": "At Sempitecno, we take your privacy seriously. This policy outlines how we collect, use, and protect your data when you use our AI-powered solutions."
+            },
+            "terms": {
+                "title": "Terms of Service",
+                "lastUpdated": "Last Updated: February 2026",
+                "content": "By using Sempitecno's services, you agree to the following terms and conditions. Please read them carefully before deploying our AI agents."
+            },
+            "security": {
+                "title": "Security",
+                "lastUpdated": "Last Updated: February 2026",
+                "content": "Security is at the core of everything we build. Our infrastructure is designed with enterprise-grade security measures to protect your data and ensure compliance."
+            }
         }
     }
 }
