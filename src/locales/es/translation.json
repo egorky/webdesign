@@ -484,6 +484,23 @@
                 "details": "Los clientes pueden buscar soluciones conversacionalmente. La IA entiende la intención, proporciona guías paso a paso y ofrece tutoriales en video. Aprende continuamente de resoluciones exitosas e interacciones de agentes para mejorar precisión.",
                 "benefits": "Desvía el 60% de tickets de soporte, empodera a clientes con autoservicio y reduce costos de soporte."
             }
+        },
+        "legal": {
+            "privacy": {
+                "title": "Política de Privacidad",
+                "lastUpdated": "Última Actualización: Febrero 2026",
+                "content": "En Sempitecno, tomamos su privacidad en serio. Esta política describe cómo recopilamos, usamos y protegemos sus datos cuando utiliza nuestras soluciones impulsadas por IA."
+            },
+            "terms": {
+                "title": "Términos de Servicio",
+                "lastUpdated": "Última Actualización: Febrero 2026",
+                "content": "Al usar los servicios de Sempitecno, usted acepta los siguientes términos y condiciones. Por favor, léalos cuidadosamente antes de implementar nuestros agentes de IA."
+            },
+            "security": {
+                "title": "Seguridad",
+                "lastUpdated": "Última Actualización: Febrero 2026",
+                "content": "La seguridad está en el núcleo de todo lo que construimos. Nuestra infraestructura está diseñada con medidas de seguridad de nivel empresarial para proteger sus datos y garantizar el cumplimiento normativo."
+            }
         }
     }
 }
