@@ -193,6 +193,107 @@
             "benefitValue": "99.9% Security Compliance"
         }
     },
+    "industriesPage": {
+        "hero": {
+            "title": "AI Solutions Built for <italic>Your Industry</italic>",
+            "subtitle": "Discover how Sempitecno's intelligent automation transforms operations across retail, healthcare, customer service, and banking sectors."
+        },
+        "sectors": {
+            "retail": {
+                "title": "Retail & E-Commerce",
+                "description": "Transform your retail operations with AI-powered customer engagement, inventory management, and personalized shopping experiences that drive sales and customer loyalty.",
+                "useCases": [
+                    {
+                        "title": "24/7 Shopping Assistant",
+                        "description": "AI agents that help customers find products, answer questions about availability, sizes, and shipping, and guide them through the checkout process."
+                    },
+                    {
+                        "title": "Order Tracking & Updates",
+                        "description": "Automated notifications for order confirmations, shipping updates, and delivery status via WhatsApp and SMS, reducing support tickets by 70%."
+                    },
+                    {
+                        "title": "Personalized Recommendations",
+                        "description": "AI-driven product suggestions based on browsing history, purchase patterns, and customer preferences to increase average order value."
+                    },
+                    {
+                        "title": "Returns & Exchanges Automation",
+                        "description": "Streamline the returns process with intelligent agents that verify eligibility, generate return labels, and process refunds automatically."
+                    }
+                ]
+            },
+            "healthcare": {
+                "title": "Healthcare & Medical Services",
+                "description": "Enhance patient care with HIPAA-compliant AI solutions for appointment scheduling, prescription refills, and patient communication that improve outcomes and reduce administrative burden.",
+                "useCases": [
+                    {
+                        "title": "Appointment Scheduling",
+                        "description": "AI agents that book, reschedule, and send reminders for appointments across multiple providers, reducing no-shows by 45%."
+                    },
+                    {
+                        "title": "Prescription Refill Automation",
+                        "description": "Patients can request refills via WhatsApp or voice, with AI verifying eligibility and coordinating with pharmacies automatically."
+                    },
+                    {
+                        "title": "Symptom Pre-Screening",
+                        "description": "Intelligent triage system that collects patient symptoms, medical history, and determines urgency before connecting to healthcare providers."
+                    },
+                    {
+                        "title": "Post-Care Follow-ups",
+                        "description": "Automated check-ins after procedures or visits to monitor recovery, collect feedback, and identify complications early."
+                    }
+                ]
+            },
+            "customerService": {
+                "title": "Customer Service & Support",
+                "description": "Revolutionize your support operations with AI agents that handle L1 queries, escalate complex issues intelligently, and provide 24/7 multilingual assistance.",
+                "useCases": [
+                    {
+                        "title": "Instant FAQ Resolution",
+                        "description": "AI agents trained on your knowledge base answer common questions instantly, resolving 80% of L1 support tickets without human intervention."
+                    },
+                    {
+                        "title": "Intelligent Ticket Routing",
+                        "description": "Automatically categorize, prioritize, and route complex issues to the right specialist based on context, urgency, and expertise required."
+                    },
+                    {
+                        "title": "Multilingual Support",
+                        "description": "Provide seamless support in 50+ languages with AI that detects customer language preference and responds fluently in real-time."
+                    },
+                    {
+                        "title": "Proactive Issue Detection",
+                        "description": "Monitor customer interactions to identify recurring problems, service outages, or product issues before they escalate."
+                    }
+                ]
+            },
+            "banking": {
+                "title": "Banking & Financial Services",
+                "description": "Secure, compliant AI solutions for account inquiries, fraud detection, loan applications, and personalized financial guidance that build trust and efficiency.",
+                "useCases": [
+                    {
+                        "title": "Account Balance & Transactions",
+                        "description": "Customers can check balances, review recent transactions, and receive spending insights via secure AI agents on WhatsApp or voice."
+                    },
+                    {
+                        "title": "Fraud Alert & Verification",
+                        "description": "Real-time fraud detection with AI-powered verification calls or messages to confirm suspicious transactions instantly."
+                    },
+                    {
+                        "title": "Loan Application Processing",
+                        "description": "Automated collection of financial documents, credit checks, and eligibility assessment to accelerate loan approvals from weeks to hours."
+                    },
+                    {
+                        "title": "Financial Advisory Chatbot",
+                        "description": "AI agents that provide personalized savings recommendations, investment insights, and budgeting tips based on spending patterns."
+                    }
+                ]
+            }
+        },
+        "cta": {
+            "title": "Ready to Transform Your Industry?",
+            "description": "Join leading companies already using Sempitecno to automate operations and deliver exceptional customer experiences.",
+            "button": "GET STARTED TODAY"
+        }
+    },
     "scale": {
         "title": "Information-rich automation that scales.",
         "description": "We don't just provide bots; we provide strategic AI infrastructure. Our solutions are designed to handle thousands of concurrent conversations without losing the human touch.",

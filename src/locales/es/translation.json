@@ -193,6 +193,107 @@
             "benefitValue": "99.9% de Cumplimiento de Seguridad"
         }
     },
+    "industriesPage": {
+        "hero": {
+            "title": "Soluciones de IA Diseñadas para <italic>Tu Industria</italic>",
+            "subtitle": "Descubre cómo la automatización inteligente de Sempitecno transforma las operaciones en los sectores de retail, salud, servicio al cliente y banca."
+        },
+        "sectors": {
+            "retail": {
+                "title": "Retail y E-Commerce",
+                "description": "Transforma tus operaciones minoristas con interacción con clientes impulsada por IA, gestión de inventario y experiencias de compra personalizadas que impulsan las ventas y la lealtad del cliente.",
+                "useCases": [
+                    {
+                        "title": "Asistente de Compras 24/7",
+                        "description": "Agentes de IA que ayudan a los clientes a encontrar productos, responder preguntas sobre disponibilidad, tallas y envíos, y guiarlos a través del proceso de pago."
+                    },
+                    {
+                        "title": "Seguimiento y Actualizaciones de Pedidos",
+                        "description": "Notificaciones automatizadas para confirmaciones de pedidos, actualizaciones de envío y estado de entrega vía WhatsApp y SMS, reduciendo tickets de soporte en un 70%."
+                    },
+                    {
+                        "title": "Recomendaciones Personalizadas",
+                        "description": "Sugerencias de productos impulsadas por IA basadas en historial de navegación, patrones de compra y preferencias del cliente para aumentar el valor promedio del pedido."
+                    },
+                    {
+                        "title": "Automatización de Devoluciones e Intercambios",
+                        "description": "Agiliza el proceso de devoluciones con agentes inteligentes que verifican elegibilidad, generan etiquetas de devolución y procesan reembolsos automáticamente."
+                    }
+                ]
+            },
+            "healthcare": {
+                "title": "Salud y Servicios Médicos",
+                "description": "Mejora la atención al paciente con soluciones de IA compatibles con HIPAA para programación de citas, renovación de recetas y comunicación con pacientes que mejoran los resultados y reducen la carga administrativa.",
+                "useCases": [
+                    {
+                        "title": "Programación de Citas",
+                        "description": "Agentes de IA que reservan, reprograman y envían recordatorios de citas con múltiples proveedores, reduciendo las ausencias en un 45%."
+                    },
+                    {
+                        "title": "Automatización de Renovación de Recetas",
+                        "description": "Los pacientes pueden solicitar renovaciones vía WhatsApp o voz, con IA verificando elegibilidad y coordinando con farmacias automáticamente."
+                    },
+                    {
+                        "title": "Pre-evaluación de Síntomas",
+                        "description": "Sistema de triaje inteligente que recopila síntomas del paciente, historial médico y determina urgencia antes de conectar con proveedores de salud."
+                    },
+                    {
+                        "title": "Seguimientos Post-atención",
+                        "description": "Chequeos automatizados después de procedimientos o visitas para monitorear recuperación, recopilar comentarios e identificar complicaciones temprano."
+                    }
+                ]
+            },
+            "customerService": {
+                "title": "Servicio y Soporte al Cliente",
+                "description": "Revoluciona tus operaciones de soporte con agentes de IA que manejan consultas L1, escalan problemas complejos inteligentemente y brindan asistencia multilingüe 24/7.",
+                "useCases": [
+                    {
+                        "title": "Resolución Instantánea de FAQ",
+                        "description": "Agentes de IA entrenados en tu base de conocimientos responden preguntas comunes al instante, resolviendo el 80% de tickets de soporte L1 sin intervención humana."
+                    },
+                    {
+                        "title": "Enrutamiento Inteligente de Tickets",
+                        "description": "Categoriza, prioriza y enruta automáticamente problemas complejos al especialista correcto según contexto, urgencia y experiencia requerida."
+                    },
+                    {
+                        "title": "Soporte Multilingüe",
+                        "description": "Proporciona soporte fluido en más de 50 idiomas con IA que detecta la preferencia de idioma del cliente y responde con fluidez en tiempo real."
+                    },
+                    {
+                        "title": "Detección Proactiva de Problemas",
+                        "description": "Monitorea interacciones con clientes para identificar problemas recurrentes, interrupciones de servicio o problemas de productos antes de que escalen."
+                    }
+                ]
+            },
+            "banking": {
+                "title": "Banca y Servicios Financieros",
+                "description": "Soluciones de IA seguras y conformes para consultas de cuentas, detección de fraude, solicitudes de préstamos y orientación financiera personalizada que generan confianza y eficiencia.",
+                "useCases": [
+                    {
+                        "title": "Saldo de Cuenta y Transacciones",
+                        "description": "Los clientes pueden verificar saldos, revisar transacciones recientes y recibir información sobre gastos vía agentes de IA seguros en WhatsApp o voz."
+                    },
+                    {
+                        "title": "Alerta y Verificación de Fraude",
+                        "description": "Detección de fraude en tiempo real con llamadas o mensajes de verificación impulsados por IA para confirmar transacciones sospechosas al instante."
+                    },
+                    {
+                        "title": "Procesamiento de Solicitudes de Préstamo",
+                        "description": "Recopilación automatizada de documentos financieros, verificaciones de crédito y evaluación de elegibilidad para acelerar aprobaciones de préstamos de semanas a horas."
+                    },
+                    {
+                        "title": "Chatbot de Asesoría Financiera",
+                        "description": "Agentes de IA que brindan recomendaciones personalizadas de ahorro, información sobre inversiones y consejos de presupuesto basados en patrones de gasto."
+                    }
+                ]
+            }
+        },
+        "cta": {
+            "title": "¿Listo para Transformar Tu Industria?",
+            "description": "Únete a las empresas líderes que ya usan Sempitecno para automatizar operaciones y ofrecer experiencias excepcionales al cliente.",
+            "button": "COMIENZA HOY"
+        }
+    },
     "scale": {
         "title": "Automatización rica en información que escala.",
         "description": "No solo proporcionamos bots; proporcionamos infraestructura estratégica de IA. Nuestras soluciones están diseñadas para manejar miles de conversaciones concurrentes sin perder el toque humano.",
