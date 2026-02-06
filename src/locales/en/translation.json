@@ -502,5 +502,22 @@
                 "content": "Security is at the core of everything we build. Our infrastructure is designed with enterprise-grade security measures to protect your data and ensure compliance."
             }
         }
+    },
+    "legal": {
+        "privacy": {
+            "title": "Privacy Policy",
+            "lastUpdated": "Last Updated: February 2026",
+            "content": "At Sempitecno, we take your privacy seriously. This policy outlines how we collect, use, and protect your data when you use our AI-powered solutions."
+        },
+        "terms": {
+            "title": "Terms of Service",
+            "lastUpdated": "Last Updated: February 2026",
+            "content": "By using Sempitecno's services, you agree to the following terms and conditions. Please read them carefully before deploying our AI agents."
+        },
+        "security": {
+            "title": "Security",
+            "lastUpdated": "Last Updated: February 2026",
+            "content": "Security is at the core of everything we build. Our infrastructure is designed with enterprise-grade security measures to protect your data and ensure compliance."
+        }
     }
 }
