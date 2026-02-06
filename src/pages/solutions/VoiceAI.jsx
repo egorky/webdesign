@@ -26,7 +26,7 @@ export default function VoiceAI() {
                         </div>
                         <div className="relative">
                             <div className="card-border bg-white p-8 aspect-square flex items-center justify-center shadow-[16px_16px_0px_0px_rgba(250,204,21,0.2)]">
-                                <span className="material-symbols-outlined text-[120px] text-yellow-500">mic</span>
+                                <img src="/images/solutions/voice-ai.png" alt="Voice AI Bot" className="w-full h-full object-cover" />
                             </div>
                         </div>
                     </div>

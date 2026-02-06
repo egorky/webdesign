@@ -26,7 +26,7 @@ export default function WhatsApp() {
                         </div>
                         <div className="relative">
                             <div className="card-border bg-white p-8 aspect-square flex items-center justify-center shadow-[16px_16px_0px_0px_rgba(37,211,102,0.2)]">
-                                <span className="material-symbols-outlined text-[120px] text-[#25D366]">chat</span>
+                                <img src="/images/solutions/whatsapp.png" alt="WhatsApp AI Agent" className="w-full h-full object-cover" />
                             </div>
                         </div>
                     </div>

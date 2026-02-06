@@ -26,7 +26,7 @@ export default function Omnichannel() {
                         </div>
                         <div className="relative">
                             <div className="card-border bg-white p-8 aspect-square flex items-center justify-center shadow-[16px_16px_0px_0px_rgba(168,85,247,0.2)]">
-                                <span className="material-symbols-outlined text-[120px] text-purple-500">grid_view</span>
+                                <img src="/images/solutions/omnichannel.png" alt="Omnichannel Platform" className="w-full h-full object-cover" />
                             </div>
                         </div>
                     </div>
