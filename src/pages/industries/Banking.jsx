@@ -7,9 +7,9 @@ export default function Banking() {
 
     const useCases = [
         { title: t('industryPages.banking.useCase1.title'), description: t('industryPages.banking.useCase1.description'), details: t('industryPages.banking.useCase1.details'), benefits: t('industryPages.banking.useCase1.benefits'), image: '/images/industries/banking.png' },
-        { title: t('industryPages.banking.useCase2.title'), description: t('industryPages.banking.useCase2.description'), details: t('industryPages.banking.useCase2.details'), benefits: t('industryPages.banking.useCase2.benefits') },
-        { title: t('industryPages.banking.useCase3.title'), description: t('industryPages.banking.useCase3.description'), details: t('industryPages.banking.useCase3.details'), benefits: t('industryPages.banking.useCase3.benefits') },
-        { title: t('industryPages.banking.useCase4.title'), description: t('industryPages.banking.useCase4.description'), details: t('industryPages.banking.useCase4.details'), benefits: t('industryPages.banking.useCase4.benefits') }
+        { title: t('industryPages.banking.useCase2.title'), description: t('industryPages.banking.useCase2.description'), details: t('industryPages.banking.useCase2.details'), benefits: t('industryPages.banking.useCase2.benefits'), image: '/images/industries/banking-fraud.png' },
+        { title: t('industryPages.banking.useCase3.title'), description: t('industryPages.banking.useCase3.description'), details: t('industryPages.banking.useCase3.details'), benefits: t('industryPages.banking.useCase3.benefits'), image: '/images/industries/banking-loan.png' },
+        { title: t('industryPages.banking.useCase4.title'), description: t('industryPages.banking.useCase4.description'), details: t('industryPages.banking.useCase4.details'), benefits: t('industryPages.banking.useCase4.benefits'), image: '/images/industries/banking-advisory.png' }
     ];
 
     return (

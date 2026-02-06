@@ -39,7 +39,7 @@ export default function Layout({ children }) {
                                 <span className="material-symbols-outlined text-sm">expand_more</span>
                             </button>
                             {solutionsOpen && (
-                                <div className="absolute top-full left-0 mt-2 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-w-[240px]">
+                                <div className="absolute top-full left-0 pt-2 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-w-[240px]">
                                     <Link to="/solutions/whatsapp" className="block px-6 py-3 hover:bg-green-50 border-b border-black/10 font-bold uppercase text-[10px] tracking-wider">{t('solutions.whatsapp.title')}</Link>
                                     <Link to="/solutions/voice-ai" className="block px-6 py-3 hover:bg-yellow-50 border-b border-black/10 font-bold uppercase text-[10px] tracking-wider">{t('solutions.voice.title')}</Link>
                                     <Link to="/solutions/rpa-orchestrator" className="block px-6 py-3 hover:bg-orange-50 border-b border-black/10 font-bold uppercase text-[10px] tracking-wider">{t('solutions.rpa.title')}</Link>
@@ -58,7 +58,7 @@ export default function Layout({ children }) {
                                 <span className="material-symbols-outlined text-sm">expand_more</span>
                             </Link>
                             {industriesOpen && (
-                                <div className="absolute top-full left-0 mt-2 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-w-[200px]">
+                                <div className="absolute top-full left-0 pt-2 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-w-[200px]">
                                     <Link to="/industries/healthcare" className="block px-6 py-3 hover:bg-cyan-50 border-b border-black/10 font-bold uppercase text-[10px] tracking-wider">{t('industries.healthcare.title')}</Link>
                                     <Link to="/industries/banking" className="block px-6 py-3 hover:bg-yellow-50 border-b border-black/10 font-bold uppercase text-[10px] tracking-wider">{t('industries.banking.title')}</Link>
                                     <Link to="/industries/retail" className="block px-6 py-3 hover:bg-orange-50 border-b border-black/10 font-bold uppercase text-[10px] tracking-wider">{t('industries.retail.title')}</Link>
@@ -79,7 +79,7 @@ export default function Layout({ children }) {
                                 <span className="material-symbols-outlined text-sm">expand_more</span>
                             </button>
                             {companyOpen && (
-                                <div className="absolute top-full left-0 mt-2 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-w-[180px]">
+                                <div className="absolute top-full left-0 pt-2 bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-w-[180px]">
                                     <Link to="/about" className="block px-6 py-3 hover:bg-blue-50 border-b border-black/10 font-bold uppercase text-[10px] tracking-wider">{t('nav.about')}</Link>
                                     <Link to="/contact" className="block px-6 py-3 hover:bg-primary/10 font-bold uppercase text-[10px] tracking-wider">{t('nav.contact')}</Link>
                                 </div>

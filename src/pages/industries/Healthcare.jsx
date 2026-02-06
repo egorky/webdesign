@@ -17,7 +17,8 @@ export default function Healthcare() {
             title: t('industryPages.healthcare.useCase2.title'),
             description: t('industryPages.healthcare.useCase2.description'),
             details: t('industryPages.healthcare.useCase2.details'),
-            benefits: t('industryPages.healthcare.useCase2.benefits')
+            benefits: t('industryPages.healthcare.useCase2.benefits'),
+            image: '/images/industries/healthcare-prescription.png'
         },
         {
             title: t('industryPages.healthcare.useCase3.title'),
@@ -29,7 +30,8 @@ export default function Healthcare() {
             title: t('industryPages.healthcare.useCase4.title'),
             description: t('industryPages.healthcare.useCase4.description'),
             details: t('industryPages.healthcare.useCase4.details'),
-            benefits: t('industryPages.healthcare.useCase4.benefits')
+            benefits: t('industryPages.healthcare.useCase4.benefits'),
+            image: '/images/industries/healthcare-followup.png'
         }
     ];
 

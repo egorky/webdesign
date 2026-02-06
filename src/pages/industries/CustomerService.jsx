@@ -5,11 +5,14 @@ import { Link } from 'react-router-dom';
 export default function CustomerService() {
     const { t } = useTranslation();
     const useCases = [0, 1, 2, 3].map(i => ({
-        title: t(`industryPages.customerService.useCase${i+1}.title`),
-        description: t(`industryPages.customerService.useCase${i+1}.description`),
-        details: t(`industryPages.customerService.useCase${i+1}.details`),
-        benefits: t(`industryPages.customerService.useCase${i+1}.benefits`),
-        image: i === 0 ? '/images/industries/customer-service.png' : null
+        title: t(`industryPages.customerService.useCase${i + 1}.title`),
+        description: t(`industryPages.customerService.useCase${i + 1}.description`),
+        details: t(`industryPages.customerService.useCase${i + 1}.details`),
+        benefits: t(`industryPages.customerService.useCase${i + 1}.benefits`),
+        image: i === 0 ? '/images/industries/customer-service.png' :
+            i === 1 ? '/images/industries/customer-service-routing.png' :
+                i === 2 ? '/images/industries/customer-service-multilingual.png' :
+                    i === 3 ? '/images/industries/customer-service-proactive.png' : null
     }));
 
     return (

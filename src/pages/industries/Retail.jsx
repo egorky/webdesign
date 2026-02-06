@@ -5,11 +5,13 @@ import { Link } from 'react-router-dom';
 export default function Retail() {
     const { t } = useTranslation();
     const useCases = [0, 1, 2, 3].map(i => ({
-        title: t(`industryPages.retail.useCase${i+1}.title`),
-        description: t(`industryPages.retail.useCase${i+1}.description`),
-        details: t(`industryPages.retail.useCase${i+1}.details`),
-        benefits: t(`industryPages.retail.useCase${i+1}.benefits`),
-        image: i === 0 ? '/images/industries/retail.png' : null
+        title: t(`industryPages.retail.useCase${i + 1}.title`),
+        description: t(`industryPages.retail.useCase${i + 1}.description`),
+        details: t(`industryPages.retail.useCase${i + 1}.details`),
+        benefits: t(`industryPages.retail.useCase${i + 1}.benefits`),
+        image: i === 0 ? '/images/industries/retail.png' :
+            i === 2 ? '/images/industries/retail-recommendations.png' :
+                i === 3 ? '/images/industries/retail-returns.png' : null
     }));
 
     return (
