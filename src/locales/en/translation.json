@@ -35,8 +35,8 @@
             }
         },
         "solutions": {
-            "title": "Omnichannel AI Orchestration",
-            "subtitle": "Discover how our intelligent agents can transform your business communication.",
+            "title": "SaaS AI Services",
+            "subtitle": "Discover how our intelligent agents can transform your business communication and automate support.",
             "whatsapp": {
                 "badge": "AI POWERED",
                 "title": "WhatsApp AI Agent",
@@ -66,6 +66,48 @@
                 "feature2": "Seamless Agent Handoff",
                 "feature3": "Unified Customer Context",
                 "monitor": "UNIFIED COMMUNICATION HUB"
+            },
+            "level1": {
+                "badge": "24/7 SUPPORT",
+                "title": "Level 1 AI Agent",
+                "description": "Your first line of technological defense as a SaaS service. Solves common IT issues instantly.",
+                "feature1": "Automatic L1 ticket resolution",
+                "feature2": "Intelligent escalation to humans",
+                "feature3": "Native Helpdesk integration",
+                "monitor": "IT EXPERT SYSTEM"
+            },
+            "onPremise": {
+                "title": "On Premise Platforms Implementation",
+                "subtitle": "Total control and maximum security with open-source infrastructure solutions."
+            },
+            "zabbix": {
+                "badge": "PROACTIVE MONITORING",
+                "title": "Zabbix",
+                "description": "Enterprise-level infrastructure monitoring and alerting platform.",
+                "feature1": "24/7 network and server monitoring",
+                "feature2": "Intelligent predictive alerts",
+                "feature3": "NOC and Helpdesk integration"
+            },
+            "glpi": {
+                "badge": "ITSM MANAGEMENT",
+                "title": "GLPI",
+                "description": "Comprehensive IT service management and automatic asset inventory.",
+                "feature1": "Hardware/software inventory",
+                "feature2": "Integrated helpdesk",
+                "feature3": "Asset lifecycle management"
+            },
+            "otobo": {
+                "badge": "HELPDESK",
+                "title": "OTOBO",
+                "description": "The next-generation open-source helpdesk for customer support and IT.",
+                "feature1": "Advanced ticket management",
+                "feature2": "Self-service customer portal",
+                "feature3": "Custom workflows"
+            },
+            "advancedIntegrations": {
+                "badge": "COMBINED POWER",
+                "title": "Advanced Integrations: NOC & AI",
+                "description": "We take your operations to the next level. When Zabbix detects an infrastructure anomaly, it can trigger our AI Agent to review the alert and communicate the true state of the incident to the NOC team in real-time. We also seamlessly integrate Zabbix with helpdesks (GLPI or OTOBO) for automatic ticket creation, classification, and assignment, drastically reducing MTTR."
             }
         },
         "rpa": {

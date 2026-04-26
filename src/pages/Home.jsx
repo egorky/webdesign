@@ -85,7 +85,126 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="py-32 bg-white" id="solutions">
+            {/* PLATAFORMAS ON PREMISE */}
+            <section className="py-32 bg-white" id="on-premise">
+                <div className="max-w-7xl mx-auto px-6">
+                    <div className="mb-24">
+                        <h2 className="font-display text-5xl lg:text-7xl font-black mb-8 tracking-tighter uppercase leading-[0.9]">{t('home.solutions.onPremise.title')}</h2>
+                        <div className="h-2 w-32 bg-primary mb-8"></div>
+                        <p className="text-darkBlue/70 max-w-2xl text-xl font-medium leading-relaxed">
+                            {t('home.solutions.onPremise.subtitle')}
+                        </p>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+                        {/* Zabbix */}
+                        <div className="group bg-white b-solid p-8 lg:p-10 shadow-[8px_8px_0px_0px_rgba(239,68,68,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all block">
+                            <div className="flex justify-between items-start mb-8">
+                                <div className="w-16 h-16 b-solid bg-red-50 flex items-center justify-center">
+                                    <span className="material-symbols-outlined font-bold text-4xl text-red-600">monitoring</span>
+                                </div>
+                                <span className="text-[10px] font-black uppercase tracking-widest text-red-600 bg-red-50 px-2 py-1 b-solid">{t('home.solutions.zabbix.badge')}</span>
+                            </div>
+                            <h3 className="font-display text-3xl font-black mb-4 uppercase tracking-tight">{t('home.solutions.zabbix.title')}</h3>
+                            <p className="text-darkBlue/70 mb-8 text-base font-medium min-h-[80px]">
+                                {t('home.solutions.zabbix.description')}
+                            </p>
+                            <ul className="space-y-4">
+                                <li className="flex items-center gap-3">
+                                    <span className="material-symbols-outlined text-primary font-bold text-sm">check_box</span>
+                                    <span className="font-bold uppercase text-xs tracking-wide">{t('home.solutions.zabbix.feature1')}</span>
+                                </li>
+                                <li className="flex items-center gap-3">
+                                    <span className="material-symbols-outlined text-primary font-bold text-sm">check_box</span>
+                                    <span className="font-bold uppercase text-xs tracking-wide">{t('home.solutions.zabbix.feature2')}</span>
+                                </li>
+                                <li className="flex items-center gap-3">
+                                    <span className="material-symbols-outlined text-primary font-bold text-sm">check_box</span>
+                                    <span className="font-bold uppercase text-xs tracking-wide">{t('home.solutions.zabbix.feature3')}</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* GLPI */}
+                        <div className="group bg-white b-solid p-8 lg:p-10 shadow-[8px_8px_0px_0px_rgba(249,115,22,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all block">
+                            <div className="flex justify-between items-start mb-8">
+                                <div className="w-16 h-16 b-solid bg-orange-50 flex items-center justify-center">
+                                    <span className="material-symbols-outlined font-bold text-4xl text-orange-600">inventory_2</span>
+                                </div>
+                                <span className="text-[10px] font-black uppercase tracking-widest text-orange-600 bg-orange-50 px-2 py-1 b-solid">{t('home.solutions.glpi.badge')}</span>
+                            </div>
+                            <h3 className="font-display text-3xl font-black mb-4 uppercase tracking-tight">{t('home.solutions.glpi.title')}</h3>
+                            <p className="text-darkBlue/70 mb-8 text-base font-medium min-h-[80px]">
+                                {t('home.solutions.glpi.description')}
+                            </p>
+                            <ul className="space-y-4">
+                                <li className="flex items-center gap-3">
+                                    <span className="material-symbols-outlined text-primary font-bold text-sm">check_box</span>
+                                    <span className="font-bold uppercase text-xs tracking-wide">{t('home.solutions.glpi.feature1')}</span>
+                                </li>
+                                <li className="flex items-center gap-3">
+                                    <span className="material-symbols-outlined text-primary font-bold text-sm">check_box</span>
+                                    <span className="font-bold uppercase text-xs tracking-wide">{t('home.solutions.glpi.feature2')}</span>
+                                </li>
+                                <li className="flex items-center gap-3">
+                                    <span className="material-symbols-outlined text-primary font-bold text-sm">check_box</span>
+                                    <span className="font-bold uppercase text-xs tracking-wide">{t('home.solutions.glpi.feature3')}</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* OTOBO */}
+                        <div className="group bg-white b-solid p-8 lg:p-10 shadow-[8px_8px_0px_0px_rgba(234,179,8,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all block">
+                            <div className="flex justify-between items-start mb-8">
+                                <div className="w-16 h-16 b-solid bg-yellow-50 flex items-center justify-center">
+                                    <span className="material-symbols-outlined font-bold text-4xl text-yellow-600">support_agent</span>
+                                </div>
+                                <span className="text-[10px] font-black uppercase tracking-widest text-yellow-600 bg-yellow-50 px-2 py-1 b-solid">{t('home.solutions.otobo.badge')}</span>
+                            </div>
+                            <h3 className="font-display text-3xl font-black mb-4 uppercase tracking-tight">{t('home.solutions.otobo.title')}</h3>
+                            <p className="text-darkBlue/70 mb-8 text-base font-medium min-h-[80px]">
+                                {t('home.solutions.otobo.description')}
+                            </p>
+                            <ul className="space-y-4">
+                                <li className="flex items-center gap-3">
+                                    <span className="material-symbols-outlined text-primary font-bold text-sm">check_box</span>
+                                    <span className="font-bold uppercase text-xs tracking-wide">{t('home.solutions.otobo.feature1')}</span>
+                                </li>
+                                <li className="flex items-center gap-3">
+                                    <span className="material-symbols-outlined text-primary font-bold text-sm">check_box</span>
+                                    <span className="font-bold uppercase text-xs tracking-wide">{t('home.solutions.otobo.feature2')}</span>
+                                </li>
+                                <li className="flex items-center gap-3">
+                                    <span className="material-symbols-outlined text-primary font-bold text-sm">check_box</span>
+                                    <span className="font-bold uppercase text-xs tracking-wide">{t('home.solutions.otobo.feature3')}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* INTEGRACIONES AVANZADAS BANNER */}
+            <section className="py-16 bg-darkBlue border-y-2 border-black">
+                <div className="max-w-7xl mx-auto px-6">
+                    <div className="flex flex-col lg:flex-row gap-12 items-center">
+                        <div className="lg:w-1/3">
+                            <div className="bg-primary/20 b-solid border-primary p-8 flex items-center justify-center text-primary relative">
+                                <span className="material-symbols-outlined text-7xl animate-pulse">model_training</span>
+                                <div className="absolute top-2 right-2 text-[10px] font-black tracking-widest uppercase bg-primary text-white px-2 py-1 b-solid">{t('home.solutions.advancedIntegrations.badge')}</div>
+                            </div>
+                        </div>
+                        <div className="lg:w-2/3">
+                            <h3 className="font-display text-4xl font-black text-white mb-6 uppercase tracking-tight">{t('home.solutions.advancedIntegrations.title')}</h3>
+                            <p className="text-white/80 text-lg font-medium leading-relaxed">
+                                {t('home.solutions.advancedIntegrations.description')}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* SERVICIOS SAAS CON AI */}
+            <section className="py-32 bg-slate-50" id="saas-ai">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="mb-24">
                         <h2 className="font-display text-5xl lg:text-7xl font-black mb-8 tracking-tighter uppercase leading-[0.9]">{t('home.solutions.title')}</h2>
@@ -94,7 +213,64 @@ export default function Home() {
                             {t('home.solutions.subtitle')}
                         </p>
                     </div>
+                    
+                    {/* Level 1 AI Agent Hero Card */}
+                    <div className="mb-12">
+                        <Link to="/solutions/level-1-ai" className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(14,165,233,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all flex flex-col md:flex-row gap-12 items-center">
+                            <div className="md:w-1/2 w-full">
+                                <div className="flex justify-between items-start mb-10">
+                                    <div className="w-20 h-20 b-solid bg-sky-50 flex items-center justify-center">
+                                        <span className="material-symbols-outlined font-bold text-5xl text-sky-600">smart_toy</span>
+                                    </div>
+                                    <span className="text-xs font-black uppercase tracking-widest text-sky-600 bg-sky-50 px-3 py-1 b-solid">{t('home.solutions.level1.badge')}</span>
+                                </div>
+                                <h3 className="font-display text-4xl font-black mb-6 uppercase tracking-tight">{t('home.solutions.level1.title')}</h3>
+                                <p className="text-darkBlue/70 mb-10 text-lg font-medium">
+                                    {t('home.solutions.level1.description')}
+                                </p>
+                                <ul className="space-y-6">
+                                    <li className="flex items-center gap-4">
+                                        <span className="material-symbols-outlined text-primary font-bold">check_box</span>
+                                        <span className="font-bold uppercase text-sm tracking-wide">{t('home.solutions.level1.feature1')}</span>
+                                    </li>
+                                    <li className="flex items-center gap-4">
+                                        <span className="material-symbols-outlined text-primary font-bold">check_box</span>
+                                        <span className="font-bold uppercase text-sm tracking-wide">{t('home.solutions.level1.feature2')}</span>
+                                    </li>
+                                    <li className="flex items-center gap-4">
+                                        <span className="material-symbols-outlined text-primary font-bold">check_box</span>
+                                        <span className="font-bold uppercase text-sm tracking-wide">{t('home.solutions.level1.feature3')}</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="md:w-1/2 w-full relative bg-sky-900 b-solid aspect-video overflow-hidden">
+                                <div className="absolute inset-0 p-6 flex flex-col justify-end">
+                                    <div className="bg-white/10 backdrop-blur-sm b-solid p-4 mb-4 border-white/20">
+                                        <div className="flex items-center gap-3 mb-2">
+                                            <span className="material-symbols-outlined text-white">error</span>
+                                            <span className="text-white font-bold text-sm">Alerta: Base de datos caída / Alert: Database down</span>
+                                        </div>
+                                        <div className="h-2 bg-red-500/50 rounded w-full mb-1"></div>
+                                        <div className="h-2 bg-red-500/50 rounded w-2/3"></div>
+                                    </div>
+                                    <div className="flex gap-4 items-center">
+                                        <div className="w-10 h-10 bg-primary b-solid flex items-center justify-center shrink-0 text-white">
+                                            <span className="material-symbols-outlined text-sm font-bold">smart_toy</span>
+                                        </div>
+                                        <div className="bg-white b-solid px-4 py-2 text-sm font-bold flex-1 truncate">
+                                            Reiniciando servicio. Ticket #4019 creado y cerrado.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="absolute top-4 right-4 text-[10px] text-white font-black uppercase tracking-widest bg-black/40 px-2 py-1 b-solid">
+                                    {t('home.solutions.level1.monitor')}
+                                </div>
+                            </div>
+                        </Link>
+                    </div>
+
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+                        {/* WhatsApp */}
                         <Link to="/solutions/whatsapp" className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(34,197,94,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all block">
                             <div className="flex justify-between items-start mb-10">
                                 <div className="w-20 h-20 b-solid bg-green-50 flex items-center justify-center">
@@ -140,6 +316,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </Link>
+                        
+                        {/* Voice AI */}
                         <Link to="/solutions/voice-ai" className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(59,130,246,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all block">
                             <div className="flex justify-between items-start mb-10">
                                 <div className="w-20 h-20 b-solid bg-blue-50 flex items-center justify-center">
@@ -185,6 +363,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </Link>
+                        
+                        {/* RPA */}
                         <Link to="/solutions/rpa-orchestrator" className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(124,58,237,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all block">
                             <div className="flex justify-between items-start mb-10">
                                 <div className="w-20 h-20 b-solid bg-purple-50 flex items-center justify-center">
@@ -224,6 +404,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </Link>
+                        
+                        {/* Omnichannel */}
                         <Link to="/solutions/omnichannel" className="group bg-white b-solid p-8 lg:p-12 shadow-[8px_8px_0px_0px_rgba(236,72,153,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all block">
                             <div className="flex justify-between items-start mb-10">
                                 <div className="w-20 h-20 b-solid bg-pink-50 flex items-center justify-center">

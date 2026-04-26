@@ -35,8 +35,8 @@
             }
         },
         "solutions": {
-            "title": "Orquestación de IA Omnicanal",
-            "subtitle": "Descubre cómo nuestros agentes inteligentes pueden transformar la comunicación de tu negocio.",
+            "title": "Servicios SaaS con AI",
+            "subtitle": "Descubre cómo nuestros agentes inteligentes pueden transformar la comunicación de tu negocio y automatizar tu soporte.",
             "whatsapp": {
                 "badge": "IMPULSADO POR IA",
                 "title": "Agente de IA de WhatsApp",
@@ -66,6 +66,48 @@
                 "feature2": "Traspaso Fluido a Agentes",
                 "feature3": "Contexto de Cliente Unificado",
                 "monitor": "HUB DE COMUNICACIÓN UNIFICADO"
+            },
+            "level1": {
+                "badge": "SOPORTE 24/7",
+                "title": "Agente IA Nivel 1",
+                "description": "Tu primera línea de defensa tecnológica como servicio SaaS. Resuelve problemas de TI comunes al instante.",
+                "feature1": "Resolución de tickets L1 automática",
+                "feature2": "Escalamiento inteligente a humanos",
+                "feature3": "Integración nativa con Helpdesk",
+                "monitor": "SISTEMA EXPERTO DE TI"
+            },
+            "onPremise": {
+                "title": "Implementación de Plataformas On Premise",
+                "subtitle": "Control total y seguridad máxima con soluciones de infraestructura de código abierto."
+            },
+            "zabbix": {
+                "badge": "MONITOREO PROACTIVO",
+                "title": "Zabbix",
+                "description": "Plataforma de monitoreo y alertas de infraestructura a nivel empresarial.",
+                "feature1": "Monitoreo de red y servidores 24/7",
+                "feature2": "Alertas predictivas inteligentes",
+                "feature3": "Integración con NOC y Helpdesk"
+            },
+            "glpi": {
+                "badge": "GESTIÓN ITSM",
+                "title": "GLPI",
+                "description": "Gestión integral de servicios de TI e inventario automático de activos.",
+                "feature1": "Inventario de hardware/software",
+                "feature2": "Mesa de ayuda integrada",
+                "feature3": "Gestión de ciclo de vida de activos"
+            },
+            "otobo": {
+                "badge": "MESA DE AYUDA",
+                "title": "OTOBO",
+                "description": "La mesa de ayuda (Helpdesk) de próxima generación para atención al cliente y TI.",
+                "feature1": "Gestión avanzada de tickets",
+                "feature2": "Portal de cliente de autoservicio",
+                "feature3": "Flujos de trabajo personalizados"
+            },
+            "advancedIntegrations": {
+                "badge": "INTEGRACIONES AVANZADAS",
+                "title": "Conectando Monitoreo, Soporte e Inteligencia Artificial",
+                "description": "Llevamos tus operaciones al siguiente nivel. Cuando Zabbix detecta una anomalía en la infraestructura, puede disparar nuestro Agente de IA para que revise la alerta y comunique al equipo del NOC el verdadero estado del incidente en tiempo real. También integramos fluidamente Zabbix con mesas de ayuda (GLPI u OTOBO) para la apertura, clasificación y asignación automática de tickets, reduciendo el MTTR drásticamente."
             }
         },
         "rpa": {
