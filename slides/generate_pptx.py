@@ -29,17 +29,17 @@ LOGO_CACHE = SCRIPT_DIR / "assets" / "logos"
 OUTPUT = SCRIPT_DIR / "Transformacion_Digital_Soporte_Inteligente_Sempitecno.pptx"
 
 LOGO_URLS = {
-    "zabbix": "https://cdn.simpleicons.org/zabbix/D40000",
+    "zabbix": "https://www.vectorlogo.zone/logos/zabbix/zabbix-ar21.svg",
     "glpi": "https://raw.githubusercontent.com/glpi-project/glpi/main/public/pics/logos/logo-GLPI-250-black.png",
-    "otobo": "https://cdn.simpleicons.org/znuny/1B998B",
-    "whatsapp": "https://cdn.simpleicons.org/whatsapp/25D366",
-    "telegram": "https://cdn.simpleicons.org/telegram/26A5E4",
-    "aws": "https://cdn.simpleicons.org/amazonaws/232F3E",
-    "azure": "https://cdn.simpleicons.org/microsoftazure/0078D4",
-    "gcp": "https://cdn.simpleicons.org/googlecloud/4285F4",
-    "openai": "https://cdn.simpleicons.org/openai/412991",
-    "issabel": "https://cdn.simpleicons.org/asterisk/FF6600",
-    "facebook": "https://cdn.simpleicons.org/facebook/0866FF",
+    "otobo": "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/otrs.svg",
+    "whatsapp": "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/whatsapp.svg",
+    "telegram": "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/telegram.svg",
+    "aws": "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/amazonaws.svg",
+    "azure": "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/microsoftazure.svg",
+    "gcp": "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/googlecloud.svg",
+    "openai": "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/openai.svg",
+    "issabel": "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/asterisk.svg",
+    "facebook": "https://cdn.jsdelivr.net/npm/simple-icons@11.14.0/icons/facebook.svg",
 }
 
 
@@ -153,9 +153,13 @@ class PptxBuilder:
             try:
                 r = requests.get(url, headers=headers, timeout=20)
                 r.raise_for_status()
-                img = Image.open(io.BytesIO(r.content)).convert("RGBA")
-                img.thumbnail((320, 140), Image.Resampling.LANCZOS)
-                img.save(path, "PNG")
+                if b"<svg" in r.content[:500]:
+                    import cairosvg
+                    cairosvg.svg2png(bytestring=r.content, write_to=str(path), output_width=400)
+                else:
+                    img = Image.open(io.BytesIO(r.content)).convert("RGBA")
+                    img.thumbnail((320, 140), Image.Resampling.LANCZOS)
+                    img.save(path, "PNG")
                 self._logo_paths[key] = path
             except Exception:
                 pass
