@@ -1,0 +1,179 @@
+/* Sempitecno — acentos de marca sobre el tema Reveal.js por defecto */
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  color: #0b2545;
+}
+
+.reveal h2 {
+  border-bottom: 4px solid #1abc9c;
+  display: inline-block;
+  padding-bottom: 0.15em;
+  margin-bottom: 0.6em;
+}
+
+.reveal .brand-accent {
+  color: #1abc9c;
+}
+
+.reveal .logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 1.25rem 0;
+}
+
+.reveal .logo-row img {
+  height: 48px;
+  max-width: 140px;
+  object-fit: contain;
+}
+
+.reveal .card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.reveal .card {
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+  border-top: 4px solid #1abc9c;
+  font-size: 0.85em;
+}
+
+.reveal .card h4 {
+  margin: 0 0 0.5rem;
+  color: #0b2545;
+}
+
+.reveal .card p {
+  margin: 0;
+  color: #4b5563;
+}
+
+.reveal .badge-l1 {
+  display: inline-block;
+  background: #1abc9c;
+  color: #fff;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  font-size: 0.55em;
+  vertical-align: middle;
+  margin-right: 0.35em;
+}
+
+.reveal .badge-l2 {
+  display: inline-block;
+  background: #f59e0b;
+  color: #fff;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  font-size: 0.55em;
+  vertical-align: middle;
+  margin-right: 0.35em;
+}
+
+.reveal table.compare-table {
+  font-size: 0.65em;
+  margin: 0 auto;
+}
+
+.reveal table.compare-table th {
+  background: #0b2545;
+  color: #fff;
+}
+
+.reveal table.compare-table th.l1 {
+  background: #1abc9c;
+}
+
+.reveal table.compare-table th.l2 {
+  background: #f59e0b;
+}
+
+.reveal .watermark {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-weight: 700;
+  color: #0b2545;
+  z-index: 2;
+}
+
+.reveal .watermark span {
+  color: #1abc9c;
+}
+
+.reveal section.has-dark-watermark .watermark {
+  color: #fff;
+}
+
+.reveal section.has-dark-watermark .watermark span {
+  color: #1abc9c;
+}
+
+.reveal .client-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.reveal .client-box {
+  background: #f3f4f6;
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-weight: 700;
+  color: #0b2545;
+}
+
+.reveal .split {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 2rem;
+  align-items: center;
+  text-align: left;
+}
+
+.reveal .split ul {
+  margin: 0;
+}
+
+.reveal .pyramid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.reveal .pyramid .level {
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+  font-size: 0.75em;
+}
+
+.reveal .pyramid .l3 { background: #0b2545; width: 55%; }
+.reveal .pyramid .l2 { background: #f59e0b; width: 70%; }
+.reveal .pyramid .l1 { background: #1abc9c; width: 85%; }
+
+.reveal .slides section[data-background-color="#0b2545"] h1,
+.reveal .slides section[data-background-color="#0b2545"] h2,
+.reveal .slides section[data-background-color="#0b2545"] h3,
+.reveal .slides section[data-background-color="#0b2545"] p,
+.reveal .slides section[data-background-color="#0b2545"] li {
+  color: #f8fafc;
+}
+
+.reveal .slides section[data-background-color="#0b2545"] h2 {
+  border-bottom-color: #1abc9c;
+}

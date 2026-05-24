@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transformación Digital y Soporte Inteligente — Sempitecno</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/white.css" id="theme">
+  <link rel="stylesheet" href="css/custom.css">
+  <style media="print">
+    .reveal.print-pdf .slides > section { page-break-after: always; min-height: 800px; }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section id="title" data-background-color="#0b2545" class="has-dark-watermark"></section>
+      <section id="about" ></section>
+      <section id="clients" ></section>
+      <section id="sectionInfra" data-background-color="#0b2545" class="has-dark-watermark"></section>
+      <section id="zabbixIntro" ></section>
+      <section id="zabbixUseCases" ></section>
+      <section id="glpiIntro" ></section>
+      <section id="glpiUseCases" ></section>
+      <section id="otoboIntro" ></section>
+      <section id="otoboUseCases" ></section>
+      <section id="issabelIntro" ></section>
+      <section id="issabelUseCases" ></section>
+      <section id="sectionAI" data-background-color="#0b2545" class="has-dark-watermark"></section>
+      <section id="aiOverview" ></section>
+      <section id="aiL1" ></section>
+      <section id="aiL2" ></section>
+      <section id="aiCompare" ></section>
+      <section id="aiWorkflow" ></section>
+      <section id="aiIntegration" ></section>
+      <section id="chatbotsIntro" ></section>
+      <section id="chatbotsUseCases" ></section>
+      <section id="voiceIntro" ></section>
+      <section id="voiceUseCases" ></section>
+      <section id="omniIntro" ></section>
+      <section id="omniUseCases" ></section>
+      <section id="benefits" ></section>
+      <section id="valueProp" ></section>
+      <section id="contact" data-background-color="#0b2545"></section>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/notes/notes.js"></script>
+  <script type="module">
+    import {
+      renderSlide,
+      initializeSlide,
+      cleanupSlide,
+      preloadAllSlides
+    } from './js/slideModule.js';
+
+    const slideIds = ['title', 'about', 'clients', 'sectionInfra', 'zabbixIntro', 'zabbixUseCases', 'glpiIntro', 'glpiUseCases', 'otoboIntro', 'otoboUseCases', 'issabelIntro', 'issabelUseCases', 'sectionAI', 'aiOverview', 'aiL1', 'aiL2', 'aiCompare', 'aiWorkflow', 'aiIntegration', 'chatbotsIntro', 'chatbotsUseCases', 'voiceIntro', 'voiceUseCases', 'omniIntro', 'omniUseCases', 'benefits', 'valueProp', 'contact'];
+    let currentSlideId = null;
+
+    Reveal.initialize({
+      hash: true,
+      center: true,
+      history: true,
+      transition: 'slide',
+      plugins: [ RevealNotes ]
+    });
+
+    preloadAllSlides(slideIds).then(() => {
+      slideIds.forEach(id => {
+        const container = document.getElementById(id);
+        if (container) renderSlide(id, container);
+      });
+      const idx = Reveal.getIndices().h;
+      if (idx >= 0 && idx < slideIds.length) {
+        currentSlideId = slideIds[idx];
+        initializeSlide(currentSlideId);
+      }
+    });
+
+    Reveal.addEventListener('slidechanged', (event) => {
+      const indices = Reveal.getIndices();
+      if (indices.h >= 0 && indices.h < slideIds.length) {
+        const newSlideId = slideIds[indices.h];
+        if (currentSlideId && currentSlideId !== newSlideId) cleanupSlide(currentSlideId);
+        currentSlideId = newSlideId;
+        initializeSlide(currentSlideId);
+      } else if (currentSlideId) {
+        cleanupSlide(currentSlideId);
+        currentSlideId = null;
+      }
+    });
+  </script>
+</body>
+</html>
