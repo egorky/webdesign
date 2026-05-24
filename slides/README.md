@@ -31,3 +31,12 @@ En la URL del servidor, añade `?print-pdf` y usa Imprimir → Guardar como PDF 
 - `index.html` — contenedor Reveal.js
 - `js/slides/*.js` — un módulo por diapositiva (`html`, `initialize`, `cleanup`)
 - `css/custom.css` — acentos de marca Sempitecno
+
+## Exportar a PowerPoint (.pptx)
+
+```bash
+pip install python-pptx pillow requests
+python3 generate_pptx.py
+```
+
+Genera `Transformacion_Digital_Soporte_Inteligente_Sempitecno.pptx` (28 diapositivas).
